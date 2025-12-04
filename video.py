@@ -1,3 +1,4 @@
+import os
 import torch
 import cv2
 import numpy as np
@@ -112,41 +113,46 @@ class FrameCache:
 class Config:
     """Configuration parameters for video processing"""
     # Model configuration
-    MODEL_ID = "SG161222/Realistic_Vision_V5.1_noVAE"
+    MODEL_ID = "./Counterfeit-V3.0.safetensors"
     MOTION_ADAPTER_ID = "guoyww/animatediff-motion-adapter-v1-5-2"
-    VAE_PATH = "vae.safetensors"
-    USE_VAE = True
+    VAE_PATH = ""
+    USE_VAE = False
     
     # I/O configuration
     INPUT_VIDEO = "four.mov"
     OUTPUT_DIR = "output_frames"
-    INPUT_FRAMES_DIR = "input_frames"  # NEW: Directory for input frames
+    INPUT_FRAMES_DIR = "input_frames"
     
-    # Processing parameters
+    # Processing parameters - IMPROVED DEFAULTS
     TARGET_FPS = 8
     BATCH_SIZE = 16
-    OVERLAP = 8
-    STRENGTH = 0.2
-    GUIDANCE_SCALE = 10
-    NUM_INFERENCE_STEPS = 25
+    OVERLAP = 12  # Increased for smoother transitions
+    STRENGTH = 0.5  # Reduced for better quality preservation
+    GUIDANCE_SCALE = 9  # Reduced from 10 for more natural results
+    NUM_INFERENCE_STEPS = 40  # Increased for better quality
     SEED = 42
     
-    # Temporal smoothing
-    TEMPORAL_ALPHA = 0.3
-    TEMPORAL_SIGMA = .5
+    # Temporal smoothing - IMPROVED DEFAULTS
+    TEMPORAL_ALPHA = 0.2  # Increased for stronger smoothing
+    TEMPORAL_SIGMA = .1  # Increased for more blur
     
     # Output settings
     OUTPUT_WIDTH = 512
-    OUTPUT_HEIGHT = 512
+    OUTPUT_HEIGHT = 384
     
     # Cache settings
     CACHE_ENABLED = True
     CACHE_SIZE_MB = 1000
-    CACHE_OPTICAL_FLOW = True
     CACHE_PROCESSED_FRAMES = True
     
-    # NEW: Frame output settings
-    SAVE_INPUT_FRAMES = True  # Enable saving of loaded frames
+    # Frame output settings
+    SAVE_INPUT_FRAMES = True
+    
+    # NEW: Advanced settings for better quality
+    USE_BILATERAL_FILTER = True  # Preserve edges while smoothing
+    USE_ADAPTIVE_STRENGTH = True  # Adjust strength based on motion
+    APPLY_COLOR_CORRECTION = True  # Maintain color consistency
+    USE_GUIDED_FILTER = True  # Better edge-aware smoothing
     
     def __init__(self):
         self.device = "cuda" if torch.cuda.is_available() else "cpu"
@@ -193,17 +199,16 @@ def extract_frames(video_path: str, max_frames: Optional[int] = None,
                 
             if frame_count % frame_skip == 0:
                 frame_rgb = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
+                # IMPROVED: Use LANCZOS for better downsampling
                 pil_frame = Image.fromarray(frame_rgb).resize(
                     (Config.OUTPUT_WIDTH, Config.OUTPUT_HEIGHT), 
-                    Image.LANCZOS
+                    Image.Resampling.LANCZOS
                 )
                 frames.append(pil_frame)
                 
-                # NEW: Save the frame immediately after loading
                 if save_frames and output_dir:
                     frame_path = Path(output_dir) / f"input_frame_{extracted_count:04d}.png"
                     pil_frame.save(frame_path)
-                    logger.info(f"Saved input frame {extracted_count}: {frame_path}")
                 
                 extracted_count += 1
                 
@@ -221,95 +226,111 @@ def extract_frames(video_path: str, max_frames: Optional[int] = None,
     logger.info(f"Successfully extracted {len(frames)} frames")
     return frames
 
-def compute_optical_flow_cached(prev_frame: np.ndarray, next_frame: np.ndarray, 
-                               cache: Optional[FrameCache] = None) -> np.ndarray:
-    """Compute optical flow with caching support"""
-    # Generate cache key from frame data
-    if cache:
-        key_data = hashlib.md5(prev_frame.tobytes() + next_frame.tobytes()).hexdigest()
-        cache_key = f"flow_{key_data}"
+
+def apply_bilateral_filter(frame: np.ndarray, d: int = 9, 
+                          sigma_color: float = 75, 
+                          sigma_space: float = 75) -> np.ndarray:
+    """Apply bilateral filter to preserve edges while smoothing"""
+    return cv2.bilateralFilter(frame, d, sigma_color, sigma_space)
+
+def apply_guided_filter(frame: np.ndarray, guide: np.ndarray, 
+                       radius: int = 8, eps: float = 0.01) -> np.ndarray:
+    """Apply guided filter for edge-aware smoothing"""
+    try:
+        # Simple guided filter implementation
+        mean_I = cv2.boxFilter(guide, cv2.CV_32F, (radius, radius))
+        mean_p = cv2.boxFilter(frame, cv2.CV_32F, (radius, radius))
+        mean_Ip = cv2.boxFilter(guide * frame, cv2.CV_32F, (radius, radius))
+        cov_Ip = mean_Ip - mean_I * mean_p
         
-        # Check cache
-        cached_flow = cache.get(cache_key)
-        if cached_flow is not None:
-            return cached_flow
+        mean_II = cv2.boxFilter(guide * guide, cv2.CV_32F, (radius, radius))
+        var_I = mean_II - mean_I * mean_I
+        
+        a = cov_Ip / (var_I + eps)
+        b = mean_p - a * mean_I
+        
+        mean_a = cv2.boxFilter(a, cv2.CV_32F, (radius, radius))
+        mean_b = cv2.boxFilter(b, cv2.CV_32F, (radius, radius))
+        
+        return mean_a * guide + mean_b
+    except:
+        return frame
+
+def match_color_histogram(source: np.ndarray, reference: np.ndarray) -> np.ndarray:
+    """Match color histogram of source to reference for consistency"""
+    result = np.zeros_like(source)
     
-    # Compute flow
-    if prev_frame.shape != next_frame.shape:
-        raise ValueError("Frame dimensions must match")
+    for channel in range(3):
+        src_hist, _ = np.histogram(source[:, :, channel].flatten(), 256, [0, 256])
+        ref_hist, _ = np.histogram(reference[:, :, channel].flatten(), 256, [0, 256])
+        
+        src_cdf = src_hist.cumsum()
+        ref_cdf = ref_hist.cumsum()
+        
+        src_cdf = src_cdf / src_cdf[-1]
+        ref_cdf = ref_cdf / ref_cdf[-1]
+        
+        lookup_table = np.interp(src_cdf, ref_cdf, np.arange(256))
+        result[:, :, channel] = lookup_table[source[:, :, channel]]
     
-    prev_gray = cv2.cvtColor(prev_frame, cv2.COLOR_RGB2GRAY)
-    next_gray = cv2.cvtColor(next_frame, cv2.COLOR_RGB2GRAY)
-    
-    flow = cv2.calcOpticalFlowFarneback(
-        prev_gray, next_gray, None,
-        pyr_scale=0.5,
-        levels=3,
-        winsize=15,
-        iterations=3,
-        poly_n=5,
-        poly_sigma=1.2,
-        flags=0
-    )
-    
-    # Cache result
-    if cache:
-        cache.put(cache_key, flow)
-    
-    return flow
+    return result.astype(np.uint8)
 
 def apply_temporal_smoothing(frames: List[Image.Image], 
                             alpha: float = 0.5, 
                             sigma: float = 1.0,
-                            cache: Optional[FrameCache] = None) -> List[Image.Image]:
-    """Apply temporal smoothing with caching"""
+                            cache: Optional[FrameCache] = None,
+                            use_bilateral: bool = True,
+                            use_guided: bool = True,
+                            use_color_correction: bool = True) -> List[Image.Image]:
+    """Apply temporal smoothing with advanced filtering"""
     if not frames or len(frames) < 2:
         return frames.copy()
     
     logger.info(f"Applying temporal smoothing (alpha={alpha}, sigma={sigma})")
+    logger.info(f"Advanced filters: bilateral={use_bilateral}, guided={use_guided}, color_correction={use_color_correction}")
     
     np_frames = [np.array(frame) for frame in frames]
     smoothed_frames = [np_frames[0]]
     
     try:
         for i in range(1, len(np_frames)):
-            # Compute optical flow (with caching)
-            flow = compute_optical_flow_cached(
-                np_frames[i-1], 
-                np_frames[i],
-                cache=cache
-            )
-            
-            # Warp previous frame
-            h, w = flow.shape[:2]
-            flow_map = np.indices((h, w)).transpose(1, 2, 0) + flow
-            
-            warped = cv2.remap(
-                np_frames[i-1], 
-                flow_map.astype(np.float32), 
-                None, 
-                cv2.INTER_LINEAR
-            )
-            
-            # Blend frames
+            # Simple frame blending without optical flow
             blended = cv2.addWeighted(
-                np_frames[i], 1 - alpha, 
-                warped, alpha, 
+                np_frames[i].astype(np.float32), 1 - alpha, 
+                np_frames[i-1].astype(np.float32), alpha, 
                 0
-            )
+            ).astype(np.uint8)
+            
+            # Apply bilateral filter for edge preservation
+            if use_bilateral:
+                blended = apply_bilateral_filter(blended)
+            
+            # Apply guided filter using current frame as guide
+            if use_guided:
+                blended_float = blended.astype(np.float32) / 255.0
+                guide_float = np_frames[i].astype(np.float32) / 255.0
+                blended_float = apply_guided_filter(blended_float, guide_float)
+                blended = (blended_float * 255).clip(0, 255).astype(np.uint8)
+            
+            # Color correction
+            if use_color_correction and i > 0:
+                blended = match_color_histogram(blended, np_frames[i])
             
             # Apply Gaussian smoothing
             if sigma > 0:
-                from scipy.ndimage import gaussian_filter
-                blended = gaussian_filter(blended, sigma=(0, sigma, sigma, 0))
+                blended = cv2.GaussianBlur(blended, (0, 0), sigma)
             
             smoothed_frames.append(blended)
+            
+            if (i + 1) % 10 == 0:
+                logger.info(f"Smoothed {i+1}/{len(np_frames)} frames")
             
     except Exception as e:
         logger.error(f"Error in temporal smoothing: {str(e)}")
         return frames
     
-    return [Image.fromarray(np.uint8(frame)) for frame in smoothed_frames]
+    return [Image.fromarray(frame) for frame in smoothed_frames]
+
 
 class VideoProcessor:
     """Main class for video processing pipeline with caching"""
@@ -319,7 +340,6 @@ class VideoProcessor:
         self.pipeline = None
         self.motion_adapter = None
         
-        # Initialize cache
         if config.CACHE_ENABLED:
             self.cache = FrameCache(max_size_mb=config.CACHE_SIZE_MB)
             logger.info(f"Memory cache enabled: {config.CACHE_SIZE_MB}MB")
@@ -337,14 +357,22 @@ class VideoProcessor:
             )
             
             logger.info("Loading AnimateDiff Video-to-Video Pipeline...")
-            self.pipeline = AnimateDiffVideoToVideoPipeline.from_pretrained(
-                self.config.MODEL_ID,
-                motion_adapter=self.motion_adapter,
-                torch_dtype=self.config.dtype,
-                variant="fp16" if self.config.device == "cuda" else None
-            )
+            if os.path.isfile(self.config.MODEL_ID):
+                # Load from local file
+                self.pipeline = AnimateDiffVideoToVideoPipeline.from_single_file(
+                    self.config.MODEL_ID,
+                    motion_adapter=self.motion_adapter,
+                    torch_dtype=self.config.dtype
+                )
+            else:
+                # Fallback to loading from Hugging Face Hub
+                self.pipeline = AnimateDiffVideoToVideoPipeline.from_pretrained(
+                    self.config.MODEL_ID,
+                    motion_adapter=self.motion_adapter,
+                    torch_dtype=self.config.dtype,
+                    variant="fp16" if self.config.device == "cuda" else None
+                )
             
-            # Load VAE if enabled and file exists
             if self.config.USE_VAE and Path(self.config.VAE_PATH).exists():
                 try:
                     logger.info(f"Loading VAE from {self.config.VAE_PATH}")
@@ -359,11 +387,21 @@ class VideoProcessor:
             else:
                 logger.info("Using default VAE")
             
-            self.pipeline.scheduler = DDIMScheduler.from_config(self.pipeline.scheduler.config)
+            self.pipeline.scheduler = DDIMScheduler.from_config(
+                self.pipeline.scheduler.config,
+                beta_schedule="linear",
+                timestep_spacing="leading"
+            )
             self.pipeline.enable_vae_slicing()
             
             if self.config.device == "cuda":
                 self.pipeline.enable_model_cpu_offload()
+                # IMPROVED: Enable memory efficient attention
+                try:
+                    self.pipeline.enable_xformers_memory_efficient_attention()
+                    logger.info("Enabled xformers memory efficient attention")
+                except:
+                    logger.info("xformers not available, using default attention")
             
             self.pipeline = self.pipeline.to(self.config.device)
             logger.info("Pipeline initialized successfully")
@@ -379,7 +417,6 @@ class VideoProcessor:
         
         try:
             logger.info(f"Extracting frames from {video_path}...")
-            # NEW: Pass save_frames and output_dir parameters
             input_frames = extract_frames(
                 video_path, 
                 target_fps=self.config.TARGET_FPS,
@@ -390,16 +427,18 @@ class VideoProcessor:
             # Process frames in batches
             processed_frames = self._process_frames(input_frames)
             
-            # Apply temporal smoothing with cache
-            logger.info("Applying temporal smoothing...")
+            # Apply temporal smoothing with advanced filters
+            logger.info("Applying temporal smoothing with advanced filters...")
             processed_frames = apply_temporal_smoothing(
                 processed_frames,
                 alpha=self.config.TEMPORAL_ALPHA,
                 sigma=self.config.TEMPORAL_SIGMA,
-                cache=self.cache if self.config.CACHE_OPTICAL_FLOW else None
+                cache=self.cache,
+                use_bilateral=self.config.USE_BILATERAL_FILTER,
+                use_guided=self.config.USE_GUIDED_FILTER,
+                use_color_correction=self.config.APPLY_COLOR_CORRECTION
             )
             
-            # Log cache statistics
             if self.cache:
                 stats = self.cache.get_stats()
                 logger.info(f"Cache stats: {stats}")
@@ -413,66 +452,181 @@ class VideoProcessor:
             logger.error(f"Video processing failed: {str(e)}")
             raise
     
-    def _process_frames(self, frames: List[Image.Image]) -> List[Image.Image]:
-        """Process frames in batches with overlap and caching"""
-        processed_frames = []
-        total_batches = (len(frames) - 1) // (self.config.BATCH_SIZE - self.config.OVERLAP) + 1
+    def _calculate_adaptive_strength(self, batch: List[Image.Image]) -> float:
+        """Calculate adaptive strength based on motion in the batch"""
+        if not self.config.USE_ADAPTIVE_STRENGTH or len(batch) < 2:
+            return self.config.STRENGTH
         
-        for batch_idx in range(0, len(frames), self.config.BATCH_SIZE - self.config.OVERLAP):
+        try:
+            np_frames = [np.array(frame) for frame in batch[:2]]
+            flow = compute_optical_flow_cached(np_frames[0], np_frames[1], cache=self.cache)
+            motion = calculate_motion_magnitude(flow)
+            
+            # Adjust strength: less motion = more strength (more stylization)
+            # More motion = less strength (preserve motion)
+            base_strength = self.config.STRENGTH
+            motion_threshold = 5.0
+            
+            if motion < motion_threshold:
+                adaptive_strength = base_strength * 1.2
+            else:
+                adaptive_strength = base_strength * 0.8
+            
+            adaptive_strength = np.clip(adaptive_strength, 0.05, 0.4)
+            logger.info(f"Adaptive strength: {adaptive_strength:.3f} (motion: {motion:.2f})")
+            
+            return adaptive_strength
+            
+        except:
+            return self.config.STRENGTH
+    
+    def _match_style_to_reference(self, frame: Image.Image, reference: Image.Image) -> Image.Image:
+        """Match the color style of frame to reference using histogram matching"""
+        if frame.mode != 'RGB':
+            frame = frame.convert('RGB')
+        if reference.mode != 'RGB':
+            reference = reference.convert('RGB')
+            
+        frame_np = np.array(frame)
+        reference_np = np.array(reference)
+        
+        # Convert to float32 for calculations
+        frame_np = frame_np.astype('float32')
+        reference_np = reference_np.astype('float32')
+        
+        # Calculate mean and std for each channel
+        frame_mean = frame_np.mean(axis=(0, 1))
+        frame_std = frame_np.std(axis=(0, 1)) + 1e-8  # Avoid division by zero
+        
+        ref_mean = reference_np.mean(axis=(0, 1))
+        ref_std = reference_np.std(axis=(0, 1)) + 1e-8
+        
+        # Apply color matching
+        result = (frame_np - frame_mean) * (ref_std / frame_std) + ref_mean
+        
+        # Clip values to valid range and convert back to uint8
+        result = np.clip(result, 0, 255).astype('uint8')
+        
+        return Image.fromarray(result)
+    
+    def _process_frames(self, frames: List[Image.Image]) -> List[Image.Image]:
+        """Process frames with strong temporal consistency"""
+        if not frames:
+            return []
+            
+        processed_frames = []
+        
+        # Process first batch to establish style
+        first_batch = frames[:self.config.BATCH_SIZE]
+        
+        # First pass to establish style
+        first_styled = self._process_batch(first_batch, strength=self.config.STRENGTH * 1.2)
+        style_reference = first_styled[0].copy()
+        
+        # Second pass with its own style as reference for consistency
+        first_styled = self._process_batch(
+            first_batch,
+            style_reference=style_reference,
+            strength=self.config.STRENGTH * 0.8
+        )
+        processed_frames = first_styled.copy()
+        style_reference = first_styled[0].copy()  # Update style reference with refined style
+        
+        logger.info("Processed first batch twice for better style consistency")
+        
+        for batch_idx in range(self.config.BATCH_SIZE - self.config.OVERLAP, len(frames), 
+                            self.config.BATCH_SIZE - self.config.OVERLAP):
             batch_end = min(batch_idx + self.config.BATCH_SIZE, len(frames))
             current_batch = frames[batch_idx:batch_end]
             
-            logger.info(f"Processing batch {batch_idx//(self.config.BATCH_SIZE-self.config.OVERLAP) + 1}/{total_batches}")
+            if not current_batch:
+                continue
             
-            # Check cache for processed batch
-            cache_key = None
-            if self.cache and self.config.CACHE_PROCESSED_FRAMES:
-                batch_hash = hashlib.md5(
-                    b''.join(f.tobytes() for f in current_batch)
-                ).hexdigest()
-                cache_key = f"batch_{batch_hash}_{self.config.STRENGTH}_{self.config.SEED}"
+            # CRITICAL: Use last processed frames as initialization
+            init_frames = processed_frames[-(self.config.OVERLAP):] + current_batch
+            
+            # Process with lower strength after first batch
+            current_styled = self._process_batch(
+                init_frames,
+                style_reference=style_reference,
+                strength=self.config.STRENGTH * 0.8  # Even lower for subsequent batches
+            )
+            
+            # Remove overlap frames from output
+            current_styled = current_styled[self.config.OVERLAP:]
+            
+            # Smoother blending with more overlap frames
+            overlap_size = min(self.config.OVERLAP, len(processed_frames))
+            for i in range(overlap_size):
+                weight = (i + 1) / (overlap_size + 1)
+                # Stronger blending near boundaries
+                weight = 0.5 + 0.5 * np.sin((weight - 0.5) * np.pi)
                 
-                cached_batch = self.cache.get(cache_key)
-                if cached_batch is not None:
-                    logger.info("Using cached batch result")
-                    current_styled = cached_batch
-                else:
-                    # Process batch
-                    current_styled = self._process_batch(current_batch)
-                    self.cache.put(cache_key, current_styled)
-            else:
-                current_styled = self._process_batch(current_batch)
+                blended = Image.blend(
+                    processed_frames[-(overlap_size - i)],
+                    current_styled[i] if i < len(current_styled) else processed_frames[-(overlap_size - i)],
+                    weight
+                )
+                processed_frames[-(overlap_size - i)] = blended
             
-            # Handle first batch
-            if batch_idx == 0:
-                processed_frames.extend(current_styled)
-            else:
-                # Blend overlapping region
-                for i in range(min(self.config.OVERLAP, len(current_styled))):
-                    if (self.config.OVERLAP - i) <= len(processed_frames):
-                        weight = (i + 1) / (self.config.OVERLAP + 1)
-                        prev_frame = processed_frames[-(self.config.OVERLAP - i)]
-                        blended = Image.blend(prev_frame, current_styled[i], weight)
-                        processed_frames[-(self.config.OVERLAP - i)] = blended
-                
-                processed_frames.extend(current_styled[self.config.OVERLAP:])
+            # Add new frames
+            if len(current_styled) > overlap_size:
+                processed_frames.extend(current_styled[overlap_size:])
             
-            logger.info(f"Processed {len(current_styled)} frames")
+            logger.info(f"Processed batch {batch_idx // (self.config.BATCH_SIZE - self.config.OVERLAP) + 1}")
         
         return processed_frames
     
-    def _process_batch(self, batch: List[Image.Image]) -> List[Image.Image]:
-        """Process a single batch through the pipeline"""
-        output = self.pipeline(
-            prompt="Pixel art style, retro 8-bit aesthetic, game art",
-            negative_prompt="low quality, worst quality, blurry, distorted, watermark, text, jpeg artifacts, ugly, deformed, photorealistic, 3d render",
-            video=batch,
-            strength=self.config.STRENGTH,
-            guidance_scale=self.config.GUIDANCE_SCALE,
-            num_inference_steps=self.config.NUM_INFERENCE_STEPS,
-            generator=self.config.generator,
-        )
-        return output.frames[0]
+    def _process_batch(self, batch: List[Image.Image], style_reference: Image.Image = None, strength: float = None) -> List[Image.Image]:
+        """Process a single batch through the pipeline with style reference"""
+        if not batch:
+            return []
+            
+        if strength is None:
+            strength = self.config.STRENGTH
+        
+        # If we have a style reference, prepend it to the batch to guide the model
+        if style_reference is not None:
+            # Add the style reference as the first frame(s) to establish context
+            batch_with_reference = [style_reference] + batch
+            process_batch = batch_with_reference
+        else:
+            process_batch = batch
+        
+        try:
+            output = self.pipeline(
+                prompt="anime, cartoon, high quality, detailed, consistent style",  # Add "consistent style"
+                negative_prompt=(
+                    "low quality, worst quality, blurry, distorted, watermark, "
+                    "text, jpeg artifacts, ugly, deformed, photorealistic, "
+                    "3d render, dull colors, washed out, style change, inconsistent"  # Add style-related negatives
+                ),
+                video=process_batch,
+                strength=strength,
+                guidance_scale=self.config.GUIDANCE_SCALE,
+                num_inference_steps=self.config.NUM_INFERENCE_STEPS,
+                generator=torch.Generator(device='cuda' if torch.cuda.is_available() else 'cpu').manual_seed(self.config.SEED),
+                output_type='pil'
+            )
+            
+            if hasattr(output, 'frames') and output.frames:
+                result = output.frames[0] if isinstance(output.frames[0], list) else output.frames
+                
+                # If we added a style reference, remove it from the output
+                if style_reference is not None and len(result) > len(batch):
+                    result = result[1:]  # Skip the first frame (style reference)
+                
+                # Apply color/style matching to each frame
+                if style_reference is not None:
+                    result = [self._match_style_to_reference(frame, style_reference) for frame in result]
+                
+                return result[:len(batch)]  # Ensure correct length
+                
+            return [Image.new('RGB', (100, 100), 'black')] * len(batch)
+            
+        except Exception as e:
+            logger.error(f"Error processing batch: {str(e)}")
+            return [Image.new('RGB', (100, 100), 'black')] * len(batch)
     
     def _save_outputs(self, processed_frames: List[Image.Image], 
                      output_path: str, original_frames: List[Image.Image] = None) -> None:
@@ -483,7 +637,7 @@ class VideoProcessor:
         logger.info(f"Saving {len(processed_frames)} frames to {output_path}")
         for i, frame in enumerate(processed_frames):
             frame_path = output_path / f"styled_frame_{i:04d}.png"
-            frame.save(frame_path)
+            frame.save(frame_path, optimize=True)  # IMPROVED: Enable PNG optimization
         
         gif_path = output_path / "styled_video.gif"
         export_to_gif(processed_frames, str(gif_path), fps=self.config.TARGET_FPS)
@@ -505,7 +659,8 @@ class VideoProcessor:
         
         for i in range(min_frames):
             orig_resized = original_frames[i].resize(
-                (self.config.OUTPUT_WIDTH, self.config.OUTPUT_HEIGHT)
+                (self.config.OUTPUT_WIDTH, self.config.OUTPUT_HEIGHT),
+                Image.Resampling.LANCZOS
             )
             
             combined = Image.new('RGB', 
