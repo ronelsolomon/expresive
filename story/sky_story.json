@@ -1,0 +1,77 @@
+{
+  "scenes": [
+    {
+      "scene_id": 1,
+      "start_time": 0.0,
+      "end_time": 19.919900000000002,
+      "transition_in": {
+        "type": "Cut",
+        "from_scene_id": -1,
+        "description": "Fade in from black."
+      },
+      "transition_out": {
+        "type": "Cut",
+        "to_scene_id": -1,
+        "description": "Fade out to black."
+      },
+      "scene_metadata": {
+        "duration": 19.92,
+        "description": "A cosmic scene with a vibrant galaxy in the background, set against a night sky.",
+        "key_objects": [],
+        "time_of_day": "Night",
+        "environment": "Outdoor",
+        "mood": "Mysterious",
+        "motion_intensity": 9.179804801940918,
+        "color_palette": [
+          "#34273d",
+          "#9b7e94",
+          "#050206",
+          "#5f4b64",
+          "#e1c7de"
+        ],
+        "camera_analysis": {
+          "movement": "Still",
+          "shot_type": "Establishing",
+          "stability": 0.5410097599029541
+        },
+        "ai_description": "A cosmic scene with a vibrant galaxy in the background, set against a night sky.",
+        "key_subjects": [
+          "Cosmos"
+        ]
+      },
+      "shots": [
+        {
+          "shot": {
+            "shot_id": 1,
+            "shot_type": "Establishing",
+            "camera_move": "Still",
+            "framing": {
+              "description": "Subject: Centered, Symmetrical composition, 3 (foreground: sun, midground: trees, background: mountains)",
+              "confidence": 0.85,
+              "details": {
+                "subject_positioning": "Centered",
+                "shot_balance": "Symmetrical",
+                "depth_layers": "3 (foreground: sun, midground: trees, background: mountains)",
+                "leading_lines": "None",
+                "confidence": 0.85,
+                "description": "Subject: Centered, Symmetrical composition, 3 (foreground: sun, midground: trees, background: mountains)"
+              }
+            },
+            "visual_focus": "Cosmos",
+            "notes": "The shot is well-lit, capturing the starry sky and nebula. The camera's focus on the stars creates a sense of depth and vastness. A slight color grade enhances the celestial atmosphere.",
+            "duration_seconds": 19.919900000000002
+          },
+          "start_time": 0.0,
+          "end_time": 19.919900000000002
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "video_path": "sky.mp4",
+    "duration": 19.919900000000002,
+    "resolution": "3840x2160",
+    "fps": 29.97002997002997,
+    "frame_count": 597
+  }
+}

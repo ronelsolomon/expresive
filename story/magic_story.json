@@ -1,0 +1,916 @@
+{
+  "scenes": [
+    {
+      "scene_id": 1,
+      "start_time": 0.0,
+      "end_time": 1.8018,
+      "transition_in": {
+        "type": "Cut",
+        "from_scene_id": -1,
+        "description": "The video begins with a close-up of the logo."
+      },
+      "transition_out": {
+        "type": "Cut",
+        "to_scene_id": -1,
+        "description": "The scene ends with a cut to black."
+      },
+      "scene_metadata": {
+        "duration": 1.8,
+        "description": "The scene opens with a close-up shot of the Royalty House logo.",
+        "key_objects": [],
+        "time_of_day": "Unknown",
+        "environment": "Indoor",
+        "mood": "Neutral",
+        "motion_intensity": 0.01866416074335575,
+        "color_palette": [
+          "#000000",
+          "#f5f5f5",
+          "#797979",
+          "#b5b5b5",
+          "#3e3e3e"
+        ],
+        "camera_analysis": {
+          "movement": "Still",
+          "shot_type": "Establishing",
+          "stability": 0.9990667919628322
+        },
+        "ai_description": "The scene opens with a close-up shot of the Royalty House logo.",
+        "key_subjects": [
+          "Royalty House"
+        ]
+      },
+      "shots": [
+        {
+          "shot": {
+            "shot_id": 1,
+            "shot_type": "Establishing",
+            "camera_move": "Still",
+            "framing": {
+              "description": "Subject: Centered, Symmetrical composition, 3 (foreground: sun, midground: trees, background: mountains)",
+              "confidence": 0.85,
+              "details": {
+                "subject_positioning": "Centered",
+                "shot_balance": "Symmetrical",
+                "depth_layers": "3 (foreground: sun, midground: trees, background: mountains)",
+                "leading_lines": "None",
+                "confidence": 0.85,
+                "description": "Subject: Centered, Symmetrical composition, 3 (foreground: sun, midground: trees, background: mountains)"
+              }
+            },
+            "visual_focus": "Royalty House",
+            "notes": "The lighting is even, with no harsh shadows. The depth of field is shallow, keeping the focus on the logo. The color grading is neutral, emphasizing the logo's colors.",
+            "duration_seconds": 1.8018
+          },
+          "start_time": 0.0,
+          "end_time": 1.8018
+        }
+      ]
+    },
+    {
+      "scene_id": 2,
+      "start_time": 1.8018,
+      "end_time": 33.033,
+      "transition_in": {
+        "type": "Cut",
+        "from_scene_id": -1,
+        "description": "The scene transitions in with a wide shot showing both subjects on stage."
+      },
+      "transition_out": {
+        "type": "Cut",
+        "to_scene_id": -1,
+        "description": "The scene transitions out to a close-up of the woman holding the sword, as she begins her performance or speech."
+      },
+      "scene_metadata": {
+        "duration": 31.23,
+        "description": "A theatrical performance featuring two women on stage, one dressed in a costume and the other holding a sword.",
+        "key_objects": [],
+        "time_of_day": "Night",
+        "environment": "Indoor",
+        "mood": "Mysterious",
+        "motion_intensity": 5.171828269958496,
+        "color_palette": [
+          "#03020f",
+          "#2e357e",
+          "#14153d",
+          "#b59bca",
+          "#6b6190"
+        ],
+        "camera_analysis": {
+          "movement": "Still",
+          "shot_type": "Establishing",
+          "stability": 0.7414085865020752
+        },
+        "ai_description": "A theatrical performance featuring two women on stage, one dressed in a costume and the other holding a sword.",
+        "key_subjects": [
+          "Two women"
+        ]
+      },
+      "shots": [
+        {
+          "shot": {
+            "shot_id": 1,
+            "shot_type": "Establishing",
+            "camera_move": "Still",
+            "framing": {
+              "description": "Subject: Centered, Symmetrical composition, 3 (foreground: sun, midground: trees, background: mountains)",
+              "confidence": 0.85,
+              "details": {
+                "subject_positioning": "Centered",
+                "shot_balance": "Symmetrical",
+                "depth_layers": "3 (foreground: sun, midground: trees, background: mountains)",
+                "leading_lines": "None",
+                "confidence": 0.85,
+                "description": "Subject: Centered, Symmetrical composition, 3 (foreground: sun, midground: trees, background: mountains)",
+                "type": "unknown",
+                "composition_techniques": [
+                  "leading_lines"
+                ]
+              }
+            },
+            "visual_focus": "Two women",
+            "notes": "The lighting is dim with a focus on the subjects. The color grading gives the scene an ethereal quality. The depth of field is shallow, drawing attention to the main subjects.",
+            "duration_seconds": 31.2312
+          },
+          "start_time": 1.8018,
+          "end_time": 33.033
+        }
+      ]
+    },
+    {
+      "scene_id": 3,
+      "start_time": 33.033,
+      "end_time": 62.5625,
+      "transition_in": {
+        "type": "Cut",
+        "from_scene_id": -1,
+        "description": "Fade in from black to reveal the stage and subject"
+      },
+      "transition_out": {
+        "type": "Cut",
+        "to_scene_id": -1,
+        "description": "Fade out to black before transitioning to the next scene"
+      },
+      "scene_metadata": {
+        "duration": 29.53,
+        "description": "A woman in a costume stands on stage, looking to the side.",
+        "key_objects": [],
+        "time_of_day": "Unknown",
+        "environment": "Indoor",
+        "mood": "Drama",
+        "motion_intensity": 3.79284930229187,
+        "color_palette": [
+          "#3d3653",
+          "#020109",
+          "#6f6297",
+          "#c49fc9",
+          "#1b1828"
+        ],
+        "camera_analysis": {
+          "movement": "Still",
+          "shot_type": "Wide",
+          "stability": 0.8103575348854065
+        },
+        "ai_description": "A woman in a costume stands on stage, looking to the side.",
+        "key_subjects": [
+          "Woman"
+        ]
+      },
+      "shots": [
+        {
+          "shot": {
+            "shot_id": 1,
+            "shot_type": "Wide",
+            "camera_move": "Still",
+            "framing": {
+              "description": "Subject: Centered, Symmetrical composition, 3 (foreground: sun, midground: trees, background: mountains)",
+              "confidence": 0.85,
+              "details": {
+                "subject_positioning": "Centered",
+                "shot_balance": "Symmetrical",
+                "depth_layers": "3 (foreground: sun, midground: trees, background: mountains)",
+                "leading_lines": "None",
+                "confidence": 0.85,
+                "description": "Subject: Centered, Symmetrical composition, 3 (foreground: sun, midground: trees, background: mountains)",
+                "type": "unknown",
+                "composition_techniques": [
+                  "leading_lines"
+                ]
+              }
+            },
+            "visual_focus": "Woman",
+            "notes": "The lighting is dramatic with high contrast, emphasizing the subject. The depth of field is shallow, drawing focus to the central figure.",
+            "duration_seconds": 29.5295
+          },
+          "start_time": 33.033,
+          "end_time": 62.5625
+        }
+      ]
+    },
+    {
+      "scene_id": 4,
+      "start_time": 62.5625,
+      "end_time": 80.1801,
+      "transition_in": {
+        "type": "Cut",
+        "from_scene_id": -1,
+        "description": "The scene transitions into this shot from a previous scene with a cut."
+      },
+      "transition_out": {
+        "type": "Cut",
+        "to_scene_id": -1,
+        "description": "The scene transitions out to the next scene with a cut."
+      },
+      "scene_metadata": {
+        "duration": 17.62,
+        "description": "A woman dressed as a character from a fantasy or historical context, possibly a queen or princess, is shown in a dramatic pose with her mouth open, expressing emotion. She is the central figure in the frame.",
+        "key_objects": [],
+        "time_of_day": "Night",
+        "environment": "Indoor",
+        "mood": "Mysterious",
+        "motion_intensity": 4.863615989685059,
+        "color_palette": [
+          "#241d31",
+          "#746288",
+          "#4b3f5b",
+          "#c0a2ce",
+          "#0c0812"
+        ],
+        "camera_analysis": {
+          "movement": "Still",
+          "shot_type": "Establishing",
+          "stability": 0.756819200515747
+        },
+        "ai_description": "A woman dressed as a character from a fantasy or historical context, possibly a queen or princess, is shown in a dramatic pose with her mouth open, expressing emotion. She is the central figure in the frame.",
+        "key_subjects": [
+          "Woman in costume"
+        ]
+      },
+      "shots": [
+        {
+          "shot": {
+            "shot_id": 1,
+            "shot_type": "Establishing",
+            "camera_move": "Still",
+            "framing": {
+              "description": "Subject: Centered, Symmetrical composition, 3 (foreground: sun, midground: trees, background: mountains)",
+              "confidence": 0.85,
+              "details": {
+                "subject_positioning": "Centered",
+                "shot_balance": "Symmetrical",
+                "depth_layers": "3 (foreground: sun, midground: trees, background: mountains)",
+                "leading_lines": "None",
+                "confidence": 0.85,
+                "description": "Subject: Centered, Symmetrical composition, 3 (foreground: sun, midground: trees, background: mountains)",
+                "type": "unknown",
+                "composition_techniques": [
+                  "leading_lines"
+                ]
+              }
+            },
+            "visual_focus": "Woman in costume",
+            "notes": "The lighting is moody and dramatic, with shadows cast on the background to create a sense of mystery. The depth of field is shallow, focusing on the woman while slightly blurring the background figures. Color grading emphasizes cool tones, contributing to the mysterious atmosphere.",
+            "duration_seconds": 17.617599999999996
+          },
+          "start_time": 62.5625,
+          "end_time": 80.1801
+        }
+      ]
+    },
+    {
+      "scene_id": 5,
+      "start_time": 80.1801,
+      "end_time": 87.6876,
+      "transition_in": {
+        "type": "Cut",
+        "from_scene_id": -1,
+        "description": "The scene transitions in from a previous shot with a black screen."
+      },
+      "transition_out": {
+        "type": "Cut",
+        "to_scene_id": -1,
+        "description": "The scene transitions out to the next scene with a fade to black."
+      },
+      "scene_metadata": {
+        "duration": 7.51,
+        "description": "A group of dancers performing on stage, with one figure in the foreground and others in the background.",
+        "key_objects": [],
+        "time_of_day": "Night",
+        "environment": "Indoor",
+        "mood": "Melancholic",
+        "motion_intensity": 2.40376877784729,
+        "color_palette": [
+          "#05030f",
+          "#a7a2cb",
+          "#2f2c44",
+          "#5f5a7e",
+          "#121024"
+        ],
+        "camera_analysis": {
+          "movement": "Still",
+          "shot_type": "Wide",
+          "stability": 0.8798115611076355
+        },
+        "ai_description": "A group of dancers performing on stage, with one figure in the foreground and others in the background.",
+        "key_subjects": [
+          "Dancers"
+        ]
+      },
+      "shots": [
+        {
+          "shot": {
+            "shot_id": 1,
+            "shot_type": "Wide",
+            "camera_move": "Still",
+            "framing": {
+              "description": "Subject: Centered, Symmetrical composition, 3 (foreground: sun, midground: trees, background: mountains)",
+              "confidence": 0.85,
+              "details": {
+                "subject_positioning": "Centered",
+                "shot_balance": "Symmetrical",
+                "depth_layers": "3 (foreground: sun, midground: trees, background: mountains)",
+                "leading_lines": "None",
+                "confidence": 0.85,
+                "description": "Subject: Centered, Symmetrical composition, 3 (foreground: sun, midground: trees, background: mountains)",
+                "type": "unknown",
+                "composition_techniques": [
+                  "leading_lines"
+                ]
+              }
+            },
+            "visual_focus": "Dancers",
+            "notes": "The lighting is dimly lit, creating a dramatic atmosphere. The depth of field is shallow, focusing on the central figure while softly blurring the background to emphasize the performers.",
+            "duration_seconds": 7.507500000000007
+          },
+          "start_time": 80.1801,
+          "end_time": 87.6876
+        }
+      ]
+    },
+    {
+      "scene_id": 6,
+      "start_time": 87.6876,
+      "end_time": 92.4924,
+      "transition_in": {
+        "type": "Cut",
+        "from_scene_id": -1,
+        "description": "The scene cuts from a previous action-packed sequence to this more contemplative moment."
+      },
+      "transition_out": {
+        "type": "Cut",
+        "to_scene_id": -1,
+        "description": "The scene transitions out to the next action-packed sequence."
+      },
+      "scene_metadata": {
+        "duration": 4.8,
+        "description": "A woman dressed as a character from a fantasy story, possibly a witch or sorceress, stands in the center of a stage with a dramatic expression. The background is dark and moody, with blue lighting that highlights her attire.",
+        "key_objects": [],
+        "time_of_day": "Night",
+        "environment": "Indoor",
+        "mood": "Mysterious",
+        "motion_intensity": 3.3362746238708496,
+        "color_palette": [
+          "#1e1f4e",
+          "#253395",
+          "#68567d",
+          "#0d0c22",
+          "#9e87b9"
+        ],
+        "camera_analysis": {
+          "movement": "Still",
+          "shot_type": "Establishing",
+          "stability": 0.8331862688064575
+        },
+        "ai_description": "A woman dressed as a character from a fantasy story, possibly a witch or sorceress, stands in the center of a stage with a dramatic expression. The background is dark and moody, with blue lighting that highlights her attire.",
+        "key_subjects": [
+          "Woman"
+        ]
+      },
+      "shots": [
+        {
+          "shot": {
+            "shot_id": 1,
+            "shot_type": "Establishing",
+            "camera_move": "Still",
+            "framing": {
+              "description": "Subject: Centered, Symmetrical composition, 3 (foreground: sun, midground: trees, background: mountains)",
+              "confidence": 0.85,
+              "details": {
+                "subject_positioning": "Centered",
+                "shot_balance": "Symmetrical",
+                "depth_layers": "3 (foreground: sun, midground: trees, background: mountains)",
+                "leading_lines": "None",
+                "confidence": 0.85,
+                "description": "Subject: Centered, Symmetrical composition, 3 (foreground: sun, midground: trees, background: mountains)",
+                "type": "unknown",
+                "composition_techniques": [
+                  "leading_lines"
+                ]
+              }
+            },
+            "visual_focus": "Woman",
+            "notes": "The lighting creates a stark contrast between the subject and the background, emphasizing her as the focal point. The use of color grading adds to the mystical atmosphere of the scene.",
+            "duration_seconds": 4.8048
+          },
+          "start_time": 87.6876,
+          "end_time": 92.4924
+        }
+      ]
+    },
+    {
+      "scene_id": 7,
+      "start_time": 92.4924,
+      "end_time": 99.2992,
+      "transition_in": {
+        "type": "Cut",
+        "from_scene_id": -1,
+        "description": "The scene transitions in from a previous shot showing the audience's reaction to the performance."
+      },
+      "transition_out": {
+        "type": "Cut",
+        "to_scene_id": -1,
+        "description": "The scene transitions out to a shot of the stage before the performance begins."
+      },
+      "scene_metadata": {
+        "duration": 6.81,
+        "description": "A group of women in costumes on a stage, possibly performing or preparing for a show",
+        "key_objects": [],
+        "time_of_day": "Unknown",
+        "environment": "Indoor",
+        "mood": "Mysterious",
+        "motion_intensity": 6.104344367980957,
+        "color_palette": [
+          "#050210",
+          "#3b375e",
+          "#1d1a36",
+          "#b1a9df",
+          "#66629b"
+        ],
+        "camera_analysis": {
+          "movement": "Still",
+          "shot_type": "Wide",
+          "stability": 0.6947827816009522
+        },
+        "ai_description": "A group of women in costumes on a stage, possibly performing or preparing for a show",
+        "key_subjects": [
+          "Women",
+          "Stage"
+        ]
+      },
+      "shots": [
+        {
+          "shot": {
+            "shot_id": 1,
+            "shot_type": "Wide",
+            "camera_move": "Still",
+            "framing": {
+              "description": "Subject: Centered, Symmetrical composition, 3 (foreground: sun, midground: trees, background: mountains)",
+              "confidence": 0.85,
+              "details": {
+                "subject_positioning": "Centered",
+                "shot_balance": "Symmetrical",
+                "depth_layers": "3 (foreground: sun, midground: trees, background: mountains)",
+                "leading_lines": "None",
+                "confidence": 0.85,
+                "description": "Subject: Centered, Symmetrical composition, 3 (foreground: sun, midground: trees, background: mountains)",
+                "type": "unknown",
+                "composition_techniques": [
+                  "leading_lines"
+                ]
+              }
+            },
+            "visual_focus": "Women, Stage",
+            "notes": "The lighting is dim and moody, with a focus on the central subjects. The use of shadows and highlights creates a dramatic effect.",
+            "duration_seconds": 6.8067999999999955
+          },
+          "start_time": 92.4924,
+          "end_time": 99.2992
+        }
+      ]
+    },
+    {
+      "scene_id": 8,
+      "start_time": 99.2992,
+      "end_time": 105.0049,
+      "transition_in": {
+        "type": "Cut",
+        "from_scene_id": -1,
+        "description": "The scene transitions in from a previous shot that was likely a medium shot or an OTS of the person on stage."
+      },
+      "transition_out": {
+        "type": "Cut",
+        "to_scene_id": -1,
+        "description": "The scene transitions out to another shot, possibly a close-up or a different angle of the performance."
+      },
+      "scene_metadata": {
+        "duration": 5.71,
+        "description": "A person in a theatrical costume, possibly a singer or performer, is standing on stage with dramatic lighting.",
+        "key_objects": [],
+        "time_of_day": "Night",
+        "environment": "Indoor",
+        "mood": "Mysterious",
+        "motion_intensity": 3.3604896068573,
+        "color_palette": [
+          "#1e2a80",
+          "#d5b2d9",
+          "#0b0a1b",
+          "#7b658e",
+          "#26254a"
+        ],
+        "camera_analysis": {
+          "movement": "Still",
+          "shot_type": "Establishing",
+          "stability": 0.831975519657135
+        },
+        "ai_description": "A person in a theatrical costume, possibly a singer or performer, is standing on stage with dramatic lighting.",
+        "key_subjects": [
+          "Person"
+        ]
+      },
+      "shots": [
+        {
+          "shot": {
+            "shot_id": 1,
+            "shot_type": "Establishing",
+            "camera_move": "Still",
+            "framing": {
+              "description": "Subject: Centered, Symmetrical composition, 3 (foreground: sun, midground: trees, background: mountains)",
+              "confidence": 0.85,
+              "details": {
+                "subject_positioning": "Centered",
+                "shot_balance": "Symmetrical",
+                "depth_layers": "3 (foreground: sun, midground: trees, background: mountains)",
+                "leading_lines": "None",
+                "confidence": 0.85,
+                "description": "Subject: Centered, Symmetrical composition, 3 (foreground: sun, midground: trees, background: mountains)",
+                "type": "unknown",
+                "composition_techniques": [
+                  "leading_lines"
+                ]
+              }
+            },
+            "visual_focus": "Person",
+            "notes": "The use of dramatic lighting highlights the subject's face and costume, creating a sense of mystery. The camera angle and framing suggest that this scene is part of a performance or show.",
+            "duration_seconds": 5.705700000000007
+          },
+          "start_time": 99.2992,
+          "end_time": 105.0049
+        }
+      ]
+    },
+    {
+      "scene_id": 9,
+      "start_time": 105.0049,
+      "end_time": 126.5264,
+      "transition_in": {
+        "type": "Cut",
+        "from_scene_id": -1,
+        "description": "The scene transitions into this close-up from a previous wide shot of the stage or audience."
+      },
+      "transition_out": {
+        "type": "Cut",
+        "to_scene_id": -1,
+        "description": "This close-up transitions out to a wider shot showing the performer on stage in front of an audience."
+      },
+      "scene_metadata": {
+        "duration": 21.52,
+        "description": "A performer in a theatrical or performance setting, possibly singing or dancing with dramatic expression and costume.",
+        "key_objects": [],
+        "time_of_day": "Night",
+        "environment": "Indoor",
+        "mood": "Energetic",
+        "motion_intensity": 4.1705732345581055,
+        "color_palette": [
+          "#ac8eb1",
+          "#0b060d",
+          "#544355",
+          "#271e2b",
+          "#79637e"
+        ],
+        "camera_analysis": {
+          "movement": "Pan Left",
+          "shot_type": "Close-Up",
+          "stability": 0.7914713382720947
+        },
+        "ai_description": "A performer in a theatrical or performance setting, possibly singing or dancing with dramatic expression and costume.",
+        "key_subjects": [
+          "Performer"
+        ]
+      },
+      "shots": [
+        {
+          "shot": {
+            "shot_id": 1,
+            "shot_type": "Close-Up",
+            "camera_move": "Pan Left",
+            "framing": {
+              "description": "Subject: Centered, Symmetrical composition, 3 (foreground: sun, midground: trees, background: mountains)",
+              "confidence": 0.85,
+              "details": {
+                "subject_positioning": "Centered",
+                "shot_balance": "Symmetrical",
+                "depth_layers": "3 (foreground: sun, midground: trees, background: mountains)",
+                "leading_lines": "None",
+                "confidence": 0.85,
+                "description": "Subject: Centered, Symmetrical composition, 3 (foreground: sun, midground: trees, background: mountains)",
+                "type": "unknown",
+                "composition_techniques": [
+                  "leading_lines"
+                ]
+              }
+            },
+            "visual_focus": "Performer",
+            "notes": "The lighting is focused on the performer's face, creating a dramatic effect. The depth of field is shallow, drawing attention to the performer while softly blurring the background. The color grading enhances the intensity of the performance.",
+            "duration_seconds": 21.52149999999999
+          },
+          "start_time": 105.0049,
+          "end_time": 126.5264
+        }
+      ]
+    },
+    {
+      "scene_id": 10,
+      "start_time": 126.5264,
+      "end_time": 141.5414,
+      "transition_in": {
+        "type": "Cut",
+        "from_scene_id": -1,
+        "description": "Fade in from black to reveal the scene"
+      },
+      "transition_out": {
+        "type": "Cut",
+        "to_scene_id": -1,
+        "description": "Fade out to black before transitioning to the next scene"
+      },
+      "scene_metadata": {
+        "duration": 15.02,
+        "description": "A woman in a costume on stage performing",
+        "key_objects": [],
+        "time_of_day": "Night",
+        "environment": "Indoor",
+        "mood": "Mysterious",
+        "motion_intensity": 4.521185874938965,
+        "color_palette": [
+          "#1f2d7b",
+          "#232144",
+          "#6a5878",
+          "#0b0a1a",
+          "#a48aae"
+        ],
+        "camera_analysis": {
+          "movement": "Push",
+          "shot_type": "Establishing",
+          "stability": 0.7739407062530518
+        },
+        "ai_description": "A woman in a costume on stage performing",
+        "key_subjects": [
+          "Woman"
+        ]
+      },
+      "shots": [
+        {
+          "shot": {
+            "shot_id": 1,
+            "shot_type": "Establishing",
+            "camera_move": "Push",
+            "framing": {
+              "description": "Subject: Centered, Symmetrical composition, 3 (foreground: sun, midground: trees, background: mountains)",
+              "confidence": 0.85,
+              "details": {
+                "subject_positioning": "Centered",
+                "shot_balance": "Symmetrical",
+                "depth_layers": "3 (foreground: sun, midground: trees, background: mountains)",
+                "leading_lines": "None",
+                "confidence": 0.85,
+                "description": "Subject: Centered, Symmetrical composition, 3 (foreground: sun, midground: trees, background: mountains)"
+              }
+            },
+            "visual_focus": "Woman",
+            "notes": "High key lighting with dramatic shadows, shallow depth of field focusing on the performer",
+            "duration_seconds": 15.015000000000015
+          },
+          "start_time": 126.5264,
+          "end_time": 141.5414
+        }
+      ]
+    },
+    {
+      "scene_id": 11,
+      "start_time": 141.5414,
+      "end_time": 154.154,
+      "transition_in": {
+        "type": "Cut",
+        "from_scene_id": -1,
+        "description": "The scene transitions in from a previous shot showing the woman entering the room."
+      },
+      "transition_out": {
+        "type": "Cut",
+        "to_scene_id": -1,
+        "description": "The scene transitions out to a close-up of the man's face as he responds to the woman's actions."
+      },
+      "scene_metadata": {
+        "duration": 12.61,
+        "description": "A woman and a man in a dark room, with the woman looking at the man, who is sitting on a bed. The setting appears to be a bedroom or a similar interior space.",
+        "key_objects": [],
+        "time_of_day": "Unknown",
+        "environment": "Indoor",
+        "mood": "Melancholic",
+        "motion_intensity": 5.087312698364258,
+        "color_palette": [
+          "#09050d",
+          "#746990",
+          "#c9afd4",
+          "#474266",
+          "#242032"
+        ],
+        "camera_analysis": {
+          "movement": "Still",
+          "shot_type": "Establishing",
+          "stability": 0.7456343650817872
+        },
+        "ai_description": "A woman and a man in a dark room, with the woman looking at the man, who is sitting on a bed. The setting appears to be a bedroom or a similar interior space.",
+        "key_subjects": [
+          "Woman",
+          "Man"
+        ]
+      },
+      "shots": [
+        {
+          "shot": {
+            "shot_id": 1,
+            "shot_type": "Establishing",
+            "camera_move": "Still",
+            "framing": {
+              "description": "Subject: Centered, Symmetrical composition, 3 (foreground: sun, midground: trees, background: mountains)",
+              "confidence": 0.85,
+              "details": {
+                "subject_positioning": "Centered",
+                "shot_balance": "Symmetrical",
+                "depth_layers": "3 (foreground: sun, midground: trees, background: mountains)",
+                "leading_lines": "None",
+                "confidence": 0.85,
+                "description": "Subject: Centered, Symmetrical composition, 3 (foreground: sun, midground: trees, background: mountains)",
+                "type": "unknown",
+                "composition_techniques": [
+                  "leading_lines"
+                ]
+              }
+            },
+            "visual_focus": "Woman, Man",
+            "notes": "The lighting creates a dramatic atmosphere, with shadows cast across the scene, highlighting the subjects' faces and adding depth to the image. The use of a wide-angle lens allows for the inclusion of both characters in the frame while maintaining a sense of intimacy.",
+            "duration_seconds": 12.612599999999986
+          },
+          "start_time": 141.5414,
+          "end_time": 154.154
+        }
+      ]
+    },
+    {
+      "scene_id": 12,
+      "start_time": 154.154,
+      "end_time": 155.5554,
+      "transition_in": {
+        "type": "Cut",
+        "from_scene_id": -1,
+        "description": "Fade in from a black screen"
+      },
+      "transition_out": {
+        "type": "Cut",
+        "to_scene_id": -1,
+        "description": "Fade out to the next scene with a soft transition"
+      },
+      "scene_metadata": {
+        "duration": 1.4,
+        "description": "The bride is in her wedding dress, looking intense and focused.",
+        "key_objects": [],
+        "time_of_day": "Night",
+        "environment": "Indoor",
+        "mood": "Mysterious",
+        "motion_intensity": 2.3676609992980957,
+        "color_palette": [
+          "#0a0917",
+          "#625373",
+          "#1d2675",
+          "#b595af",
+          "#2a2439"
+        ],
+        "camera_analysis": {
+          "movement": "Still",
+          "shot_type": "Establishing",
+          "stability": 0.8816169500350952
+        },
+        "ai_description": "The bride is in her wedding dress, looking intense and focused.",
+        "key_subjects": [
+          "Bride"
+        ]
+      },
+      "shots": [
+        {
+          "shot": {
+            "shot_id": 1,
+            "shot_type": "Establishing",
+            "camera_move": "Still",
+            "framing": {
+              "description": "Subject: Centered, Symmetrical composition, 3 (foreground: sun, midground: trees, background: mountains)",
+              "confidence": 0.85,
+              "details": {
+                "subject_positioning": "Centered",
+                "shot_balance": "Symmetrical",
+                "depth_layers": "3 (foreground: sun, midground: trees, background: mountains)",
+                "leading_lines": "None",
+                "confidence": 0.85,
+                "description": "Subject: Centered, Symmetrical composition, 3 (foreground: sun, midground: trees, background: mountains)",
+                "type": "unknown",
+                "composition_techniques": [
+                  "leading_lines"
+                ]
+              }
+            },
+            "visual_focus": "Bride",
+            "notes": "High key lighting with a dramatic color grade to emphasize the subject's expression and the intensity of the moment.",
+            "duration_seconds": 1.4013999999999953
+          },
+          "start_time": 154.154,
+          "end_time": 155.5554
+        }
+      ]
+    },
+    {
+      "scene_id": 13,
+      "start_time": 155.5554,
+      "end_time": 180.94743333333335,
+      "transition_in": {
+        "type": "Cut",
+        "from_scene_id": -1,
+        "description": "The scene transitions in from a wide shot of the stage"
+      },
+      "transition_out": {
+        "type": "Cut",
+        "to_scene_id": -1,
+        "description": "The scene transitions out to a wider shot of the stage"
+      },
+      "scene_metadata": {
+        "duration": 25.39,
+        "description": "A woman and dancers performing on stage with a dramatic backdrop",
+        "key_objects": [],
+        "time_of_day": "Night",
+        "environment": "Indoor",
+        "mood": "Melancholic",
+        "motion_intensity": 1.038598656654358,
+        "color_palette": [
+          "#282b52",
+          "#02010a",
+          "#9890ca",
+          "#4b4f90",
+          "#0d0f29"
+        ],
+        "camera_analysis": {
+          "movement": "Still",
+          "shot_type": "Establishing",
+          "stability": 0.9480700671672821
+        },
+        "ai_description": "A woman and dancers performing on stage with a dramatic backdrop",
+        "key_subjects": [
+          "Woman",
+          "Dancers"
+        ]
+      },
+      "shots": [
+        {
+          "shot": {
+            "shot_id": 1,
+            "shot_type": "Establishing",
+            "camera_move": "Still",
+            "framing": {
+              "description": "Subject: Rule of Thirds ((1280.0, 720.0)), Symmetrical composition, 3 (foreground: sun, midground: trees, background: mountains)",
+              "confidence": 0.85,
+              "details": {
+                "subject_positioning": "Rule of Thirds ((1280.0, 720.0))",
+                "shot_balance": "Symmetrical",
+                "depth_layers": "3 (foreground: sun, midground: trees, background: mountains)",
+                "leading_lines": "None",
+                "confidence": 0.85,
+                "description": "Subject: Rule of Thirds ((1280.0, 720.0)), Symmetrical composition, 3 (foreground: sun, midground: trees, background: mountains)",
+                "type": "unknown",
+                "composition_techniques": [
+                  "leading_lines"
+                ]
+              }
+            },
+            "visual_focus": "Woman, Dancers",
+            "notes": "The lighting is dim, creating a moody atmosphere. The use of color grading adds to the melancholic tone of the scene.",
+            "duration_seconds": 25.39203333333336
+          },
+          "start_time": 155.5554,
+          "end_time": 180.94743333333335
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "video_path": "magic.mp4",
+    "duration": 180.94743333333335,
+    "resolution": "1920x1080",
+    "fps": 29.97002997002997,
+    "frame_count": 5423
+  }
+}

@@ -1,0 +1,438 @@
+================================================================================
+STORYBOARD SUMMARY
+================================================================================
+
+SCENE 1
+--------------------------------------------------------------------------------
+Time: 0.00s - 0.00s
+Duration: 0.00s
+Mood: N/A
+Environment: Outdoor
+
+Shots:
+  - N/A | N/A | N/A
+
+Description: A couple on a boat at night, looking into the distance.
+
+================================================================================
+
+SCENE 2
+--------------------------------------------------------------------------------
+Time: 0.00s - 0.00s
+Duration: 0.00s
+Mood: N/A
+Environment: Indoor
+
+Shots:
+  - N/A | N/A | N/A
+
+Description: A scene from an anime, featuring a woman in a red dress holding a small object. The background is illuminated by lanterns and the atmosphere is mysterious.
+
+================================================================================
+
+SCENE 3
+--------------------------------------------------------------------------------
+Time: 0.00s - 0.00s
+Duration: 0.00s
+Mood: N/A
+Environment: Indoor
+
+Shots:
+  - N/A | N/A | N/A
+
+Description: A woman in a red kimono stands with her hands on her hips, looking to the side.
+
+================================================================================
+
+SCENE 4
+--------------------------------------------------------------------------------
+Time: 0.00s - 0.00s
+Duration: 0.00s
+Mood: N/A
+Environment: Indoor
+
+Shots:
+  - N/A | N/A | N/A
+
+Description: A scene with two people dressed in traditional attire, possibly a dance or performance. The room has an oriental design and is adorned with decorative elements.
+
+================================================================================
+
+SCENE 5
+--------------------------------------------------------------------------------
+Time: 0.00s - 0.00s
+Duration: 0.00s
+Mood: N/A
+Environment: Indoor
+
+Shots:
+  - N/A | N/A | N/A
+
+Description: A couple in traditional attire, possibly from a historical or fantasy setting, sharing an intimate moment in a room with intricate decorations.
+
+================================================================================
+
+SCENE 6
+--------------------------------------------------------------------------------
+Time: 0.00s - 0.00s
+Duration: 0.00s
+Mood: N/A
+Environment: Indoor
+
+Shots:
+  - N/A | N/A | N/A
+
+Description: The scene shows an anime character standing in a room at night, looking out through a window. The room is dimly lit with a red hue.
+
+================================================================================
+
+SCENE 7
+--------------------------------------------------------------------------------
+Time: 0.00s - 0.00s
+Duration: 0.00s
+Mood: N/A
+Environment: Outdoor
+
+Shots:
+  - N/A | N/A | N/A
+
+Description: A tranquil scene of an East Asian style archway leading to a serene pathway in a park-like setting.
+
+================================================================================
+
+SCENE 8
+--------------------------------------------------------------------------------
+Time: 0.00s - 0.00s
+Duration: 0.00s
+Mood: N/A
+Environment: Outdoor
+
+Shots:
+  - N/A | N/A | N/A
+
+Description: A woman in a kimono stands by a tree and looks down at her hands, which are holding a pair of scissors. The scene is set in a serene garden with cherry blossoms.
+
+================================================================================
+
+SCENE 9
+--------------------------------------------------------------------------------
+Time: 0.00s - 0.00s
+Duration: 0.00s
+Mood: N/A
+Environment: Outdoor
+
+Shots:
+  - N/A | N/A | N/A
+
+Description: An animated scene depicting three girls in a park with fruit trees, enjoying their time together.
+
+================================================================================
+
+SCENE 10
+--------------------------------------------------------------------------------
+Time: 0.00s - 0.00s
+Duration: 0.00s
+Mood: N/A
+Environment: Indoor
+
+Shots:
+  - N/A | N/A | N/A
+
+Description: Scene shows a close-up of an object in the foreground with a person in the background
+
+================================================================================
+
+SCENE 11
+--------------------------------------------------------------------------------
+Time: 0.00s - 0.00s
+Duration: 0.00s
+Mood: N/A
+Environment: Outdoor
+
+Shots:
+  - N/A | N/A | N/A
+
+Description: A couple in traditional Asian attire, possibly a scene from an anime or drama series.
+
+================================================================================
+
+SCENE 12
+--------------------------------------------------------------------------------
+Time: 0.00s - 0.00s
+Duration: 0.00s
+Mood: N/A
+Environment: Outdoor
+
+Shots:
+  - N/A | N/A | N/A
+
+Description: A woman is seen picking a leaf from a tree. The scene is set in an outdoor environment during the day.
+
+================================================================================
+
+SCENE 13
+--------------------------------------------------------------------------------
+Time: 0.00s - 0.00s
+Duration: 0.00s
+Mood: N/A
+Environment: Outdoor
+
+Shots:
+  - N/A | N/A | N/A
+
+Description: A woman stands in a garden, looking down at the ground.
+
+================================================================================
+
+SCENE 14
+--------------------------------------------------------------------------------
+Time: 0.00s - 0.00s
+Duration: 0.00s
+Mood: N/A
+Environment: Indoor
+
+Shots:
+  - N/A | N/A | N/A
+
+Description: A collection of ornate, golden treasure chests on display in a room
+
+================================================================================
+
+SCENE 15
+--------------------------------------------------------------------------------
+Time: 0.00s - 0.00s
+Duration: 0.00s
+Mood: N/A
+Environment: Indoor
+
+Shots:
+  - N/A | N/A | N/A
+
+Description: A close-up of a tea bowl with red liquid in it on a table, surrounded by blackberries and leaves.
+
+================================================================================
+
+SCENE 16
+--------------------------------------------------------------------------------
+Time: 0.00s - 0.00s
+Duration: 0.00s
+Mood: N/A
+Environment: Indoor
+
+Shots:
+  - N/A | N/A | N/A
+
+Description: A close-up shot of a bowl filled with berries on a table, set in an indoor environment.
+
+================================================================================
+
+SCENE 17
+--------------------------------------------------------------------------------
+Time: 0.00s - 0.00s
+Duration: 0.00s
+Mood: N/A
+Environment: Indoor
+
+Shots:
+  - N/A | N/A | N/A
+
+Description: A couple in a room, with one person covering the other's eyes.
+
+================================================================================
+
+SCENE 18
+--------------------------------------------------------------------------------
+Time: 0.00s - 0.00s
+Duration: 0.00s
+Mood: N/A
+Environment: Indoor
+
+Shots:
+  - N/A | N/A | N/A
+
+Description: An anime girl is sitting at a table with a tea set, looking contemplative.
+
+================================================================================
+
+SCENE 19
+--------------------------------------------------------------------------------
+Time: 0.00s - 0.00s
+Duration: 0.00s
+Mood: N/A
+Environment: Indoor
+
+Shots:
+  - N/A | N/A | N/A
+
+Description: A large, ornate chest with a bug inside is the focus of the scene.
+
+================================================================================
+
+SCENE 20
+--------------------------------------------------------------------------------
+Time: 0.00s - 0.00s
+Duration: 0.00s
+Mood: N/A
+Environment: Indoor
+
+Shots:
+  - N/A | N/A | N/A
+
+Description: The scene shows an anime character, possibly a girl, dressed in traditional Japanese clothing, sitting at a desk with a book and looking to the side. The background features Asian-style decorations and a window with Chinese characters.
+
+================================================================================
+
+SCENE 21
+--------------------------------------------------------------------------------
+Time: 0.00s - 0.00s
+Duration: 0.00s
+Mood: N/A
+Environment: Indoor
+
+Shots:
+  - N/A | N/A | N/A
+
+Description: A close-up of a handwritten note with text in Chinese characters, placed on a table or shelf.
+
+================================================================================
+
+SCENE 22
+--------------------------------------------------------------------------------
+Time: 0.00s - 0.00s
+Duration: 0.00s
+Mood: N/A
+Environment: Indoor
+
+Shots:
+  - N/A | N/A | N/A
+
+Description: A scene of destruction with fire and ruins in the foreground.
+
+================================================================================
+
+SCENE 23
+--------------------------------------------------------------------------------
+Time: 0.00s - 0.00s
+Duration: 0.00s
+Mood: N/A
+Environment: Outdoor
+
+Shots:
+  - N/A | N/A | N/A
+
+Description: A person standing outside a building at night, looking towards the camera.
+
+================================================================================
+
+SCENE 24
+--------------------------------------------------------------------------------
+Time: 0.00s - 0.00s
+Duration: 0.00s
+Mood: N/A
+Environment: Outdoor
+
+Shots:
+  - N/A | N/A | N/A
+
+Description: A couple sitting on a bench at night, looking into each other's eyes.
+
+================================================================================
+
+SCENE 25
+--------------------------------------------------------------------------------
+Time: 0.00s - 0.00s
+Duration: 0.00s
+Mood: N/A
+Environment: Outdoor
+
+Shots:
+  - N/A | N/A | N/A
+
+Description: A scene of a fire and explosion in an outdoor setting, possibly during the night.
+
+================================================================================
+
+SCENE 26
+--------------------------------------------------------------------------------
+Time: 0.00s - 0.00s
+Duration: 0.00s
+Mood: N/A
+Environment: Indoor
+
+Shots:
+  - N/A | N/A | N/A
+
+Description: A samurai stands in a traditional Japanese room, looking out through an open window. The room is adorned with Japanese decorations and has a serene ambiance.
+
+================================================================================
+
+SCENE 27
+--------------------------------------------------------------------------------
+Time: 0.00s - 0.00s
+Duration: 0.00s
+Mood: N/A
+Environment: Indoor
+
+Shots:
+  - N/A | N/A | N/A
+
+Description: A close-up of a person's hand holding a heart, with a blurred background that suggests an indoor setting.
+
+================================================================================
+
+SCENE 28
+--------------------------------------------------------------------------------
+Time: 0.00s - 0.00s
+Duration: 0.00s
+Mood: N/A
+Environment: Indoor
+
+Shots:
+  - N/A | N/A | N/A
+
+Description: A scene with a main subject in the center of the frame, possibly a list or objects
+
+================================================================================
+
+SCENE 29
+--------------------------------------------------------------------------------
+Time: 0.00s - 0.00s
+Duration: 0.00s
+Mood: N/A
+Environment: Indoor
+
+Shots:
+  - N/A | N/A | N/A
+
+Description: The scene displays a black background with white Chinese characters, which appear to be a title or subtitle in a video. The text is centered and the focus is on it.
+
+================================================================================
+
+SCENE 30
+--------------------------------------------------------------------------------
+Time: 0.00s - 0.00s
+Duration: 0.00s
+Mood: N/A
+Environment: Indoor
+
+Shots:
+  - N/A | N/A | N/A
+
+Description: A black and white image with Chinese text displayed on the screen.
+
+================================================================================
+
+SCENE 31
+--------------------------------------------------------------------------------
+Time: 0.00s - 0.00s
+Duration: 0.00s
+Mood: N/A
+Environment: Indoor
+
+Shots:
+  - N/A | N/A | N/A
+
+Description: This is a close-up shot of a person reading a list.
+
+================================================================================
+

@@ -1,0 +1,1110 @@
+================================================================================
+STORYBOARD SUMMARY
+================================================================================
+
+SCENE 1
+--------------------------------------------------------------------------------
+Time: 0.00s - 0.00s
+Duration: 0.00s
+Mood: N/A
+Environment: Outdoor
+
+Shots:
+  - N/A | N/A | N/A
+
+Description: The scene opens with a monster standing in the center of a fiery landscape, looking towards the camera.
+
+================================================================================
+
+SCENE 2
+--------------------------------------------------------------------------------
+Time: 0.00s - 0.00s
+Duration: 0.00s
+Mood: N/A
+Environment: Indoor
+
+Shots:
+  - N/A | N/A | N/A
+
+Description: A scene from an animated movie featuring two characters, one of whom is a young girl with brown hair and the other is an adult woman. The girl is holding a knife and appears to be preparing something.
+
+================================================================================
+
+SCENE 3
+--------------------------------------------------------------------------------
+Time: 0.00s - 0.00s
+Duration: 0.00s
+Mood: N/A
+Environment: Indoor
+
+Shots:
+  - N/A | N/A | N/A
+
+Description: The girl is in a room, looking at the camera with a neutral expression.
+
+================================================================================
+
+SCENE 4
+--------------------------------------------------------------------------------
+Time: 0.00s - 0.00s
+Duration: 0.00s
+Mood: N/A
+Environment: Outdoor
+
+Shots:
+  - N/A | N/A | N/A
+
+Description: A man standing at the top of a staircase in an urban environment, looking down.
+
+================================================================================
+
+SCENE 5
+--------------------------------------------------------------------------------
+Time: 0.00s - 0.00s
+Duration: 0.00s
+Mood: N/A
+Environment: Indoor
+
+Shots:
+  - N/A | N/A | N/A
+
+Description: The Joker is seen smoking a cigarette in a room with red and yellow lighting, holding a gun. He appears to be preparing for an action sequence.
+
+================================================================================
+
+SCENE 6
+--------------------------------------------------------------------------------
+Time: 0.00s - 0.00s
+Duration: 0.00s
+Mood: N/A
+Environment: Indoor
+
+Shots:
+  - N/A | N/A | N/A
+
+Description: Scene from a movie featuring two men in a living room, drinking and talking.
+
+================================================================================
+
+SCENE 7
+--------------------------------------------------------------------------------
+Time: 0.00s - 0.00s
+Duration: 0.00s
+Mood: N/A
+Environment: Indoor
+
+Shots:
+  - N/A | N/A | N/A
+
+Description: A collage of movie posters displayed on a wall
+
+================================================================================
+
+SCENE 8
+--------------------------------------------------------------------------------
+Time: 0.00s - 0.00s
+Duration: 0.00s
+Mood: N/A
+Environment: Indoor
+
+Shots:
+  - N/A | N/A | N/A
+
+Description: Scene 8 from a video, Keanu Reeves in the foreground, woman in the background, both looking at something off-screen
+
+================================================================================
+
+SCENE 9
+--------------------------------------------------------------------------------
+Time: 0.00s - 0.00s
+Duration: 0.00s
+Mood: N/A
+Environment: Indoor
+
+Shots:
+  - N/A | N/A | N/A
+
+Description: A man is standing at a table with people seated around it, gesturing as if he's giving a speech or presentation.
+
+================================================================================
+
+SCENE 10
+--------------------------------------------------------------------------------
+Time: 0.00s - 0.00s
+Duration: 0.00s
+Mood: N/A
+Environment: Indoor
+
+Shots:
+  - N/A | N/A | N/A
+
+Description: A couple sharing a romantic moment on stage
+
+================================================================================
+
+SCENE 11
+--------------------------------------------------------------------------------
+Time: 0.00s - 0.00s
+Duration: 0.00s
+Mood: N/A
+Environment: Indoor
+
+Shots:
+  - N/A | N/A | N/A
+
+Description: Two people standing and talking to each other
+
+================================================================================
+
+SCENE 12
+--------------------------------------------------------------------------------
+Time: 0.00s - 0.00s
+Duration: 0.00s
+Mood: N/A
+Environment: Indoor
+
+Shots:
+  - N/A | N/A | N/A
+
+Description: Promotional image for a video featuring Daniel Dae Kim, likely an interview or announcement
+
+================================================================================
+
+SCENE 13
+--------------------------------------------------------------------------------
+Time: 0.00s - 0.00s
+Duration: 0.00s
+Mood: N/A
+Environment: Indoor
+
+Shots:
+  - N/A | N/A | N/A
+
+Description: A man is playing a guitar in front of a group of people, likely at a party or gathering.
+
+================================================================================
+
+SCENE 14
+--------------------------------------------------------------------------------
+Time: 0.00s - 0.00s
+Duration: 0.00s
+Mood: N/A
+Environment: Outdoor
+
+Shots:
+  - N/A | N/A | N/A
+
+Description: A scene from a video where two men are dancing in the street with a crowd around them.
+
+================================================================================
+
+SCENE 15
+--------------------------------------------------------------------------------
+Time: 0.00s - 0.00s
+Duration: 0.00s
+Mood: N/A
+Environment: Outdoor
+
+Shots:
+  - N/A | N/A | N/A
+
+Description: A scene from a video where two men are dancing in front of a crowd at an outdoor event, possibly a wedding or festival.
+
+================================================================================
+
+SCENE 16
+--------------------------------------------------------------------------------
+Time: 0.00s - 0.00s
+Duration: 0.00s
+Mood: N/A
+Environment: Outdoor
+
+Shots:
+  - N/A | N/A | N/A
+
+Description: A scene from a video featuring two men standing in front of each other with one man making a funny face and the other looking serious.
+
+================================================================================
+
+SCENE 17
+--------------------------------------------------------------------------------
+Time: 0.00s - 0.00s
+Duration: 0.00s
+Mood: N/A
+Environment: Outdoor
+
+Shots:
+  - N/A | N/A | N/A
+
+Description: A man and a woman are standing in the middle of a city street, smiling at each other.
+
+================================================================================
+
+SCENE 18
+--------------------------------------------------------------------------------
+Time: 0.00s - 0.00s
+Duration: 0.00s
+Mood: N/A
+Environment: Outdoor
+
+Shots:
+  - N/A | N/A | N/A
+
+Description: A scene from a music video featuring two men dancing in front of a crowd.
+
+================================================================================
+
+SCENE 19
+--------------------------------------------------------------------------------
+Time: 0.00s - 0.00s
+Duration: 0.00s
+Mood: N/A
+Environment: Outdoor
+
+Shots:
+  - N/A | N/A | N/A
+
+Description: Two men posing for a photo outdoors during the day.
+
+================================================================================
+
+SCENE 20
+--------------------------------------------------------------------------------
+Time: 0.00s - 0.00s
+Duration: 0.00s
+Mood: N/A
+Environment: Indoor
+
+Shots:
+  - N/A | N/A | N/A
+
+Description: A scene featuring Mario from the Super Mario franchise, likely from a video game or a similar context.
+
+================================================================================
+
+SCENE 21
+--------------------------------------------------------------------------------
+Time: 0.00s - 0.00s
+Duration: 0.00s
+Mood: N/A
+Environment: Indoor
+
+Shots:
+  - N/A | N/A | N/A
+
+Description: This is a scene from a video featuring a person in the center of the frame.
+
+================================================================================
+
+SCENE 22
+--------------------------------------------------------------------------------
+Time: 0.00s - 0.00s
+Duration: 0.00s
+Mood: N/A
+Environment: Indoor
+
+Shots:
+  - N/A | N/A | N/A
+
+Description: A man in a Mario Kart costume is smiling and laughing, while another man looks on with a slight smile.
+
+================================================================================
+
+SCENE 23
+--------------------------------------------------------------------------------
+Time: 0.00s - 0.00s
+Duration: 0.00s
+Mood: N/A
+Environment: Outdoor
+
+Shots:
+  - N/A | N/A | N/A
+
+Description: A car driving down a road at high speed
+
+================================================================================
+
+SCENE 24
+--------------------------------------------------------------------------------
+Time: 0.00s - 0.00s
+Duration: 0.00s
+Mood: N/A
+Environment: Indoor
+
+Shots:
+  - N/A | N/A | N/A
+
+Description: A man and a woman in a room, engaged in a conversation.
+
+================================================================================
+
+SCENE 25
+--------------------------------------------------------------------------------
+Time: 0.00s - 0.00s
+Duration: 0.00s
+Mood: N/A
+Environment: Indoor
+
+Shots:
+  - N/A | N/A | N/A
+
+Description: A scene from a movie where two animated characters are interacting with each other in an indoor setting.
+
+================================================================================
+
+SCENE 26
+--------------------------------------------------------------------------------
+Time: 0.00s - 0.00s
+Duration: 0.00s
+Mood: N/A
+Environment: Outdoor
+
+Shots:
+  - N/A | N/A | N/A
+
+Description: A group of people walking down a street in a village setting
+
+================================================================================
+
+SCENE 27
+--------------------------------------------------------------------------------
+Time: 0.00s - 0.00s
+Duration: 0.00s
+Mood: N/A
+Environment: Outdoor
+
+Shots:
+  - N/A | N/A | N/A
+
+Description: A scene from an animated film featuring two animated characters in a joyful moment.
+
+================================================================================
+
+SCENE 28
+--------------------------------------------------------------------------------
+Time: 0.00s - 0.00s
+Duration: 0.00s
+Mood: N/A
+Environment: Outdoor
+
+Shots:
+  - N/A | N/A | N/A
+
+Description: A scene from an animated movie where a female character is dancing joyfully in the foreground with other characters in the background.
+
+================================================================================
+
+SCENE 29
+--------------------------------------------------------------------------------
+Time: 0.00s - 0.00s
+Duration: 0.00s
+Mood: N/A
+Environment: Outdoor
+
+Shots:
+  - N/A | N/A | N/A
+
+Description: A young girl in a colorful dress is standing in the rain, looking to her left with a thoughtful expression.
+
+================================================================================
+
+SCENE 30
+--------------------------------------------------------------------------------
+Time: 0.00s - 0.00s
+Duration: 0.00s
+Mood: N/A
+Environment: Outdoor
+
+Shots:
+  - N/A | N/A | N/A
+
+Description: Two people dancing in the rain at night
+
+================================================================================
+
+SCENE 31
+--------------------------------------------------------------------------------
+Time: 0.00s - 0.00s
+Duration: 0.00s
+Mood: N/A
+Environment: Indoor
+
+Shots:
+  - N/A | N/A | N/A
+
+Description: A scene from an animated movie where two animated characters are interacting with each other.
+
+================================================================================
+
+SCENE 32
+--------------------------------------------------------------------------------
+Time: 0.00s - 0.00s
+Duration: 0.00s
+Mood: N/A
+Environment: Indoor
+
+Shots:
+  - N/A | N/A | N/A
+
+Description: Two animated characters are standing close to each other, smiling and looking at something off-camera.
+
+================================================================================
+
+SCENE 33
+--------------------------------------------------------------------------------
+Time: 0.00s - 0.00s
+Duration: 0.00s
+Mood: N/A
+Environment: Indoor
+
+Shots:
+  - N/A | N/A | N/A
+
+Description: A group of children playing with a toy in a room with colorful lighting.
+
+================================================================================
+
+SCENE 34
+--------------------------------------------------------------------------------
+Time: 0.00s - 0.00s
+Duration: 0.00s
+Mood: N/A
+Environment: Indoor
+
+Shots:
+  - N/A | N/A | N/A
+
+Description: The main subject is in the foreground, with a blurred background. The lighting suggests an indoor setting.
+
+================================================================================
+
+SCENE 35
+--------------------------------------------------------------------------------
+Time: 0.00s - 0.00s
+Duration: 0.00s
+Mood: N/A
+Environment: Indoor
+
+Shots:
+  - N/A | N/A | N/A
+
+Description: A close-up of an animated character with a surprised expression, possibly reacting to something off-screen.
+
+================================================================================
+
+SCENE 36
+--------------------------------------------------------------------------------
+Time: 0.00s - 0.00s
+Duration: 0.00s
+Mood: N/A
+Environment: Indoor
+
+Shots:
+  - N/A | N/A | N/A
+
+Description: A person's hand reaching out to a green, cracked glass surface with a reflection of a figure inside.
+
+================================================================================
+
+SCENE 37
+--------------------------------------------------------------------------------
+Time: 0.00s - 0.00s
+Duration: 0.00s
+Mood: N/A
+Environment: Indoor
+
+Shots:
+  - N/A | N/A | N/A
+
+Description: A close-up of a doll with an expressive face, possibly in the middle of a performance or presentation.
+
+================================================================================
+
+SCENE 38
+--------------------------------------------------------------------------------
+Time: 0.00s - 0.00s
+Duration: 0.00s
+Mood: N/A
+Environment: Indoor
+
+Shots:
+  - N/A | N/A | N/A
+
+Description: A woman in a room, reacting to something off-screen.
+
+================================================================================
+
+SCENE 39
+--------------------------------------------------------------------------------
+Time: 0.00s - 0.00s
+Duration: 0.00s
+Mood: N/A
+Environment: Indoor
+
+Shots:
+  - N/A | N/A | N/A
+
+Description: Two characters in a room, one speaking to the other.
+
+================================================================================
+
+SCENE 40
+--------------------------------------------------------------------------------
+Time: 0.00s - 0.00s
+Duration: 0.00s
+Mood: N/A
+Environment: Indoor
+
+Shots:
+  - N/A | N/A | N/A
+
+Description: A man and woman in a room, the man is speaking to the woman who looks concerned.
+
+================================================================================
+
+SCENE 41
+--------------------------------------------------------------------------------
+Time: 0.00s - 0.00s
+Duration: 0.00s
+Mood: N/A
+Environment: Indoor
+
+Shots:
+  - N/A | N/A | N/A
+
+Description: Two men in a room, one gesturing with his hand.
+
+================================================================================
+
+SCENE 42
+--------------------------------------------------------------------------------
+Time: 0.00s - 0.00s
+Duration: 0.00s
+Mood: N/A
+Environment: Indoor
+
+Shots:
+  - N/A | N/A | N/A
+
+Description: A man is speaking in a room with a serious expression.
+
+================================================================================
+
+SCENE 43
+--------------------------------------------------------------------------------
+Time: 0.00s - 0.00s
+Duration: 0.00s
+Mood: N/A
+Environment: Indoor
+
+Shots:
+  - N/A | N/A | N/A
+
+Description: Close-up of a woman with tears in her eyes, looking off to the side.
+
+================================================================================
+
+SCENE 44
+--------------------------------------------------------------------------------
+Time: 0.00s - 0.00s
+Duration: 0.00s
+Mood: N/A
+Environment: Indoor
+
+Shots:
+  - N/A | N/A | N/A
+
+Description: A close-up of an actor with a distressed expression, possibly reacting to a dramatic moment in the scene.
+
+================================================================================
+
+SCENE 45
+--------------------------------------------------------------------------------
+Time: 0.00s - 0.00s
+Duration: 0.00s
+Mood: N/A
+Environment: Indoor
+
+Shots:
+  - N/A | N/A | N/A
+
+Description: A close-up of a woman with tears in her eyes, looking off to the side.
+
+================================================================================
+
+SCENE 46
+--------------------------------------------------------------------------------
+Time: 0.00s - 0.00s
+Duration: 0.00s
+Mood: N/A
+Environment: Indoor
+
+Shots:
+  - N/A | N/A | N/A
+
+Description: A person is standing in a doorway, looking outward.
+
+================================================================================
+
+SCENE 47
+--------------------------------------------------------------------------------
+Time: 0.00s - 0.00s
+Duration: 0.00s
+Mood: N/A
+Environment: Indoor
+
+Shots:
+  - N/A | N/A | N/A
+
+Description: A woman is standing in a room, talking animatedly with her hands raised.
+
+================================================================================
+
+SCENE 48
+--------------------------------------------------------------------------------
+Time: 0.00s - 0.00s
+Duration: 0.00s
+Mood: N/A
+Environment: Indoor
+
+Shots:
+  - N/A | N/A | N/A
+
+Description: A person is standing in a doorway, looking to the side.
+
+================================================================================
+
+SCENE 49
+--------------------------------------------------------------------------------
+Time: 0.00s - 0.00s
+Duration: 0.00s
+Mood: N/A
+Environment: ambiguous
+
+Shots:
+  - N/A | N/A | N/A
+
+Description: A day scene showing the scene
+
+================================================================================
+
+SCENE 50
+--------------------------------------------------------------------------------
+Time: 0.00s - 0.00s
+Duration: 0.00s
+Mood: N/A
+Environment: Indoor
+
+Shots:
+  - N/A | N/A | N/A
+
+Description: A man is running through a room, with another person watching him.
+
+================================================================================
+
+SCENE 51
+--------------------------------------------------------------------------------
+Time: 0.00s - 0.00s
+Duration: 0.00s
+Mood: N/A
+Environment: Indoor
+
+Shots:
+  - N/A | N/A | N/A
+
+Description: A dramatic scene with two characters in a room.
+
+================================================================================
+
+SCENE 52
+--------------------------------------------------------------------------------
+Time: 0.00s - 0.00s
+Duration: 0.00s
+Mood: N/A
+Environment: Indoor
+
+Shots:
+  - N/A | N/A | N/A
+
+Description: A man and a woman in an indoor setting, possibly a living room or dining area. The woman is standing while the man is sitting at a table.
+
+================================================================================
+
+SCENE 53
+--------------------------------------------------------------------------------
+Time: 0.00s - 0.00s
+Duration: 0.00s
+Mood: N/A
+Environment: Indoor
+
+Shots:
+  - N/A | N/A | N/A
+
+Description: Close-up of a person in a room, possibly in distress or sadness.
+
+================================================================================
+
+SCENE 54
+--------------------------------------------------------------------------------
+Time: 0.00s - 0.00s
+Duration: 0.00s
+Mood: N/A
+Environment: Indoor
+
+Shots:
+  - N/A | N/A | N/A
+
+Description: A woman in a room looking down at something on the floor.
+
+================================================================================
+
+SCENE 55
+--------------------------------------------------------------------------------
+Time: 0.00s - 0.00s
+Duration: 0.00s
+Mood: N/A
+Environment: Indoor
+
+Shots:
+  - N/A | N/A | N/A
+
+Description: A man in a red suit stands on the stairs, looking upwards.
+
+================================================================================
+
+SCENE 56
+--------------------------------------------------------------------------------
+Time: 0.00s - 0.00s
+Duration: 0.00s
+Mood: N/A
+Environment: Outdoor
+
+Shots:
+  - N/A | N/A | N/A
+
+Description: A person walking down a stairway
+
+================================================================================
+
+SCENE 57
+--------------------------------------------------------------------------------
+Time: 0.00s - 0.00s
+Duration: 0.00s
+Mood: N/A
+Environment: Outdoor
+
+Shots:
+  - N/A | N/A | N/A
+
+Description: A clown descends a staircase in a city street, preparing for his performance.
+
+================================================================================
+
+SCENE 58
+--------------------------------------------------------------------------------
+Time: 0.00s - 0.00s
+Duration: 0.00s
+Mood: N/A
+Environment: Indoor
+
+Shots:
+  - N/A | N/A | N/A
+
+Description: The Joker is in the foreground, holding a knife and preparing to attack.
+
+================================================================================
+
+SCENE 59
+--------------------------------------------------------------------------------
+Time: 0.00s - 0.00s
+Duration: 0.00s
+Mood: N/A
+Environment: Indoor
+
+Shots:
+  - N/A | N/A | N/A
+
+Description: A man is performing a trick on some stairs.
+
+================================================================================
+
+SCENE 60
+--------------------------------------------------------------------------------
+Time: 0.00s - 0.00s
+Duration: 0.00s
+Mood: N/A
+Environment: Outdoor
+
+Shots:
+  - N/A | N/A | N/A
+
+Description: A man in a red suit standing on steps with a serious expression
+
+================================================================================
+
+SCENE 61
+--------------------------------------------------------------------------------
+Time: 0.00s - 0.00s
+Duration: 0.00s
+Mood: N/A
+Environment: Outdoor
+
+Shots:
+  - N/A | N/A | N/A
+
+Description: Joker walking down the street with a maniacal grin on his face
+
+================================================================================
+
+SCENE 62
+--------------------------------------------------------------------------------
+Time: 0.00s - 0.00s
+Duration: 0.00s
+Mood: N/A
+Environment: Outdoor
+
+Shots:
+  - N/A | N/A | N/A
+
+Description: A person standing on a rooftop overlooking a city at dusk
+
+================================================================================
+
+SCENE 63
+--------------------------------------------------------------------------------
+Time: 0.00s - 0.00s
+Duration: 0.00s
+Mood: N/A
+Environment: Outdoor
+
+Shots:
+  - N/A | N/A | N/A
+
+Description: A person standing on a stage in front of a large building with columns.
+
+================================================================================
+
+SCENE 64
+--------------------------------------------------------------------------------
+Time: 0.00s - 0.00s
+Duration: 0.00s
+Mood: N/A
+Environment: Outdoor
+
+Shots:
+  - N/A | N/A | N/A
+
+Description: A person dressed as a clown stands at the top of a set of stairs, looking down.
+
+================================================================================
+
+SCENE 65
+--------------------------------------------------------------------------------
+Time: 0.00s - 0.00s
+Duration: 0.00s
+Mood: N/A
+Environment: Indoor
+
+Shots:
+  - N/A | N/A | N/A
+
+Description: The Joker is seen holding a cigarette and blowing smoke in the air. He is dressed in his iconic red suit with white face paint.
+
+================================================================================
+
+SCENE 66
+--------------------------------------------------------------------------------
+Time: 0.00s - 0.00s
+Duration: 0.00s
+Mood: N/A
+Environment: Outdoor
+
+Shots:
+  - N/A | N/A | N/A
+
+Description: A man standing on a staircase with graffiti in the background.
+
+================================================================================
+
+SCENE 67
+--------------------------------------------------------------------------------
+Time: 0.00s - 0.00s
+Duration: 0.00s
+Mood: N/A
+Environment: Outdoor
+
+Shots:
+  - N/A | N/A | N/A
+
+Description: Two people ascending a staircase, captured in an establishing shot.
+
+================================================================================
+
+SCENE 68
+--------------------------------------------------------------------------------
+Time: 0.00s - 0.00s
+Duration: 0.00s
+Mood: N/A
+Environment: Outdoor
+
+Shots:
+  - N/A | N/A | N/A
+
+Description: A man standing on a staircase in an urban environment, possibly giving directions or explaining something.
+
+================================================================================
+
+SCENE 69
+--------------------------------------------------------------------------------
+Time: 0.00s - 0.00s
+Duration: 0.00s
+Mood: N/A
+Environment: Outdoor
+
+Shots:
+  - N/A | N/A | N/A
+
+Description: A clown standing on a street corner
+
+================================================================================
+
+SCENE 70
+--------------------------------------------------------------------------------
+Time: 0.00s - 0.00s
+Duration: 0.00s
+Mood: N/A
+Environment: Outdoor
+
+Shots:
+  - N/A | N/A | N/A
+
+Description: A group of people dressed as clowns are walking up a set of stairs.
+
+================================================================================
+
+SCENE 71
+--------------------------------------------------------------------------------
+Time: 0.00s - 0.00s
+Duration: 0.00s
+Mood: N/A
+Environment: Outdoor
+
+Shots:
+  - N/A | N/A | N/A
+
+Description: A scene from a video featuring the Joker character standing on stairs, looking upwards.
+
+================================================================================
+
+SCENE 72
+--------------------------------------------------------------------------------
+Time: 0.00s - 0.00s
+Duration: 0.00s
+Mood: N/A
+Environment: Indoor
+
+Shots:
+  - N/A | N/A | N/A
+
+Description: A person in a red jacket and tie is dancing energetically with their arms outstretched, possibly performing or singing.
+
+================================================================================
+
+SCENE 73
+--------------------------------------------------------------------------------
+Time: 0.00s - 0.00s
+Duration: 0.00s
+Mood: N/A
+Environment: Indoor
+
+Shots:
+  - N/A | N/A | N/A
+
+Description: A close-up shot of the Joker's face, showcasing his clown makeup and intense expression.
+
+================================================================================
+
+SCENE 74
+--------------------------------------------------------------------------------
+Time: 0.00s - 0.00s
+Duration: 0.00s
+Mood: N/A
+Environment: Indoor
+
+Shots:
+  - N/A | N/A | N/A
+
+Description: A man is standing in a room with posters on the wall, looking at something off-camera.
+
+================================================================================
+
+SCENE 75
+--------------------------------------------------------------------------------
+Time: 0.00s - 0.00s
+Duration: 0.00s
+Mood: N/A
+Environment: Indoor
+
+Shots:
+  - N/A | N/A | N/A
+
+Description: This is a scene from a video.
+
+================================================================================
+
+SCENE 76
+--------------------------------------------------------------------------------
+Time: 0.00s - 0.00s
+Duration: 0.00s
+Mood: N/A
+Environment: Outdoor
+
+Shots:
+  - N/A | N/A | N/A
+
+Description: Captain America standing amidst destruction, looking contemplative in a war-torn environment.
+
+================================================================================
+
+SCENE 77
+--------------------------------------------------------------------------------
+Time: 0.00s - 0.00s
+Duration: 0.00s
+Mood: N/A
+Environment: Indoor
+
+Shots:
+  - N/A | N/A | N/A
+
+Description: A man is looking at something with a serious expression.
+
+================================================================================
+
+SCENE 78
+--------------------------------------------------------------------------------
+Time: 0.00s - 0.00s
+Duration: 0.00s
+Mood: N/A
+Environment: Indoor
+
+Shots:
+  - N/A | N/A | N/A
+
+Description: A promotional video for a streaming service, showcasing various movie titles with the call to action 'Watch More' displayed prominently.
+
+================================================================================
+
+SCENE 79
+--------------------------------------------------------------------------------
+Time: 0.00s - 0.00s
+Duration: 0.00s
+Mood: N/A
+Environment: Indoor
+
+Shots:
+  - N/A | N/A | N/A
+
+Description: A collage of movie posters displayed on a wall, with the phrase 'Watch more' in the foreground.
+
+================================================================================
+

@@ -1,0 +1,78 @@
+{
+  "scenes": [
+    {
+      "scene_id": 1,
+      "start_time": 0.0,
+      "end_time": 14.472791666666666,
+      "transition_in": {
+        "type": "Cut",
+        "from_scene_id": -1,
+        "description": "The scene begins with an establishing shot, setting the location and context for the viewer."
+      },
+      "transition_out": {
+        "type": "Cut",
+        "to_scene_id": -1,
+        "description": "The scene ends with a cut to black, indicating that this is the first frame of the video."
+      },
+      "scene_metadata": {
+        "duration": 14.47,
+        "description": "A man playing a grand piano in an interior space.",
+        "key_objects": [],
+        "time_of_day": "Unknown",
+        "environment": "Indoor",
+        "mood": "Calm",
+        "motion_intensity": 11.703373908996582,
+        "color_palette": [
+          "#463726",
+          "#eee8d0",
+          "#645a4a",
+          "#2a1f16",
+          "#a0947d"
+        ],
+        "camera_analysis": {
+          "movement": "Still",
+          "shot_type": "Establishing",
+          "stability": 0.4148313045501709
+        },
+        "ai_description": "A man playing a grand piano in an interior space.",
+        "key_subjects": [
+          "piano",
+          "player"
+        ]
+      },
+      "shots": [
+        {
+          "shot": {
+            "shot_id": 1,
+            "shot_type": "Establishing",
+            "camera_move": "Still",
+            "framing": {
+              "description": "Subject: Centered, Symmetrical composition, 3 (foreground: sun, midground: trees, background: mountains)",
+              "confidence": 0.85,
+              "details": {
+                "subject_positioning": "Centered",
+                "shot_balance": "Symmetrical",
+                "depth_layers": "3 (foreground: sun, midground: trees, background: mountains)",
+                "leading_lines": "None",
+                "confidence": 0.85,
+                "description": "Subject: Centered, Symmetrical composition, 3 (foreground: sun, midground: trees, background: mountains)"
+              }
+            },
+            "visual_focus": "piano, player",
+            "notes": "The shot is well-lit, with soft shadows and a shallow depth of field that keeps the focus on the player while softly blurring the background. The color grading gives the scene a warm tone.",
+            "duration_seconds": 14.472791666666666
+          },
+          "start_time": 0.0,
+          "end_time": 14.472791666666666
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "video_path": "music.mp4",
+    "duration": 14.472791666666666,
+    "resolution": "1280x720",
+    "fps": 23.976023976023978,
+    "frame_count": 347
+  }
+}

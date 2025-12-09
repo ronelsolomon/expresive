@@ -1,0 +1,78 @@
+{
+  "scenes": [
+    {
+      "scene_id": 1,
+      "start_time": 0.0,
+      "end_time": 399.84,
+      "transition_in": {
+        "type": "Cut",
+        "from_scene_id": -1,
+        "description": "The scene transitions in from a previous shot showing the exterior of the building."
+      },
+      "transition_out": {
+        "type": "Cut",
+        "to_scene_id": -1,
+        "description": "The scene transitions out to a wide shot of the office area."
+      },
+      "scene_metadata": {
+        "duration": 399.84,
+        "description": "A man and a woman are seated in an office setting, engaged in a conversation.",
+        "key_objects": [],
+        "time_of_day": "Unknown",
+        "environment": "Indoor",
+        "mood": "Neutral",
+        "motion_intensity": 8.494255065917969,
+        "color_palette": [
+          "#060306",
+          "#aac0ab",
+          "#4e5958",
+          "#29282c",
+          "#7f9389"
+        ],
+        "camera_analysis": {
+          "movement": "Still",
+          "shot_type": "Establishing",
+          "stability": 0.5752872467041016
+        },
+        "ai_description": "A man and a woman are seated in an office setting, engaged in a conversation.",
+        "key_subjects": [
+          "Man",
+          "Woman"
+        ]
+      },
+      "shots": [
+        {
+          "shot": {
+            "shot_id": 1,
+            "shot_type": "Establishing",
+            "camera_move": "Still",
+            "framing": {
+              "description": "Subject: Centered, Symmetrical composition, 3 (foreground: sun, midground: trees, background: mountains)",
+              "confidence": 0.85,
+              "details": {
+                "subject_positioning": "Centered",
+                "shot_balance": "Symmetrical",
+                "depth_layers": "3 (foreground: sun, midground: trees, background: mountains)",
+                "leading_lines": "None",
+                "confidence": 0.85,
+                "description": "Subject: Centered, Symmetrical composition, 3 (foreground: sun, midground: trees, background: mountains)"
+              }
+            },
+            "visual_focus": "Man, Woman",
+            "notes": "The scene is well-lit with soft shadows, indicating the use of diffused light sources. The depth of field is shallow, focusing on the man while softly blurring the background to draw attention to him.",
+            "duration_seconds": 399.84
+          },
+          "start_time": 0.0,
+          "end_time": 399.84
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "video_path": "cope.mp4",
+    "duration": 399.84,
+    "resolution": "640x360",
+    "fps": 25.0,
+    "frame_count": 9996
+  }
+}

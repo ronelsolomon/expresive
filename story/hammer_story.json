@@ -1,0 +1,79 @@
+{
+  "scenes": [
+    {
+      "scene_id": 1,
+      "start_time": 0.0,
+      "end_time": 32.2,
+      "transition_in": {
+        "type": "Cut",
+        "from_scene_id": -1,
+        "description": "No transition is visible in this image."
+      },
+      "transition_out": {
+        "type": "Cut",
+        "to_scene_id": -1,
+        "description": "No transition is visible in this image."
+      },
+      "scene_metadata": {
+        "duration": 32.2,
+        "description": "A man working on a piece of equipment in a workshop at night.",
+        "key_objects": [],
+        "time_of_day": "Night",
+        "environment": "Indoor",
+        "mood": "Calm",
+        "motion_intensity": 6.165297508239746,
+        "color_palette": [
+          "#25211e",
+          "#9b8883",
+          "#3e3735",
+          "#625b5a",
+          "#09090a"
+        ],
+        "camera_analysis": {
+          "movement": "Still",
+          "shot_type": "Close-Up",
+          "stability": 0.6917351245880127
+        },
+        "ai_description": "A man working on a piece of equipment in a workshop at night.",
+        "key_subjects": [
+          "Man",
+          "Hands",
+          "Working"
+        ]
+      },
+      "shots": [
+        {
+          "shot": {
+            "shot_id": 1,
+            "shot_type": "Close-Up",
+            "camera_move": "Still",
+            "framing": {
+              "description": "Subject: Centered, Symmetrical composition, 3 (foreground: sun, midground: trees, background: mountains)",
+              "confidence": 0.85,
+              "details": {
+                "subject_positioning": "Centered",
+                "shot_balance": "Symmetrical",
+                "depth_layers": "3 (foreground: sun, midground: trees, background: mountains)",
+                "leading_lines": "None",
+                "confidence": 0.85,
+                "description": "Subject: Centered, Symmetrical composition, 3 (foreground: sun, midground: trees, background: mountains)"
+              }
+            },
+            "visual_focus": "Man, Hands, Working",
+            "notes": "The scene is well-lit, with the subject's hands being the focal point. The depth of field is shallow, drawing attention to the man's hands and the object he is working on. The colors are muted, contributing to a calm atmosphere.",
+            "duration_seconds": 32.2
+          },
+          "start_time": 0.0,
+          "end_time": 32.2
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "video_path": "hammer.mp4",
+    "duration": 32.2,
+    "resolution": "960x540",
+    "fps": 25.0,
+    "frame_count": 805
+  }
+}

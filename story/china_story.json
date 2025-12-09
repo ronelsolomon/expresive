@@ -1,0 +1,2162 @@
+{
+  "scenes": [
+    {
+      "scene_id": 1,
+      "start_time": 0.0,
+      "end_time": 22.738276462395543,
+      "transition_in": {
+        "type": "Cut",
+        "from_scene_id": -1,
+        "description": "The scene transitions in from a wide shot of the night sky, setting the mood for the romantic evening."
+      },
+      "transition_out": {
+        "type": "Cut",
+        "to_scene_id": -1,
+        "description": "The scene transitions out to a wider shot showing the couple's journey on the boat, continuing their story."
+      },
+      "scene_metadata": {
+        "duration": 22.74,
+        "description": "A couple on a boat at night, looking into the distance.",
+        "key_objects": [],
+        "time_of_day": "Night",
+        "environment": "Outdoor",
+        "mood": "Romantic",
+        "motion_intensity": 11.477994918823242,
+        "color_palette": [
+          "#d2d2d9",
+          "#1d3656",
+          "#4e699a",
+          "#f1dc9b",
+          "#9a98a1"
+        ],
+        "camera_analysis": {
+          "movement": "Pan Left",
+          "shot_type": "Establishing",
+          "stability": 0.4261002540588379
+        },
+        "ai_description": "A couple on a boat at night, looking into the distance.",
+        "key_subjects": [
+          "Couple"
+        ]
+      },
+      "shots": [
+        {
+          "shot": {
+            "shot_id": 1,
+            "shot_type": "Establishing",
+            "camera_move": "Pan Left",
+            "framing": {
+              "description": "Subject: Centered, Symmetrical composition, 3 (foreground: sun, midground: trees, background: mountains)",
+              "confidence": 0.85,
+              "details": {
+                "subject_positioning": "Centered",
+                "shot_balance": "Symmetrical",
+                "depth_layers": "3 (foreground: sun, midground: trees, background: mountains)",
+                "leading_lines": "None",
+                "confidence": 0.85,
+                "description": "Subject: Centered, Symmetrical composition, 3 (foreground: sun, midground: trees, background: mountains)"
+              }
+            },
+            "visual_focus": "Couple",
+            "notes": "The scene is lit with soft ambient light, creating a romantic and intimate atmosphere. The use of a slow pan left adds a sense of movement to the image, guiding the viewer's eye towards the couple in the foreground. The composition is balanced, with the couple centrally positioned, drawing the viewer's attention.",
+            "duration_seconds": 22.738276462395543
+          },
+          "start_time": 0.0,
+          "end_time": 22.738276462395543
+        }
+      ]
+    },
+    {
+      "scene_id": 2,
+      "start_time": 22.738276462395543,
+      "end_time": 27.235957520891365,
+      "transition_in": {
+        "type": "Cut",
+        "from_scene_id": -1,
+        "description": "The scene transitions in from a previous shot with a fade to black."
+      },
+      "transition_out": {
+        "type": "Cut",
+        "to_scene_id": -1,
+        "description": "The scene transitions out with a fade to black."
+      },
+      "scene_metadata": {
+        "duration": 4.5,
+        "description": "A scene from an anime, featuring a woman in a red dress holding a small object. The background is illuminated by lanterns and the atmosphere is mysterious.",
+        "key_objects": [],
+        "time_of_day": "Night",
+        "environment": "Indoor",
+        "mood": "Mysterious",
+        "motion_intensity": 8.717717170715332,
+        "color_palette": [
+          "#d2b87c",
+          "#1b152e",
+          "#31588d",
+          "#bf3325",
+          "#f2efd4"
+        ],
+        "camera_analysis": {
+          "movement": "Still",
+          "shot_type": "Establishing",
+          "stability": 0.5641141414642334
+        },
+        "ai_description": "A scene from an anime, featuring a woman in a red dress holding a small object. The background is illuminated by lanterns and the atmosphere is mysterious.",
+        "key_subjects": [
+          "Woman in red dress"
+        ]
+      },
+      "shots": [
+        {
+          "shot": {
+            "shot_id": 1,
+            "shot_type": "Establishing",
+            "camera_move": "Still",
+            "framing": {
+              "description": "Subject: Rule of Thirds ((320.0, 362.6666666666667)), Symmetrical composition, 3 (foreground: sun, midground: trees, background: mountains)",
+              "confidence": 0.85,
+              "details": {
+                "subject_positioning": "Rule of Thirds ((320.0, 362.6666666666667))",
+                "shot_balance": "Symmetrical",
+                "depth_layers": "3 (foreground: sun, midground: trees, background: mountains)",
+                "leading_lines": "None",
+                "confidence": 0.85,
+                "description": "Subject: Rule of Thirds ((320.0, 362.6666666666667)), Symmetrical composition, 3 (foreground: sun, midground: trees, background: mountains)",
+                "type": "unknown",
+                "composition_techniques": [
+                  "leading_lines"
+                ]
+              }
+            },
+            "visual_focus": "Woman in red dress",
+            "notes": "The lighting creates a dramatic effect with the use of lanterns, creating a warm glow around the subject. The depth of field is shallow, focusing on the woman in the foreground while the background remains blurred.",
+            "duration_seconds": 4.497681058495822
+          },
+          "start_time": 22.738276462395543,
+          "end_time": 27.235957520891365
+        }
+      ]
+    },
+    {
+      "scene_id": 3,
+      "start_time": 27.235957520891365,
+      "end_time": 38.73003133704735,
+      "transition_in": {
+        "type": "Cut",
+        "from_scene_id": -1,
+        "description": "Fade from a previous scene to this establishing shot"
+      },
+      "transition_out": {
+        "type": "Cut",
+        "to_scene_id": -1,
+        "description": "Cut to another scene following the woman's action or reaction"
+      },
+      "scene_metadata": {
+        "duration": 11.49,
+        "description": "A woman in a red kimono stands with her hands on her hips, looking to the side.",
+        "key_objects": [],
+        "time_of_day": "Night",
+        "environment": "Indoor",
+        "mood": "Mysterious",
+        "motion_intensity": 12.597450256347656,
+        "color_palette": [
+          "#264b75",
+          "#c22b15",
+          "#c4b79f",
+          "#750907",
+          "#1b080f"
+        ],
+        "camera_analysis": {
+          "movement": "Still",
+          "shot_type": "Establishing",
+          "stability": 0.37012748718261723
+        },
+        "ai_description": "A woman in a red kimono stands with her hands on her hips, looking to the side.",
+        "key_subjects": [
+          "Woman"
+        ]
+      },
+      "shots": [
+        {
+          "shot": {
+            "shot_id": 1,
+            "shot_type": "Establishing",
+            "camera_move": "Still",
+            "framing": {
+              "description": "Standard framing",
+              "confidence": 0.6,
+              "details": {
+                "subject_positioning": "N/A",
+                "shot_balance": "N/A",
+                "depth_layers": "N/A",
+                "leading_lines": "None",
+                "confidence": 0.6,
+                "description": "Standard framing",
+                "type": "unknown",
+                "composition_techniques": [
+                  "leading_lines"
+                ]
+              }
+            },
+            "visual_focus": "Woman",
+            "notes": {
+              "Lighting": "Soft and even lighting illuminates the scene",
+              "Depth of field": "Shallow depth of field focuses on the woman",
+              "Color grading": "A warm color palette with a red tint"
+            },
+            "duration_seconds": 11.494073816155986
+          },
+          "start_time": 27.235957520891365,
+          "end_time": 38.73003133704735
+        }
+      ]
+    },
+    {
+      "scene_id": 4,
+      "start_time": 38.73003133704735,
+      "end_time": 39.97938718662952,
+      "transition_in": {
+        "type": "Cut",
+        "from_scene_id": -1,
+        "description": "The scene transitions in with a wide shot to establish the setting and subjects."
+      },
+      "transition_out": {
+        "type": "Cut",
+        "to_scene_id": -1,
+        "description": "The scene transitions out by cutting to another shot or scene."
+      },
+      "scene_metadata": {
+        "duration": 1.25,
+        "description": "A scene with two people dressed in traditional attire, possibly a dance or performance. The room has an oriental design and is adorned with decorative elements.",
+        "key_objects": [],
+        "time_of_day": "Unknown",
+        "environment": "Indoor",
+        "mood": "Mysterious",
+        "motion_intensity": 10.490018844604492,
+        "color_palette": [
+          "#ba9e6a",
+          "#35314b",
+          "#e0d2b5",
+          "#280f13",
+          "#825c3e"
+        ],
+        "camera_analysis": {
+          "movement": "Still",
+          "shot_type": "Wide",
+          "stability": 0.4754990577697754
+        },
+        "ai_description": "A scene with two people dressed in traditional attire, possibly a dance or performance. The room has an oriental design and is adorned with decorative elements.",
+        "key_subjects": [
+          "Two characters in traditional clothing"
+        ]
+      },
+      "shots": [
+        {
+          "shot": {
+            "shot_id": 1,
+            "shot_type": "Wide",
+            "camera_move": "Still",
+            "framing": {
+              "description": "Subject: Centered, Symmetrical composition, 3 (foreground: sun, midground: trees, background: mountains)",
+              "confidence": 0.85,
+              "details": {
+                "subject_positioning": "Centered",
+                "shot_balance": "Symmetrical",
+                "depth_layers": "3 (foreground: sun, midground: trees, background: mountains)",
+                "leading_lines": "None",
+                "confidence": 0.85,
+                "description": "Subject: Centered, Symmetrical composition, 3 (foreground: sun, midground: trees, background: mountains)",
+                "type": "unknown",
+                "composition_techniques": [
+                  "leading_lines"
+                ]
+              }
+            },
+            "visual_focus": "Two characters in traditional clothing",
+            "notes": "The lighting creates a dramatic effect, highlighting the subjects against the darker background. The depth of field is shallow, keeping the focus on the characters while softly blurring the background. Color grading adds to the mysterious atmosphere.",
+            "duration_seconds": 1.249355849582173
+          },
+          "start_time": 38.73003133704735,
+          "end_time": 39.97938718662952
+        }
+      ]
+    },
+    {
+      "scene_id": 5,
+      "start_time": 39.97938718662952,
+      "end_time": 59.71920961002785,
+      "transition_in": {
+        "type": "Cut",
+        "from_scene_id": -1,
+        "description": "The scene fades in from black, emphasizing the importance of the moment captured."
+      },
+      "transition_out": {
+        "type": "Cut",
+        "to_scene_id": -1,
+        "description": "The scene fades out to a black screen, suggesting a pause or transition to another scene."
+      },
+      "scene_metadata": {
+        "duration": 19.74,
+        "description": "A couple in traditional attire, possibly from a historical or fantasy setting, sharing an intimate moment in a room with intricate decorations.",
+        "key_objects": [],
+        "time_of_day": "Night",
+        "environment": "Indoor",
+        "mood": "Romantic",
+        "motion_intensity": 8.11353874206543,
+        "color_palette": [
+          "#2e2419",
+          "#050204",
+          "#0e0a0f",
+          "#210c06",
+          "#1f1614"
+        ],
+        "camera_analysis": {
+          "movement": "Still",
+          "shot_type": "Establishing",
+          "stability": 0.5943230628967285
+        },
+        "ai_description": "A couple in traditional attire, possibly from a historical or fantasy setting, sharing an intimate moment in a room with intricate decorations.",
+        "key_subjects": [
+          "Couple"
+        ]
+      },
+      "shots": [
+        {
+          "shot": {
+            "shot_id": 1,
+            "shot_type": "Establishing",
+            "camera_move": "Still",
+            "framing": {
+              "description": "Standard framing",
+              "confidence": 0.0,
+              "details": {
+                "subject_positioning": "N/A",
+                "shot_balance": "N/A",
+                "depth_layers": "N/A",
+                "leading_lines": "None",
+                "confidence": 0.0,
+                "description": "Standard framing",
+                "type": "unknown",
+                "composition_techniques": []
+              }
+            },
+            "visual_focus": "Couple",
+            "notes": "The scene is well-lit, with soft, warm lighting that highlights the subjects and creates a cozy atmosphere. The depth of field is shallow, drawing focus to the couple while softly blurring the background elements. The color grading adds a romantic tone to the image.",
+            "duration_seconds": 19.73982242339833
+          },
+          "start_time": 39.97938718662952,
+          "end_time": 59.71920961002785
+        }
+      ]
+    },
+    {
+      "scene_id": 6,
+      "start_time": 59.71920961002785,
+      "end_time": 69.96392757660166,
+      "transition_in": {
+        "type": "Cut",
+        "from_scene_id": -1,
+        "description": "The scene transitions in from a previous shot with a close-up of the character's face."
+      },
+      "transition_out": {
+        "type": "Cut",
+        "to_scene_id": -1,
+        "description": "The scene transitions out to a wider shot showing the room and the window through which the character is looking."
+      },
+      "scene_metadata": {
+        "duration": 10.24,
+        "description": "The scene shows an anime character standing in a room at night, looking out through a window. The room is dimly lit with a red hue.",
+        "key_objects": [],
+        "time_of_day": "Night",
+        "environment": "Indoor",
+        "mood": "Mysterious",
+        "motion_intensity": 8.01760482788086,
+        "color_palette": [
+          "#20325b",
+          "#8e3428",
+          "#dbbc9d",
+          "#191626",
+          "#7e93cc"
+        ],
+        "camera_analysis": {
+          "movement": "Still",
+          "shot_type": "Establishing",
+          "stability": 0.599119758605957
+        },
+        "ai_description": "The scene shows an anime character standing in a room at night, looking out through a window. The room is dimly lit with a red hue.",
+        "key_subjects": [
+          "Anime girl"
+        ]
+      },
+      "shots": [
+        {
+          "shot": {
+            "shot_id": 1,
+            "shot_type": "Establishing",
+            "camera_move": "Still",
+            "framing": {
+              "description": "Subject: Centered, Symmetrical composition, 3 (foreground: sun, midground: trees, background: mountains)",
+              "confidence": 0.85,
+              "details": {
+                "subject_positioning": "Centered",
+                "shot_balance": "Symmetrical",
+                "depth_layers": "3 (foreground: sun, midground: trees, background: mountains)",
+                "leading_lines": "None",
+                "confidence": 0.85,
+                "description": "Subject: Centered, Symmetrical composition, 3 (foreground: sun, midground: trees, background: mountains)"
+              }
+            },
+            "visual_focus": "Anime girl",
+            "notes": "The shot is composed with the subject centered and symmetrically framed, drawing attention to her face. The lighting creates a moody atmosphere with a focus on the character's expression.",
+            "duration_seconds": 10.244717966573809
+          },
+          "start_time": 59.71920961002785,
+          "end_time": 69.96392757660166
+        }
+      ]
+    },
+    {
+      "scene_id": 7,
+      "start_time": 69.96392757660166,
+      "end_time": 74.46160863509749,
+      "transition_in": {
+        "type": "Cut",
+        "from_scene_id": -1,
+        "description": "The previous scene was a close-up of a character's face."
+      },
+      "transition_out": {
+        "type": "Cut",
+        "to_scene_id": -1,
+        "description": "The next scene will be an interior shot, possibly in a traditional Japanese room or tea house."
+      },
+      "scene_metadata": {
+        "duration": 4.5,
+        "description": "A tranquil scene of an East Asian style archway leading to a serene pathway in a park-like setting.",
+        "key_objects": [],
+        "time_of_day": "Day",
+        "environment": "Outdoor",
+        "mood": "Calm",
+        "motion_intensity": 13.307530403137207,
+        "color_palette": [
+          "#c3dbd3",
+          "#2f433d",
+          "#dfc880",
+          "#7d8486",
+          "#336b90"
+        ],
+        "camera_analysis": {
+          "movement": "Still",
+          "shot_type": "Establishing",
+          "stability": 0.33462347984313967
+        },
+        "ai_description": "A tranquil scene of an East Asian style archway leading to a serene pathway in a park-like setting.",
+        "key_subjects": [
+          "Pathway",
+          "Archway"
+        ]
+      },
+      "shots": [
+        {
+          "shot": {
+            "shot_id": 1,
+            "shot_type": "Establishing",
+            "camera_move": "Still",
+            "framing": {
+              "description": "Subject: Centered, Symmetrical composition, 3 (foreground: sun, midground: trees, background: mountains)",
+              "confidence": 0.85,
+              "details": {
+                "subject_positioning": "Centered",
+                "shot_balance": "Symmetrical",
+                "depth_layers": "3 (foreground: sun, midground: trees, background: mountains)",
+                "leading_lines": "None",
+                "confidence": 0.85,
+                "description": "Subject: Centered, Symmetrical composition, 3 (foreground: sun, midground: trees, background: mountains)",
+                "type": "unknown",
+                "composition_techniques": [
+                  "leading_lines"
+                ]
+              }
+            },
+            "visual_focus": "Pathway, Archway",
+            "notes": "The lighting is soft and diffused, creating a peaceful atmosphere. The depth of field is shallow, with the archway in focus and the background slightly blurred. Color grading enhances the natural colors of the scene.",
+            "duration_seconds": 4.497681058495829
+          },
+          "start_time": 69.96392757660166,
+          "end_time": 74.46160863509749
+        }
+      ]
+    },
+    {
+      "scene_id": 8,
+      "start_time": 74.46160863509749,
+      "end_time": 79.95877437325905,
+      "transition_in": {
+        "type": "Cut",
+        "from_scene_id": -1,
+        "description": "Fade in from a black screen"
+      },
+      "transition_out": {
+        "type": "Cut",
+        "to_scene_id": -1,
+        "description": "Fade out to the next scene"
+      },
+      "scene_metadata": {
+        "duration": 5.5,
+        "description": "A woman in a kimono stands by a tree and looks down at her hands, which are holding a pair of scissors. The scene is set in a serene garden with cherry blossoms.",
+        "key_objects": [],
+        "time_of_day": "Day",
+        "environment": "Outdoor",
+        "mood": "Calm",
+        "motion_intensity": 3.8168132305145264,
+        "color_palette": [
+          "#8cab95",
+          "#4f6756",
+          "#d6dcc9",
+          "#213a26",
+          "#ada843"
+        ],
+        "camera_analysis": {
+          "movement": "Pan Left",
+          "shot_type": "Establishing",
+          "stability": 0.8091593384742737
+        },
+        "ai_description": "A woman in a kimono stands by a tree and looks down at her hands, which are holding a pair of scissors. The scene is set in a serene garden with cherry blossoms.",
+        "key_subjects": [
+          "Woman"
+        ]
+      },
+      "shots": [
+        {
+          "shot": {
+            "shot_id": 1,
+            "shot_type": "Establishing",
+            "camera_move": "Pan Left",
+            "framing": {
+              "description": "Subject: Centered, Symmetrical composition, 3 (foreground: sun, midground: trees, background: mountains)",
+              "confidence": 0.85,
+              "details": {
+                "subject_positioning": "Centered",
+                "shot_balance": "Symmetrical",
+                "depth_layers": "3 (foreground: sun, midground: trees, background: mountains)",
+                "leading_lines": "None",
+                "confidence": 0.85,
+                "description": "Subject: Centered, Symmetrical composition, 3 (foreground: sun, midground: trees, background: mountains)",
+                "type": "unknown",
+                "composition_techniques": [
+                  "leading_lines"
+                ]
+              }
+            },
+            "visual_focus": "Woman",
+            "notes": "The lighting is soft and natural, highlighting the delicate details of the woman's kimono and the surrounding foliage. The depth of field is shallow, drawing attention to the woman while softly blurring the background. Color grading emphasizes the pastel hues of the scene.",
+            "duration_seconds": 5.497165738161556
+          },
+          "start_time": 74.46160863509749,
+          "end_time": 79.95877437325905
+        }
+      ]
+    },
+    {
+      "scene_id": 9,
+      "start_time": 79.95877437325905,
+      "end_time": 84.95619777158774,
+      "transition_in": {
+        "type": "Cut",
+        "from_scene_id": -1,
+        "description": "The scene transitions in from a previous establishing shot of the park, showing the characters walking towards the fruit trees."
+      },
+      "transition_out": {
+        "type": "Cut",
+        "to_scene_id": -1,
+        "description": "The scene transitions out to another establishing shot of the park, with a focus on the fruit tree and the characters walking away from it."
+      },
+      "scene_metadata": {
+        "duration": 5.0,
+        "description": "An animated scene depicting three girls in a park with fruit trees, enjoying their time together.",
+        "key_objects": [],
+        "time_of_day": "Day",
+        "environment": "Outdoor",
+        "mood": "Joyful",
+        "motion_intensity": 2.5372226238250732,
+        "color_palette": [
+          "#425a49",
+          "#bfa85b",
+          "#162e20",
+          "#d5ddca",
+          "#7aa38f"
+        ],
+        "camera_analysis": {
+          "movement": "Pan Left",
+          "shot_type": "Establishing",
+          "stability": 0.8731388688087464
+        },
+        "ai_description": "An animated scene depicting three girls in a park with fruit trees, enjoying their time together.",
+        "key_subjects": [
+          "3 main characters, fruit tree"
+        ]
+      },
+      "shots": [
+        {
+          "shot": {
+            "shot_id": 1,
+            "shot_type": "Establishing",
+            "camera_move": "Pan Left",
+            "framing": {
+              "description": "Subject: Centered, Symmetrical composition, 3 (foreground: sun, midground: trees, background: mountains)",
+              "confidence": 0.85,
+              "details": {
+                "subject_positioning": "Centered",
+                "shot_balance": "Symmetrical",
+                "depth_layers": "3 (foreground: sun, midground: trees, background: mountains)",
+                "leading_lines": "None",
+                "confidence": 0.85,
+                "description": "Subject: Centered, Symmetrical composition, 3 (foreground: sun, midground: trees, background: mountains)",
+                "type": "unknown",
+                "composition_techniques": [
+                  "leading_lines"
+                ]
+              }
+            },
+            "visual_focus": "3 main characters, fruit tree",
+            "notes": "The lighting is soft and natural, highlighting the colors of the fruit tree and the green foliage. The depth of field is shallow, drawing focus to the characters while softly blurring the background. Color grading adds a warm tone to the scene, enhancing the overall cheerful atmosphere.",
+            "duration_seconds": 4.997423398328692
+          },
+          "start_time": 79.95877437325905,
+          "end_time": 84.95619777158774
+        }
+      ]
+    },
+    {
+      "scene_id": 10,
+      "start_time": 84.95619777158774,
+      "end_time": 89.45387883008355,
+      "transition_in": {
+        "type": "Cut",
+        "from_scene_id": -1,
+        "description": "The scene transitions from a previous shot with a cut"
+      },
+      "transition_out": {
+        "type": "Cut",
+        "to_scene_id": -1,
+        "description": "The scene transitions to the next shot with a cut"
+      },
+      "scene_metadata": {
+        "duration": 4.5,
+        "description": "Scene shows a close-up of an object in the foreground with a person in the background",
+        "key_objects": [],
+        "time_of_day": "Unknown",
+        "environment": "Indoor",
+        "mood": "Neutral",
+        "motion_intensity": 4.516195297241211,
+        "color_palette": [
+          "#66857a",
+          "#e9e5cb",
+          "#395343",
+          "#a0c7a2",
+          "#ae955f"
+        ],
+        "camera_analysis": {
+          "movement": "Still",
+          "shot_type": "Establishing",
+          "stability": 0.7741902351379395
+        },
+        "ai_description": "Scene shows a close-up of an object in the foreground with a person in the background",
+        "key_subjects": [
+          "Main subject"
+        ]
+      },
+      "shots": [
+        {
+          "shot": {
+            "shot_id": 1,
+            "shot_type": "Establishing",
+            "camera_move": "Still",
+            "framing": {
+              "description": "Subject: Centered, Symmetrical composition, 3 (foreground: sun, midground: trees, background: mountains)",
+              "confidence": 0.85,
+              "details": {
+                "subject_positioning": "Centered",
+                "shot_balance": "Symmetrical",
+                "depth_layers": "3 (foreground: sun, midground: trees, background: mountains)",
+                "leading_lines": "None",
+                "confidence": 0.85,
+                "description": "Subject: Centered, Symmetrical composition, 3 (foreground: sun, midground: trees, background: mountains)"
+              }
+            },
+            "visual_focus": "Main subject",
+            "notes": "The lighting is soft and diffused, creating a calm atmosphere. The depth of field is shallow, focusing on the main subject while blurring the background to draw attention to it.",
+            "duration_seconds": 4.4976810584958145
+          },
+          "start_time": 84.95619777158774,
+          "end_time": 89.45387883008355
+        }
+      ]
+    },
+    {
+      "scene_id": 11,
+      "start_time": 89.45387883008355,
+      "end_time": 93.20194637883007,
+      "transition_in": {
+        "type": "Cut",
+        "from_scene_id": -1,
+        "description": "Fade in from black"
+      },
+      "transition_out": {
+        "type": "Cut",
+        "to_scene_id": -1,
+        "description": "Fade out to a different scene or location"
+      },
+      "scene_metadata": {
+        "duration": 3.75,
+        "description": "A couple in traditional Asian attire, possibly a scene from an anime or drama series.",
+        "key_objects": [],
+        "time_of_day": "Unknown",
+        "environment": "Outdoor",
+        "mood": "Neutral",
+        "motion_intensity": 6.2407917976379395,
+        "color_palette": [
+          "#f3d12f",
+          "#202615",
+          "#6eb490",
+          "#cfd5ad",
+          "#9a8c36"
+        ],
+        "camera_analysis": {
+          "movement": "Still",
+          "shot_type": "Two-Shot",
+          "stability": 0.687960410118103
+        },
+        "ai_description": "A couple in traditional Asian attire, possibly a scene from an anime or drama series.",
+        "key_subjects": [
+          "Two characters"
+        ]
+      },
+      "shots": [
+        {
+          "shot": {
+            "shot_id": 1,
+            "shot_type": "Two-Shot",
+            "camera_move": "Still",
+            "framing": {
+              "description": "Subject: Rule of Thirds ((320.0, 181.33333333333334)), Symmetrical composition, 3 (foreground: sun, midground: trees, background: mountains)",
+              "confidence": 0.85,
+              "details": {
+                "subject_positioning": "Rule of Thirds ((320.0, 181.33333333333334))",
+                "shot_balance": "Symmetrical",
+                "depth_layers": "3 (foreground: sun, midground: trees, background: mountains)",
+                "leading_lines": "None",
+                "confidence": 0.85,
+                "description": "Subject: Rule of Thirds ((320.0, 181.33333333333334)), Symmetrical composition, 3 (foreground: sun, midground: trees, background: mountains)",
+                "type": "unknown",
+                "composition_techniques": [
+                  "leading_lines"
+                ]
+              }
+            },
+            "visual_focus": "Two characters",
+            "notes": "Soft lighting with a warm tone, shallow depth of field focusing on the subjects, and a balanced composition.",
+            "duration_seconds": 3.748067548746519
+          },
+          "start_time": 89.45387883008355,
+          "end_time": 93.20194637883007
+        }
+      ]
+    },
+    {
+      "scene_id": 12,
+      "start_time": 93.20194637883007,
+      "end_time": 97.44975626740947,
+      "transition_in": {
+        "type": "Cut",
+        "from_scene_id": -1,
+        "description": "The scene transitions in from a previous shot with a soft fade to black."
+      },
+      "transition_out": {
+        "type": "Cut",
+        "to_scene_id": -1,
+        "description": "The scene transitions out to the next scene with a soft fade to black."
+      },
+      "scene_metadata": {
+        "duration": 4.25,
+        "description": "A woman is seen picking a leaf from a tree. The scene is set in an outdoor environment during the day.",
+        "key_objects": [],
+        "time_of_day": "Day",
+        "environment": "Outdoor",
+        "mood": "Calm",
+        "motion_intensity": 9.415234565734863,
+        "color_palette": [
+          "#233728",
+          "#e9e5d0",
+          "#a99e6d",
+          "#556970",
+          "#d0c1a0"
+        ],
+        "camera_analysis": {
+          "movement": "Still",
+          "shot_type": "Establishing",
+          "stability": 0.5292382717132569
+        },
+        "ai_description": "A woman is seen picking a leaf from a tree. The scene is set in an outdoor environment during the day.",
+        "key_subjects": [
+          "Woman",
+          "Leaf"
+        ]
+      },
+      "shots": [
+        {
+          "shot": {
+            "shot_id": 1,
+            "shot_type": "Establishing",
+            "camera_move": "Still",
+            "framing": {
+              "description": "Standard framing",
+              "confidence": 0.6,
+              "details": {
+                "subject_positioning": "N/A",
+                "shot_balance": "N/A",
+                "depth_layers": "N/A",
+                "leading_lines": "None",
+                "confidence": 0.6,
+                "description": "Standard framing",
+                "type": "unknown",
+                "composition_techniques": [
+                  "leading_lines"
+                ]
+              }
+            },
+            "visual_focus": "Woman, Leaf",
+            "notes": "The shot is well-lit with natural light, creating a calm and serene atmosphere. The depth of field is shallow, drawing attention to the woman in the foreground while softly blurring the background. The color grading enhances the natural colors of the scene.",
+            "duration_seconds": 4.247809888579397
+          },
+          "start_time": 93.20194637883007,
+          "end_time": 97.44975626740947
+        }
+      ]
+    },
+    {
+      "scene_id": 13,
+      "start_time": 97.44975626740947,
+      "end_time": 102.44717966573816,
+      "transition_in": {
+        "type": "Cut",
+        "from_scene_id": -1,
+        "description": "The scene transitions in from a wide shot of the garden."
+      },
+      "transition_out": {
+        "type": "Cut",
+        "to_scene_id": -1,
+        "description": "The scene transitions out to a close-up of the woman's face as she begins to cry."
+      },
+      "scene_metadata": {
+        "duration": 5.0,
+        "description": "A woman stands in a garden, looking down at the ground.",
+        "key_objects": [],
+        "time_of_day": "Day",
+        "environment": "Outdoor",
+        "mood": "Melancholic",
+        "motion_intensity": 2.753575325012207,
+        "color_palette": [
+          "#e6e8d8",
+          "#647369",
+          "#122319",
+          "#454f2f",
+          "#b7b89a"
+        ],
+        "camera_analysis": {
+          "movement": "Push",
+          "shot_type": "Establishing",
+          "stability": 0.8623212337493896
+        },
+        "ai_description": "A woman stands in a garden, looking down at the ground.",
+        "key_subjects": [
+          "Woman"
+        ]
+      },
+      "shots": [
+        {
+          "shot": {
+            "shot_id": 1,
+            "shot_type": "Establishing",
+            "camera_move": "Push",
+            "framing": {
+              "description": "Standard framing",
+              "confidence": 0.6,
+              "details": {
+                "subject_positioning": "N/A",
+                "shot_balance": "N/A",
+                "depth_layers": "N/A",
+                "leading_lines": "None",
+                "confidence": 0.6,
+                "description": "Standard framing",
+                "type": "unknown",
+                "composition_techniques": [
+                  "leading_lines"
+                ]
+              }
+            },
+            "visual_focus": "Woman",
+            "notes": "The lighting is soft and natural, with a focus on the subject. The depth of field is shallow, drawing attention to the woman's face. Color grading is used to enhance the melancholic mood of the scene.",
+            "duration_seconds": 4.997423398328692
+          },
+          "start_time": 97.44975626740947,
+          "end_time": 102.44717966573816
+        }
+      ]
+    },
+    {
+      "scene_id": 14,
+      "start_time": 102.44717966573816,
+      "end_time": 110.44305710306406,
+      "transition_in": {
+        "type": "Cut",
+        "from_scene_id": -1,
+        "description": "Fade in from black"
+      },
+      "transition_out": {
+        "type": "Cut",
+        "to_scene_id": -1,
+        "description": "Fade out to black"
+      },
+      "scene_metadata": {
+        "duration": 8.0,
+        "description": "A collection of ornate, golden treasure chests on display in a room",
+        "key_objects": [],
+        "time_of_day": "Unknown",
+        "environment": "Indoor",
+        "mood": "Neutral",
+        "motion_intensity": 12.110323905944824,
+        "color_palette": [
+          "#8e5826",
+          "#ac7c40",
+          "#6f7264",
+          "#cca467",
+          "#6d4013"
+        ],
+        "camera_analysis": {
+          "movement": "Still",
+          "shot_type": "Establishing",
+          "stability": 0.3944838047027588
+        },
+        "ai_description": "A collection of ornate, golden treasure chests on display in a room",
+        "key_subjects": [
+          "treasure chests"
+        ]
+      },
+      "shots": [
+        {
+          "shot": {
+            "shot_id": 1,
+            "shot_type": "Establishing",
+            "camera_move": "Still",
+            "framing": {
+              "description": "Subject: Centered, Symmetrical composition, 3 (foreground: sun, midground: trees, background: mountains)",
+              "confidence": 0.85,
+              "details": {
+                "subject_positioning": "Centered",
+                "shot_balance": "Symmetrical",
+                "depth_layers": "3 (foreground: sun, midground: trees, background: mountains)",
+                "leading_lines": "None",
+                "confidence": 0.85,
+                "description": "Subject: Centered, Symmetrical composition, 3 (foreground: sun, midground: trees, background: mountains)",
+                "type": "unknown",
+                "composition_techniques": [
+                  "leading_lines"
+                ]
+              }
+            },
+            "visual_focus": "treasure chests",
+            "notes": "The lighting is soft and evenly distributed, highlighting the rich textures of the chests. The depth of field is shallow, with the foreground chests in focus and the background slightly blurred.",
+            "duration_seconds": 7.995877437325902
+          },
+          "start_time": 102.44717966573816,
+          "end_time": 110.44305710306406
+        }
+      ]
+    },
+    {
+      "scene_id": 15,
+      "start_time": 110.44305710306406,
+      "end_time": 113.19163997214484,
+      "transition_in": {
+        "type": "Cut",
+        "from_scene_id": -1,
+        "description": "Fade in from black to reveal the scene"
+      },
+      "transition_out": {
+        "type": "Cut",
+        "to_scene_id": -1,
+        "description": "Fade out to black as the tea bowl is taken away"
+      },
+      "scene_metadata": {
+        "duration": 2.75,
+        "description": "A close-up of a tea bowl with red liquid in it on a table, surrounded by blackberries and leaves.",
+        "key_objects": [],
+        "time_of_day": "Unknown",
+        "environment": "Indoor",
+        "mood": "Calm",
+        "motion_intensity": 1.7869622707366943,
+        "color_palette": [
+          "#e9dab9",
+          "#7c441f",
+          "#3e1f0d",
+          "#e4a156",
+          "#a0794d"
+        ],
+        "camera_analysis": {
+          "movement": "Still",
+          "shot_type": "Close-Up",
+          "stability": 0.9106518864631653
+        },
+        "ai_description": "A close-up of a tea bowl with red liquid in it on a table, surrounded by blackberries and leaves.",
+        "key_subjects": [
+          "Tea bowl"
+        ]
+      },
+      "shots": [
+        {
+          "shot": {
+            "shot_id": 1,
+            "shot_type": "Close-Up",
+            "camera_move": "Still",
+            "framing": {
+              "description": "Standard framing",
+              "confidence": 0.6,
+              "details": {
+                "subject_positioning": "N/A",
+                "shot_balance": "N/A",
+                "depth_layers": "N/A",
+                "leading_lines": "None",
+                "confidence": 0.6,
+                "description": "Standard framing",
+                "type": "unknown",
+                "composition_techniques": [
+                  "leading_lines"
+                ]
+              }
+            },
+            "visual_focus": "Tea bowl",
+            "notes": "The lighting is soft and diffused, creating a warm and inviting atmosphere. The depth of field is shallow, focusing on the tea bowl while slightly blurring the background to draw attention to the main subject. The color grading enhances the red hue of the liquid in the tea bowl, making it stand out against the more muted colors of the table and surrounding elements.",
+            "duration_seconds": 2.748582869080778
+          },
+          "start_time": 110.44305710306406,
+          "end_time": 113.19163997214484
+        }
+      ]
+    },
+    {
+      "scene_id": 16,
+      "start_time": 113.19163997214484,
+      "end_time": 118.43893454038997,
+      "transition_in": {
+        "type": "Cut",
+        "from_scene_id": -1,
+        "description": "The scene transitions in with a close-up shot of the table and bowl of berries."
+      },
+      "transition_out": {
+        "type": "Cut",
+        "to_scene_id": -1,
+        "description": "The scene transitions out to a medium shot of someone interacting with the bowl of berries."
+      },
+      "scene_metadata": {
+        "duration": 5.25,
+        "description": "A close-up shot of a bowl filled with berries on a table, set in an indoor environment.",
+        "key_objects": [],
+        "time_of_day": "Unknown",
+        "environment": "Indoor",
+        "mood": "Calm",
+        "motion_intensity": 8.492207527160645,
+        "color_palette": [
+          "#a98e66",
+          "#3a190c",
+          "#e8d7b4",
+          "#e3ab66",
+          "#775334"
+        ],
+        "camera_analysis": {
+          "movement": "Still",
+          "shot_type": "Close-Up",
+          "stability": 0.5753896236419678
+        },
+        "ai_description": "A close-up shot of a bowl filled with berries on a table, set in an indoor environment.",
+        "key_subjects": [
+          "Bowl of berries"
+        ]
+      },
+      "shots": [
+        {
+          "shot": {
+            "shot_id": 1,
+            "shot_type": "Close-Up",
+            "camera_move": "Still",
+            "framing": {
+              "description": "Standard framing",
+              "confidence": 0.6,
+              "details": {
+                "subject_positioning": "N/A",
+                "shot_balance": "N/A",
+                "depth_layers": "N/A",
+                "leading_lines": "None",
+                "confidence": 0.6,
+                "description": "Standard framing",
+                "type": "unknown",
+                "composition_techniques": [
+                  "leading_lines"
+                ]
+              }
+            },
+            "visual_focus": "Bowl of berries",
+            "notes": "The scene is well lit with natural light, creating a calm and inviting atmosphere. The shallow depth of field draws the viewer's attention to the bowl of berries in the foreground while softly blurring the background, emphasizing the main subject.",
+            "duration_seconds": 5.247294568245124
+          },
+          "start_time": 113.19163997214484,
+          "end_time": 118.43893454038997
+        }
+      ]
+    },
+    {
+      "scene_id": 17,
+      "start_time": 118.43893454038997,
+      "end_time": 126.18494080779944,
+      "transition_in": {
+        "type": "Cut",
+        "from_scene_id": -1,
+        "description": "The scene transitions in from a previous close-up shot."
+      },
+      "transition_out": {
+        "type": "Cut",
+        "to_scene_id": -1,
+        "description": "The scene transitions out to the next shot, which could be an establishing or wide shot for more context."
+      },
+      "scene_metadata": {
+        "duration": 7.75,
+        "description": "A couple in a room, with one person covering the other's eyes.",
+        "key_objects": [],
+        "time_of_day": "Unknown",
+        "environment": "Indoor",
+        "mood": "Mysterious",
+        "motion_intensity": 2.829866409301758,
+        "color_palette": [
+          "#b9923a",
+          "#705025",
+          "#e3c0a1",
+          "#2a1d10",
+          "#efd65d"
+        ],
+        "camera_analysis": {
+          "movement": "Push",
+          "shot_type": "Close-Up",
+          "stability": 0.8585066795349121
+        },
+        "ai_description": "A couple in a room, with one person covering the other's eyes.",
+        "key_subjects": [
+          "Couple"
+        ]
+      },
+      "shots": [
+        {
+          "shot": {
+            "shot_id": 1,
+            "shot_type": "Close-Up",
+            "camera_move": "Push",
+            "framing": {
+              "description": "Subject: Centered, Symmetrical composition, 3 (foreground: sun, midground: trees, background: mountains)",
+              "confidence": 0.85,
+              "details": {
+                "subject_positioning": "Centered",
+                "shot_balance": "Symmetrical",
+                "depth_layers": "3 (foreground: sun, midground: trees, background: mountains)",
+                "leading_lines": "None",
+                "confidence": 0.85,
+                "description": "Subject: Centered, Symmetrical composition, 3 (foreground: sun, midground: trees, background: mountains)"
+              }
+            },
+            "visual_focus": "Couple",
+            "notes": "The shot is framed as a close-up of the couple, with the camera pushed in to emphasize their interaction. The lighting is soft and ambient, creating a mysterious atmosphere. The color grading leans towards cooler tones, which adds to the intrigue.",
+            "duration_seconds": 7.74600626740947
+          },
+          "start_time": 118.43893454038997,
+          "end_time": 126.18494080779944
+        }
+      ]
+    },
+    {
+      "scene_id": 18,
+      "start_time": 126.18494080779944,
+      "end_time": 131.43223537604456,
+      "transition_in": {
+        "type": "Cut",
+        "from_scene_id": -1,
+        "description": "The scene transitions in with a wide shot showing the room and the girl's position."
+      },
+      "transition_out": {
+        "type": "Cut",
+        "to_scene_id": -1,
+        "description": "The scene transitions out to a close-up of the girl as she finishes her tea."
+      },
+      "scene_metadata": {
+        "duration": 5.25,
+        "description": "An anime girl is sitting at a table with a tea set, looking contemplative.",
+        "key_objects": [],
+        "time_of_day": "Unknown",
+        "environment": "Indoor",
+        "mood": "Neutral",
+        "motion_intensity": 5.240306377410889,
+        "color_palette": [
+          "#8d642e",
+          "#ead0af",
+          "#4e2a0f",
+          "#b58f66",
+          "#e6bf54"
+        ],
+        "camera_analysis": {
+          "movement": "Still",
+          "shot_type": "Establishing",
+          "stability": 0.7379846811294556
+        },
+        "ai_description": "An anime girl is sitting at a table with a tea set, looking contemplative.",
+        "key_subjects": [
+          "Anime girl"
+        ]
+      },
+      "shots": [
+        {
+          "shot": {
+            "shot_id": 1,
+            "shot_type": "Establishing",
+            "camera_move": "Still",
+            "framing": {
+              "description": "Subject: Centered, Symmetrical composition, 3 (foreground: sun, midground: trees, background: mountains)",
+              "confidence": 0.85,
+              "details": {
+                "subject_positioning": "Centered",
+                "shot_balance": "Symmetrical",
+                "depth_layers": "3 (foreground: sun, midground: trees, background: mountains)",
+                "leading_lines": "None",
+                "confidence": 0.85,
+                "description": "Subject: Centered, Symmetrical composition, 3 (foreground: sun, midground: trees, background: mountains)",
+                "type": "unknown",
+                "composition_techniques": [
+                  "leading_lines"
+                ]
+              }
+            },
+            "visual_focus": "Anime girl",
+            "notes": "The lighting is soft and diffused, creating a calm atmosphere. The depth of field is shallow, focusing on the character in the foreground while softly blurring the background. The color grading is naturalistic.",
+            "duration_seconds": 5.247294568245124
+          },
+          "start_time": 126.18494080779944,
+          "end_time": 131.43223537604456
+        }
+      ]
+    },
+    {
+      "scene_id": 19,
+      "start_time": 131.43223537604456,
+      "end_time": 142.17669568245125,
+      "transition_in": {
+        "type": "Cut",
+        "from_scene_id": -1,
+        "description": "The scene transitions in from a previous shot showing the character opening the trunk."
+      },
+      "transition_out": {
+        "type": "Cut",
+        "to_scene_id": -1,
+        "description": "The scene transitions out to a shot of the character exploring the contents of the chest."
+      },
+      "scene_metadata": {
+        "duration": 10.74,
+        "description": "A large, ornate chest with a bug inside is the focus of the scene.",
+        "key_objects": [],
+        "time_of_day": "Unknown",
+        "environment": "Indoor",
+        "mood": "Mysterious",
+        "motion_intensity": 7.1546831130981445,
+        "color_palette": [
+          "#270802",
+          "#7b9970",
+          "#4e381a",
+          "#d2a152",
+          "#906a31"
+        ],
+        "camera_analysis": {
+          "movement": "Still",
+          "shot_type": "Establishing",
+          "stability": 0.6422658443450928
+        },
+        "ai_description": "A large, ornate chest with a bug inside is the focus of the scene.",
+        "key_subjects": [
+          "Trunk",
+          "Bug"
+        ]
+      },
+      "shots": [
+        {
+          "shot": {
+            "shot_id": 1,
+            "shot_type": "Establishing",
+            "camera_move": "Still",
+            "framing": {
+              "description": "Standard framing",
+              "confidence": 0.6,
+              "details": {
+                "subject_positioning": "N/A",
+                "shot_balance": "N/A",
+                "depth_layers": "N/A",
+                "leading_lines": "None",
+                "confidence": 0.6,
+                "description": "Standard framing",
+                "type": "unknown",
+                "composition_techniques": [
+                  "leading_lines"
+                ]
+              }
+            },
+            "visual_focus": "Trunk, Bug",
+            "notes": "The lighting creates a dramatic effect on the trunk and bug, highlighting their details. The depth of field is shallow, drawing attention to the bug in the trunk while softly blurring the background.",
+            "duration_seconds": 10.744460306406694
+          },
+          "start_time": 131.43223537604456,
+          "end_time": 142.17669568245125
+        }
+      ]
+    },
+    {
+      "scene_id": 20,
+      "start_time": 142.17669568245125,
+      "end_time": 148.67334610027854,
+      "transition_in": {
+        "type": "Cut",
+        "from_scene_id": -1,
+        "description": "The scene transitions from a previous shot featuring another character or setting."
+      },
+      "transition_out": {
+        "type": "Cut",
+        "to_scene_id": -1,
+        "description": "The scene transitions to the next scene, possibly showing the character's interaction with someone or something off-screen."
+      },
+      "scene_metadata": {
+        "duration": 6.5,
+        "description": "The scene shows an anime character, possibly a girl, dressed in traditional Japanese clothing, sitting at a desk with a book and looking to the side. The background features Asian-style decorations and a window with Chinese characters.",
+        "key_objects": [],
+        "time_of_day": "Unknown",
+        "environment": "Indoor",
+        "mood": "Neutral",
+        "motion_intensity": 14.050177574157715,
+        "color_palette": [
+          "#442e28",
+          "#f2dec2",
+          "#96623d",
+          "#d1a575",
+          "#160808"
+        ],
+        "camera_analysis": {
+          "movement": "Still",
+          "shot_type": "Medium",
+          "stability": 0.2974911212921143
+        },
+        "ai_description": "The scene shows an anime character, possibly a girl, dressed in traditional Japanese clothing, sitting at a desk with a book and looking to the side. The background features Asian-style decorations and a window with Chinese characters.",
+        "key_subjects": [
+          "Anime character"
+        ]
+      },
+      "shots": [
+        {
+          "shot": {
+            "shot_id": 1,
+            "shot_type": "Medium",
+            "camera_move": "Still",
+            "framing": {
+              "description": "Subject: Centered, Symmetrical composition, 3 (foreground: sun, midground: trees, background: mountains)",
+              "confidence": 0.85,
+              "details": {
+                "subject_positioning": "Centered",
+                "shot_balance": "Symmetrical",
+                "depth_layers": "3 (foreground: sun, midground: trees, background: mountains)",
+                "leading_lines": "None",
+                "confidence": 0.85,
+                "description": "Subject: Centered, Symmetrical composition, 3 (foreground: sun, midground: trees, background: mountains)",
+                "type": "unknown",
+                "composition_techniques": [
+                  "leading_lines"
+                ]
+              }
+            },
+            "visual_focus": "Anime character",
+            "notes": "The lighting is soft and even, suggesting an indoor setting with natural light coming from the window. The depth of field is shallow, focusing on the character while softly blurring the background to emphasize her as the main subject.",
+            "duration_seconds": 6.496650417827283
+          },
+          "start_time": 142.17669568245125,
+          "end_time": 148.67334610027854
+        }
+      ]
+    },
+    {
+      "scene_id": 21,
+      "start_time": 148.67334610027854,
+      "end_time": 170.16226671309192,
+      "transition_in": {
+        "type": "Cut",
+        "from_scene_id": -1,
+        "description": "The scene transitions in with a wide shot of the room where the paper is placed."
+      },
+      "transition_out": {
+        "type": "Cut",
+        "to_scene_id": -1,
+        "description": "The scene transitions out to a wider shot of the room or another location."
+      },
+      "scene_metadata": {
+        "duration": 21.49,
+        "description": "A close-up of a handwritten note with text in Chinese characters, placed on a table or shelf.",
+        "key_objects": [],
+        "time_of_day": "Unknown",
+        "environment": "Indoor",
+        "mood": "Neutral",
+        "motion_intensity": 11.297420501708984,
+        "color_palette": [
+          "#4e200f",
+          "#f4e9cf",
+          "#b69076",
+          "#7e523d",
+          "#d9c3a4"
+        ],
+        "camera_analysis": {
+          "movement": "Still",
+          "shot_type": "Establishing",
+          "stability": 0.4351289749145508
+        },
+        "ai_description": "A close-up of a handwritten note with text in Chinese characters, placed on a table or shelf.",
+        "key_subjects": [
+          "list",
+          "of",
+          "main",
+          "subjects",
+          "or",
+          "objects"
+        ]
+      },
+      "shots": [
+        {
+          "shot": {
+            "shot_id": 1,
+            "shot_type": "Establishing",
+            "camera_move": "Still",
+            "framing": {
+              "description": "Standard framing",
+              "confidence": 0.6,
+              "details": {
+                "subject_positioning": "N/A",
+                "shot_balance": "N/A",
+                "depth_layers": "N/A",
+                "leading_lines": "None",
+                "confidence": 0.6,
+                "description": "Standard framing",
+                "type": "unknown",
+                "composition_techniques": [
+                  "leading_lines"
+                ]
+              }
+            },
+            "visual_focus": "list, of, main",
+            "notes": "The shot is well-lit and the focus is sharp on the paper. The background is blurred to keep the attention on the note.",
+            "duration_seconds": 21.488920612813388
+          },
+          "start_time": 148.67334610027854,
+          "end_time": 170.16226671309192
+        }
+      ]
+    },
+    {
+      "scene_id": 22,
+      "start_time": 170.16226671309192,
+      "end_time": 175.40956128133703,
+      "transition_in": {
+        "type": "Cut",
+        "from_scene_id": -1,
+        "description": "No previous scene is shown."
+      },
+      "transition_out": {
+        "type": "Cut",
+        "to_scene_id": -1,
+        "description": "No following scene is shown."
+      },
+      "scene_metadata": {
+        "duration": 5.25,
+        "description": "A scene of destruction with fire and ruins in the foreground.",
+        "key_objects": [],
+        "time_of_day": "Unknown",
+        "environment": "Indoor",
+        "mood": "Tense",
+        "motion_intensity": 2.4337525367736816,
+        "color_palette": [
+          "#66535a",
+          "#d88b3e",
+          "#f4e4af",
+          "#402524",
+          "#b1420e"
+        ],
+        "camera_analysis": {
+          "movement": "Still",
+          "shot_type": "Establishing",
+          "stability": 0.8783123731613159
+        },
+        "ai_description": "A scene of destruction with fire and ruins in the foreground.",
+        "key_subjects": [
+          "Fire, Ruins"
+        ]
+      },
+      "shots": [
+        {
+          "shot": {
+            "shot_id": 1,
+            "shot_type": "Establishing",
+            "camera_move": "Still",
+            "framing": {
+              "description": "Standard framing",
+              "confidence": 0.6,
+              "details": {
+                "subject_positioning": "N/A",
+                "shot_balance": "N/A",
+                "depth_layers": "N/A",
+                "leading_lines": "None",
+                "confidence": 0.6,
+                "description": "Standard framing",
+                "type": "unknown",
+                "composition_techniques": [
+                  "leading_lines"
+                ]
+              }
+            },
+            "visual_focus": "Fire, Ruins",
+            "notes": "High contrast lighting to emphasize the chaos and destruction. Warm color grading to create a sense of danger and urgency.",
+            "duration_seconds": 5.24729456824511
+          },
+          "start_time": 170.16226671309192,
+          "end_time": 175.40956128133703
+        }
+      ]
+    },
+    {
+      "scene_id": 23,
+      "start_time": 175.40956128133703,
+      "end_time": 180.65685584958217,
+      "transition_in": {
+        "type": "Cut",
+        "from_scene_id": -1,
+        "description": "The scene transitions in from a wide shot of the surrounding area."
+      },
+      "transition_out": {
+        "type": "Cut",
+        "to_scene_id": -1,
+        "description": "The scene transitions out to a wider shot showing the person walking towards the building."
+      },
+      "scene_metadata": {
+        "duration": 5.25,
+        "description": "A person standing outside a building at night, looking towards the camera.",
+        "key_objects": [],
+        "time_of_day": "Night",
+        "environment": "Outdoor",
+        "mood": "Calm",
+        "motion_intensity": 4.700697898864746,
+        "color_palette": [
+          "#551612",
+          "#e3ab84",
+          "#1c3a6c",
+          "#130f18",
+          "#884f4f"
+        ],
+        "camera_analysis": {
+          "movement": "Still",
+          "shot_type": "Establishing",
+          "stability": 0.7649651050567627
+        },
+        "ai_description": "A person standing outside a building at night, looking towards the camera.",
+        "key_subjects": [
+          "Person"
+        ]
+      },
+      "shots": [
+        {
+          "shot": {
+            "shot_id": 1,
+            "shot_type": "Establishing",
+            "camera_move": "Still",
+            "framing": {
+              "description": "Subject: Centered, Symmetrical composition, 3 (foreground: sun, midground: trees, background: mountains)",
+              "confidence": 0.85,
+              "details": {
+                "subject_positioning": "Centered",
+                "shot_balance": "Symmetrical",
+                "depth_layers": "3 (foreground: sun, midground: trees, background: mountains)",
+                "leading_lines": "None",
+                "confidence": 0.85,
+                "description": "Subject: Centered, Symmetrical composition, 3 (foreground: sun, midground: trees, background: mountains)"
+              }
+            },
+            "visual_focus": "Person",
+            "notes": "The scene is well-lit with warm tones, creating a cozy and inviting atmosphere. The use of depth layers adds to the sense of space and distance in the image. The symmetry of the shot creates a balanced and harmonious composition.",
+            "duration_seconds": 5.247294568245138
+          },
+          "start_time": 175.40956128133703,
+          "end_time": 180.65685584958217
+        }
+      ]
+    },
+    {
+      "scene_id": 24,
+      "start_time": 180.65685584958217,
+      "end_time": 185.65427924791086,
+      "transition_in": {
+        "type": "Cut",
+        "from_scene_id": -1,
+        "description": "The scene transitions in from a wide shot of the surrounding area to focus on the couple."
+      },
+      "transition_out": {
+        "type": "Cut",
+        "to_scene_id": -1,
+        "description": "The scene transitions out to a wider shot showing the park at night."
+      },
+      "scene_metadata": {
+        "duration": 5.0,
+        "description": "A couple sitting on a bench at night, looking into each other's eyes.",
+        "key_objects": [],
+        "time_of_day": "Night",
+        "environment": "Outdoor",
+        "mood": "Romantic",
+        "motion_intensity": 1.4718241691589355,
+        "color_palette": [
+          "#4e1d16",
+          "#8b4a36",
+          "#d08224",
+          "#d69694",
+          "#1d0f12"
+        ],
+        "camera_analysis": {
+          "movement": "Pan Left",
+          "shot_type": "Establishing",
+          "stability": 0.9264087915420532
+        },
+        "ai_description": "A couple sitting on a bench at night, looking into each other's eyes.",
+        "key_subjects": [
+          "Couple"
+        ]
+      },
+      "shots": [
+        {
+          "shot": {
+            "shot_id": 1,
+            "shot_type": "Establishing",
+            "camera_move": "Pan Left",
+            "framing": {
+              "description": "Subject: Centered, Symmetrical composition, 3 (foreground: sun, midground: trees, background: mountains)",
+              "confidence": 0.85,
+              "details": {
+                "subject_positioning": "Centered",
+                "shot_balance": "Symmetrical",
+                "depth_layers": "3 (foreground: sun, midground: trees, background: mountains)",
+                "leading_lines": "None",
+                "confidence": 0.85,
+                "description": "Subject: Centered, Symmetrical composition, 3 (foreground: sun, midground: trees, background: mountains)",
+                "type": "unknown",
+                "composition_techniques": [
+                  "leading_lines"
+                ]
+              }
+            },
+            "visual_focus": "Couple",
+            "notes": "Soft lighting to create an intimate atmosphere. The use of a shallow depth of field focuses on the couple while softly blurring the background.",
+            "duration_seconds": 4.997423398328692
+          },
+          "start_time": 180.65685584958217,
+          "end_time": 185.65427924791086
+        }
+      ]
+    },
+    {
+      "scene_id": 25,
+      "start_time": 185.65427924791086,
+      "end_time": 195.3992548746518,
+      "transition_in": {
+        "type": "Cut",
+        "from_scene_id": -1,
+        "description": "Fade in from black"
+      },
+      "transition_out": {
+        "type": "Cut",
+        "to_scene_id": -1,
+        "description": "Fade out to black"
+      },
+      "scene_metadata": {
+        "duration": 9.74,
+        "description": "A scene of a fire and explosion in an outdoor setting, possibly during the night.",
+        "key_objects": [],
+        "time_of_day": "Unknown",
+        "environment": "Outdoor",
+        "mood": "Energetic",
+        "motion_intensity": 9.493806838989258,
+        "color_palette": [
+          "#2b0e0c",
+          "#ed9c3e",
+          "#f1c67c",
+          "#d1541f",
+          "#782816"
+        ],
+        "camera_analysis": {
+          "movement": "Still",
+          "shot_type": "Establishing",
+          "stability": 0.5253096580505371
+        },
+        "ai_description": "A scene of a fire and explosion in an outdoor setting, possibly during the night.",
+        "key_subjects": [
+          "Fire",
+          "Explosion"
+        ]
+      },
+      "shots": [
+        {
+          "shot": {
+            "shot_id": 1,
+            "shot_type": "Establishing",
+            "camera_move": "Still",
+            "framing": {
+              "description": "Subject: Centered, Symmetrical composition, 3 (foreground: sun, midground: trees, background: mountains)",
+              "confidence": 0.85,
+              "details": {
+                "subject_positioning": "Centered",
+                "shot_balance": "Symmetrical",
+                "depth_layers": "3 (foreground: sun, midground: trees, background: mountains)",
+                "leading_lines": "None",
+                "confidence": 0.85,
+                "description": "Subject: Centered, Symmetrical composition, 3 (foreground: sun, midground: trees, background: mountains)"
+              }
+            },
+            "visual_focus": "Fire, Explosion",
+            "notes": "High contrast lighting with a focus on the fire and explosion. The use of a wide-angle lens creates a sense of depth and scale.",
+            "duration_seconds": 9.744975626740938
+          },
+          "start_time": 185.65427924791086,
+          "end_time": 195.3992548746518
+        }
+      ]
+    },
+    {
+      "scene_id": 26,
+      "start_time": 195.3992548746518,
+      "end_time": 200.3966782729805,
+      "transition_in": {
+        "type": "Cut",
+        "from_scene_id": -1,
+        "description": "The scene transitions in from a previous close-up of the samurai, establishing the setting and context."
+      },
+      "transition_out": {
+        "type": "Cut",
+        "to_scene_id": -1,
+        "description": "The scene transitions out to another character or location, possibly indicating a change in the narrative or a shift in the samurai's focus."
+      },
+      "scene_metadata": {
+        "duration": 5.0,
+        "description": "A samurai stands in a traditional Japanese room, looking out through an open window. The room is adorned with Japanese decorations and has a serene ambiance.",
+        "key_objects": [],
+        "time_of_day": "Unknown",
+        "environment": "Indoor",
+        "mood": "Calm",
+        "motion_intensity": 2.0854079723358154,
+        "color_palette": [
+          "#1b0e0c",
+          "#d39816",
+          "#bba491",
+          "#7b5946",
+          "#3f2a23"
+        ],
+        "camera_analysis": {
+          "movement": "Still",
+          "shot_type": "Establishing",
+          "stability": 0.8957296013832092
+        },
+        "ai_description": "A samurai stands in a traditional Japanese room, looking out through an open window. The room is adorned with Japanese decorations and has a serene ambiance.",
+        "key_subjects": [
+          "Samurai, Interior space"
+        ]
+      },
+      "shots": [
+        {
+          "shot": {
+            "shot_id": 1,
+            "shot_type": "Establishing",
+            "camera_move": "Still",
+            "framing": {
+              "description": "Subject: Centered, Symmetrical composition, 3 (foreground: sun, midground: trees, background: mountains)",
+              "confidence": 0.85,
+              "details": {
+                "subject_positioning": "Centered",
+                "shot_balance": "Symmetrical",
+                "depth_layers": "3 (foreground: sun, midground: trees, background: mountains)",
+                "leading_lines": "None",
+                "confidence": 0.85,
+                "description": "Subject: Centered, Symmetrical composition, 3 (foreground: sun, midground: trees, background: mountains)",
+                "type": "unknown",
+                "composition_techniques": [
+                  "leading_lines"
+                ]
+              }
+            },
+            "visual_focus": "Samurai, Interior space",
+            "notes": "The scene uses soft lighting to create a peaceful atmosphere. The use of a yellow robe for the samurai adds warmth and contrasts with the cooler tones of the room. The composition is balanced, with the character centrally placed, drawing the viewer's attention.",
+            "duration_seconds": 4.997423398328692
+          },
+          "start_time": 195.3992548746518,
+          "end_time": 200.3966782729805
+        }
+      ]
+    },
+    {
+      "scene_id": 27,
+      "start_time": 200.3966782729805,
+      "end_time": 204.144745821727,
+      "transition_in": {
+        "type": "Cut",
+        "from_scene_id": -1,
+        "description": "The scene transitions in with a close-up of the hand holding the heart."
+      },
+      "transition_out": {
+        "type": "Cut",
+        "to_scene_id": -1,
+        "description": "The scene transitions out to another character's reaction shot."
+      },
+      "scene_metadata": {
+        "duration": 3.75,
+        "description": "A close-up of a person's hand holding a heart, with a blurred background that suggests an indoor setting.",
+        "key_objects": [],
+        "time_of_day": "Unknown",
+        "environment": "Indoor",
+        "mood": "Mysterious",
+        "motion_intensity": 0.3257823586463928,
+        "color_palette": [
+          "#231413",
+          "#eae6cf",
+          "#78584b",
+          "#442d28",
+          "#cc9d87"
+        ],
+        "camera_analysis": {
+          "movement": "Still",
+          "shot_type": "Close-Up",
+          "stability": 0.9837108820676803
+        },
+        "ai_description": "A close-up of a person's hand holding a heart, with a blurred background that suggests an indoor setting.",
+        "key_subjects": [
+          "Hand holding a heart"
+        ]
+      },
+      "shots": [
+        {
+          "shot": {
+            "shot_id": 1,
+            "shot_type": "Close-Up",
+            "camera_move": "Still",
+            "framing": {
+              "description": "Standard framing",
+              "confidence": 0.6,
+              "details": {
+                "subject_positioning": "N/A",
+                "shot_balance": "N/A",
+                "depth_layers": "N/A",
+                "leading_lines": "None",
+                "confidence": 0.6,
+                "description": "Standard framing",
+                "type": "unknown",
+                "composition_techniques": [
+                  "leading_lines"
+                ]
+              }
+            },
+            "visual_focus": "Hand holding a heart",
+            "notes": "The lighting is soft and diffused, creating a sense of mystery. The depth of field is shallow, drawing focus to the heart in the foreground while keeping the background out of focus.",
+            "duration_seconds": 3.748067548746519
+          },
+          "start_time": 200.3966782729805,
+          "end_time": 204.144745821727
+        }
+      ]
+    },
+    {
+      "scene_id": 28,
+      "start_time": 204.144745821727,
+      "end_time": 206.3935863509749,
+      "transition_in": {
+        "type": "Cut",
+        "from_scene_id": -1,
+        "description": "The scene transitions in from a previous wide shot"
+      },
+      "transition_out": {
+        "type": "Cut",
+        "to_scene_id": -1,
+        "description": "The scene transitions out to the next establishing shot"
+      },
+      "scene_metadata": {
+        "duration": 2.25,
+        "description": "A scene with a main subject in the center of the frame, possibly a list or objects",
+        "key_objects": [],
+        "time_of_day": "Unknown",
+        "environment": "Indoor",
+        "mood": "Neutral",
+        "motion_intensity": 3.747708987589249e-08,
+        "color_palette": [
+          "#000404",
+          "#000000",
+          "#000508",
+          "#010304",
+          "#000202"
+        ],
+        "camera_analysis": {
+          "movement": "Still",
+          "shot_type": "Establishing",
+          "stability": 0.9999999981261455
+        },
+        "ai_description": "A scene with a main subject in the center of the frame, possibly a list or objects",
+        "key_subjects": [
+          "list",
+          "of",
+          "main",
+          "subjects",
+          "or",
+          "objects"
+        ]
+      },
+      "shots": [
+        {
+          "shot": {
+            "shot_id": 1,
+            "shot_type": "Establishing",
+            "camera_move": "Still",
+            "framing": {
+              "description": "Subject: Centered, Symmetrical composition, 3 (foreground: sun, midground: trees, background: mountains)",
+              "confidence": 0.85,
+              "details": {
+                "subject_positioning": "Centered",
+                "shot_balance": "Symmetrical",
+                "depth_layers": "3 (foreground: sun, midground: trees, background: mountains)",
+                "leading_lines": "None",
+                "confidence": 0.85,
+                "description": "Subject: Centered, Symmetrical composition, 3 (foreground: sun, midground: trees, background: mountains)"
+              }
+            },
+            "visual_focus": "list, of, main",
+            "notes": "The lighting is even and soft, creating a calm atmosphere. The depth of field is shallow, drawing attention to the main subject while softly blurring the background.",
+            "duration_seconds": 2.2488405292479
+          },
+          "start_time": 204.144745821727,
+          "end_time": 206.3935863509749
+        }
+      ]
+    },
+    {
+      "scene_id": 29,
+      "start_time": 206.3935863509749,
+      "end_time": 210.89126740947074,
+      "transition_in": {
+        "type": "Cut",
+        "from_scene_id": -1,
+        "description": "The scene transitions in from a previous scene with a fade to black."
+      },
+      "transition_out": {
+        "type": "Cut",
+        "to_scene_id": -1,
+        "description": "The scene transitions out to the next scene with a fade to black."
+      },
+      "scene_metadata": {
+        "duration": 4.5,
+        "description": "The scene displays a black background with white Chinese characters, which appear to be a title or subtitle in a video. The text is centered and the focus is on it.",
+        "key_objects": [],
+        "time_of_day": "Unknown",
+        "environment": "Indoor",
+        "mood": "Neutral",
+        "motion_intensity": 2.3307559490203857,
+        "color_palette": [
+          "#000404",
+          "#bec2c2",
+          "#7d8182",
+          "#f9fafa",
+          "#3c3f40"
+        ],
+        "camera_analysis": {
+          "movement": "Still",
+          "shot_type": "Establishing",
+          "stability": 0.8834622025489807
+        },
+        "ai_description": "The scene displays a black background with white Chinese characters, which appear to be a title or subtitle in a video. The text is centered and the focus is on it.",
+        "key_subjects": [
+          "Text"
+        ]
+      },
+      "shots": [
+        {
+          "shot": {
+            "shot_id": 1,
+            "shot_type": "Establishing",
+            "camera_move": "Still",
+            "framing": {
+              "description": "Subject: Centered, Symmetrical composition, 3 (foreground: sun, midground: trees, background: mountains)",
+              "confidence": 0.85,
+              "details": {
+                "subject_positioning": "Centered",
+                "shot_balance": "Symmetrical",
+                "depth_layers": "3 (foreground: sun, midground: trees, background: mountains)",
+                "leading_lines": "None",
+                "confidence": 0.85,
+                "description": "Subject: Centered, Symmetrical composition, 3 (foreground: sun, midground: trees, background: mountains)"
+              }
+            },
+            "visual_focus": "Text",
+            "notes": "The lighting is even, with no harsh shadows or highlights. The depth of field is shallow, keeping the text in sharp focus while softly blurring the background. Color grading is minimal, maintaining a neutral tone to avoid distraction from the content of the text.",
+            "duration_seconds": 4.497681058495829
+          },
+          "start_time": 206.3935863509749,
+          "end_time": 210.89126740947074
+        }
+      ]
+    },
+    {
+      "scene_id": 30,
+      "start_time": 210.89126740947074,
+      "end_time": 215.13907729805013,
+      "transition_in": {
+        "type": "Cut",
+        "from_scene_id": -1,
+        "description": "Fade in from black"
+      },
+      "transition_out": {
+        "type": "Cut",
+        "to_scene_id": -1,
+        "description": "Fade to black"
+      },
+      "scene_metadata": {
+        "duration": 4.25,
+        "description": "A black and white image with Chinese text displayed on the screen.",
+        "key_objects": [],
+        "time_of_day": "Unknown",
+        "environment": "Indoor",
+        "mood": "Neutral",
+        "motion_intensity": 6.590603828430176,
+        "color_palette": [
+          "#000404",
+          "#f5f8f8",
+          "#757b7b",
+          "#363c3c",
+          "#b7bcbc"
+        ],
+        "camera_analysis": {
+          "movement": "Still",
+          "shot_type": "Establishing",
+          "stability": 0.6704698085784913
+        },
+        "ai_description": "A black and white image with Chinese text displayed on the screen.",
+        "key_subjects": [
+          "Chinese text"
+        ]
+      },
+      "shots": [
+        {
+          "shot": {
+            "shot_id": 1,
+            "shot_type": "Establishing",
+            "camera_move": "Still",
+            "framing": {
+              "description": "Subject: Centered, Symmetrical composition, 3 (foreground: sun, midground: trees, background: mountains)",
+              "confidence": 0.85,
+              "details": {
+                "subject_positioning": "Centered",
+                "shot_balance": "Symmetrical",
+                "depth_layers": "3 (foreground: sun, midground: trees, background: mountains)",
+                "leading_lines": "None",
+                "confidence": 0.85,
+                "description": "Subject: Centered, Symmetrical composition, 3 (foreground: sun, midground: trees, background: mountains)"
+              }
+            },
+            "visual_focus": "Chinese text",
+            "notes": "The lighting is even, providing a clear view of the text. The depth of field is shallow, focusing on the text in the foreground.",
+            "duration_seconds": 4.247809888579383
+          },
+          "start_time": 210.89126740947074,
+          "end_time": 215.13907729805013
+        }
+      ]
+    },
+    {
+      "scene_id": 31,
+      "start_time": 215.13907729805013,
+      "end_time": 215.289,
+      "transition_in": {
+        "type": "Cut",
+        "from_scene_id": -1,
+        "description": "The scene transitions in from a wide shot of the room"
+      },
+      "transition_out": {
+        "type": "Cut",
+        "to_scene_id": -1,
+        "description": "The scene transitions out to an establishing shot of the room"
+      },
+      "scene_metadata": {
+        "duration": 0.15,
+        "description": "This is a close-up shot of a person reading a list.",
+        "key_objects": [],
+        "time_of_day": "Unknown",
+        "environment": "Indoor",
+        "mood": "Neutral",
+        "motion_intensity": 0.0,
+        "color_palette": [
+          "#000000",
+          "#000000",
+          "#000000",
+          "#000000",
+          "#000000"
+        ],
+        "camera_analysis": {
+          "movement": "Still",
+          "shot_type": "Establishing",
+          "stability": 1.0
+        },
+        "ai_description": "This is a close-up shot of a person reading a list.",
+        "key_subjects": [
+          "list",
+          "of",
+          "main",
+          "subjects",
+          "or",
+          "objects"
+        ]
+      },
+      "shots": [
+        {
+          "shot": {
+            "shot_id": 1,
+            "shot_type": "Establishing",
+            "camera_move": "Still",
+            "framing": {
+              "description": "Subject: Centered, Symmetrical composition, 3 (foreground: sun, midground: trees, background: mountains)",
+              "confidence": 0.85,
+              "details": {
+                "subject_positioning": "Centered",
+                "shot_balance": "Symmetrical",
+                "depth_layers": "3 (foreground: sun, midground: trees, background: mountains)",
+                "leading_lines": "None",
+                "confidence": 0.85,
+                "description": "Subject: Centered, Symmetrical composition, 3 (foreground: sun, midground: trees, background: mountains)"
+              }
+            },
+            "visual_focus": "list, of, main",
+            "notes": "The lighting is soft and even, creating a calm atmosphere. The shallow depth of field keeps the focus on the main subject while subtly blurring the background objects.",
+            "duration_seconds": 0.1499227019498619
+          },
+          "start_time": 215.13907729805013,
+          "end_time": 215.289
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "video_path": "china.mp4",
+    "duration": 215.289,
+    "resolution": "960x544",
+    "fps": 20.010311720524506,
+    "frame_count": 4308
+  }
+}

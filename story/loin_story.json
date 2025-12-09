@@ -1,0 +1,489 @@
+{
+  "scenes": [
+    {
+      "scene_id": 1,
+      "start_time": 0.0,
+      "end_time": 10.907795245607355,
+      "transition_in": {
+        "type": "Fade In",
+        "from_scene_id": -1,
+        "description": "The scene fades in from black, emphasizing the tranquility of the setting."
+      },
+      "transition_out": {
+        "type": "Cut to Black",
+        "to_scene_id": -1,
+        "description": "The scene cuts to black, leaving the viewer curious about what will happen next in the story."
+      },
+      "scene_metadata": {
+        "duration": 10.91,
+        "description": "The scene opens with a majestic lion and zebra standing in front of a waterfall. They appear to be looking at something off-screen.",
+        "key_objects": [],
+        "time_of_day": "Unknown",
+        "environment": "Outdoor",
+        "mood": "Joyful",
+        "motion_intensity": 2.1260013580322266,
+        "color_palette": [
+          "#10161d",
+          "#61749f",
+          "#523f3c",
+          "#92706b",
+          "#7fa1da"
+        ],
+        "camera_analysis": {
+          "movement": "Pan Left",
+          "shot_type": "WIDE",
+          "stability": 0.8936999320983887
+        },
+        "ai_description": "The scene opens with a majestic lion and zebra standing in front of a waterfall. They appear to be looking at something off-screen.",
+        "key_subjects": [
+          "Lion, Zebra"
+        ]
+      },
+      "shots": [
+        {
+          "shot": {
+            "shot_id": 1,
+            "shot_type": "WIDE",
+            "camera_move": "Pan Left",
+            "framing": {
+              "description": "Subject: Centered, Symmetrical composition, 3 (foreground: sun, midground: trees, background: mountains)",
+              "confidence": 0.85,
+              "details": {
+                "subject_positioning": "Centered",
+                "shot_balance": "Symmetrical",
+                "depth_layers": "3 (foreground: sun, midground: trees, background: mountains)",
+                "leading_lines": "None",
+                "confidence": 0.85,
+                "description": "Subject: Centered, Symmetrical composition, 3 (foreground: sun, midground: trees, background: mountains)"
+              }
+            },
+            "visual_focus": "Lion, Zebra",
+            "notes": "The lighting is soft and natural, highlighting the beauty of the landscape. The depth of field is shallow, drawing focus to the animals while softly blurring the background. Color grading is used to create a warm and inviting atmosphere.",
+            "duration_seconds": 10.907795245607355
+          },
+          "start_time": 0.0,
+          "end_time": 10.907795245607355
+        }
+      ]
+    },
+    {
+      "scene_id": 2,
+      "start_time": 10.907795245607355,
+      "end_time": 26.70880704999184,
+      "transition_in": {
+        "type": "cut",
+        "from_scene_id": -1,
+        "description": "Fade in from a black screen"
+      },
+      "transition_out": {
+        "type": "cut",
+        "to_scene_id": -1,
+        "description": "Cut to the next scene with a quick pan to another part of the jungle"
+      },
+      "scene_metadata": {
+        "duration": 15.8,
+        "description": "A lion walking through a jungle",
+        "key_objects": [],
+        "time_of_day": "Day",
+        "environment": "Outdoor",
+        "mood": "Joyful",
+        "motion_intensity": 3.881366729736328,
+        "color_palette": [
+          "#051805",
+          "#355b04",
+          "#cf7609",
+          "#123405",
+          "#7d3207"
+        ],
+        "camera_analysis": {
+          "movement": "Push",
+          "shot_type": "WIDE",
+          "stability": 0.8059316635131836
+        },
+        "ai_description": "A lion walking through a jungle",
+        "key_subjects": [
+          "Lion"
+        ]
+      },
+      "shots": [
+        {
+          "shot": {
+            "shot_id": 1,
+            "shot_type": "WIDE",
+            "camera_move": "Push",
+            "framing": {
+              "description": "Standard framing",
+              "confidence": 0.6,
+              "details": {
+                "subject_positioning": "N/A",
+                "shot_balance": "N/A",
+                "depth_layers": "N/A",
+                "leading_lines": "None",
+                "confidence": 0.6,
+                "description": "Standard framing",
+                "type": "unknown",
+                "composition_techniques": [
+                  "leading_lines"
+                ]
+              }
+            },
+            "visual_focus": "Lion",
+            "notes": "High key lighting with natural light filtering through the trees, shallow depth of field focusing on the lion, warm color grading to emphasize the jungle environment",
+            "duration_seconds": 15.801011804384485
+          },
+          "start_time": 10.907795245607355,
+          "end_time": 26.70880704999184
+        }
+      ]
+    },
+    {
+      "scene_id": 3,
+      "start_time": 26.70880704999184,
+      "end_time": 29.155415329380407,
+      "transition_in": {
+        "type": "Cut",
+        "from_scene_id": -1,
+        "description": "The scene transitions in with a wide shot of the forest, setting up the action."
+      },
+      "transition_out": {
+        "type": "Cut",
+        "to_scene_id": -1,
+        "description": "The scene transitions out to a close-up shot of the subject, showing its reaction after landing."
+      },
+      "scene_metadata": {
+        "duration": 2.45,
+        "description": "A small animal is jumping over a gap in the forest.",
+        "key_objects": [],
+        "time_of_day": "Unknown",
+        "environment": "Outdoor",
+        "mood": "Energetic",
+        "motion_intensity": 3.1457910537719727,
+        "color_palette": [
+          "#6fcc02",
+          "#e1ee00",
+          "#0d1e07",
+          "#9cdb02",
+          "#4db402"
+        ],
+        "camera_analysis": {
+          "movement": "Pan Left",
+          "shot_type": "WIDE",
+          "stability": 0.8427104473114013
+        },
+        "ai_description": "A small animal is jumping over a gap in the forest.",
+        "key_subjects": [
+          "Animal"
+        ]
+      },
+      "shots": [
+        {
+          "shot": {
+            "shot_id": 1,
+            "shot_type": "WIDE",
+            "camera_move": "Pan Left",
+            "framing": {
+              "description": "Subject: Centered, Symmetrical composition, 3 (foreground: sun, midground: trees, background: mountains)",
+              "confidence": 0.85,
+              "details": {
+                "subject_positioning": "Centered",
+                "shot_balance": "Symmetrical",
+                "depth_layers": "3 (foreground: sun, midground: trees, background: mountains)",
+                "leading_lines": "None",
+                "confidence": 0.85,
+                "description": "Subject: Centered, Symmetrical composition, 3 (foreground: sun, midground: trees, background: mountains)"
+              }
+            },
+            "visual_focus": "Animal",
+            "notes": "The camera follows the movement of the subject, creating a sense of motion and energy. The lighting is natural with green hues dominating the scene, emphasizing the lush environment. The depth of field is shallow, keeping the focus on the jumping animal while softly blurring the background.",
+            "duration_seconds": 2.446608279388567
+          },
+          "start_time": 26.70880704999184,
+          "end_time": 29.155415329380407
+        }
+      ]
+    },
+    {
+      "scene_id": 4,
+      "start_time": 29.155415329380407,
+      "end_time": 30.17483544579231,
+      "transition_in": {
+        "type": "Cut",
+        "from_scene_id": -1,
+        "description": "Fade-in from black to reveal the scene."
+      },
+      "transition_out": {
+        "type": "Cut",
+        "to_scene_id": -1,
+        "description": "Fade-out to black."
+      },
+      "scene_metadata": {
+        "duration": 1.02,
+        "description": "A scene showing a body of water with a small rippling effect in the center.",
+        "key_objects": [],
+        "time_of_day": "Unknown",
+        "environment": "Outdoor",
+        "mood": "Calm",
+        "motion_intensity": 0.8867707848548889,
+        "color_palette": [
+          "#072f1a",
+          "#188443",
+          "#036539",
+          "#3f9933",
+          "#0dbf89"
+        ],
+        "camera_analysis": {
+          "movement": "Still",
+          "shot_type": "WIDE",
+          "stability": 0.9556614607572556
+        },
+        "ai_description": "A scene showing a body of water with a small rippling effect in the center.",
+        "key_subjects": [
+          "Water"
+        ]
+      },
+      "shots": [
+        {
+          "shot": {
+            "shot_id": 1,
+            "shot_type": "WIDE",
+            "camera_move": "Still",
+            "framing": {
+              "description": "Standard framing",
+              "confidence": 0.6,
+              "details": {
+                "subject_positioning": "N/A",
+                "shot_balance": "N/A",
+                "depth_layers": "N/A",
+                "leading_lines": "None",
+                "confidence": 0.6,
+                "description": "Standard framing",
+                "type": "unknown",
+                "composition_techniques": [
+                  "leading_lines"
+                ]
+              }
+            },
+            "visual_focus": "Water",
+            "notes": {
+              "Lighting": "Natural lighting, soft shadows",
+              "Depth of field": "Shallow depth of field, focusing on the ripples in the water",
+              "Color grading": "Greenish tint to the scene"
+            },
+            "duration_seconds": 1.0194201164119043
+          },
+          "start_time": 29.155415329380407,
+          "end_time": 30.17483544579231
+        }
+      ]
+    },
+    {
+      "scene_id": 5,
+      "start_time": 30.17483544579231,
+      "end_time": 33.029211771745636,
+      "transition_in": {
+        "type": "Cut",
+        "from_scene_id": -1,
+        "description": "The scene cuts from an interior space to this outdoor setting."
+      },
+      "transition_out": {
+        "type": "Cut",
+        "to_scene_id": -1,
+        "description": "The scene cuts to a different animal or location."
+      },
+      "scene_metadata": {
+        "duration": 2.85,
+        "description": "A pig is standing in a field with green grass and trees in the background.",
+        "key_objects": [],
+        "time_of_day": "Unknown",
+        "environment": "Outdoor",
+        "mood": "Neutral",
+        "motion_intensity": 1.5756639242172241,
+        "color_palette": [
+          "#449e00",
+          "#2f0b05",
+          "#6e231b",
+          "#c76e4b",
+          "#4db602"
+        ],
+        "camera_analysis": {
+          "movement": "Still",
+          "shot_type": "WIDE",
+          "stability": 0.9212168037891388
+        },
+        "ai_description": "A pig is standing in a field with green grass and trees in the background.",
+        "key_subjects": [
+          "Pig"
+        ]
+      },
+      "shots": [
+        {
+          "shot": {
+            "shot_id": 1,
+            "shot_type": "WIDE",
+            "camera_move": "Still",
+            "framing": {
+              "description": "Standard framing",
+              "confidence": 0.6,
+              "details": {
+                "subject_positioning": "N/A",
+                "shot_balance": "N/A",
+                "depth_layers": "N/A",
+                "leading_lines": "None",
+                "confidence": 0.6,
+                "description": "Standard framing",
+                "type": "unknown",
+                "composition_techniques": [
+                  "leading_lines"
+                ]
+              }
+            },
+            "visual_focus": "Pig",
+            "notes": "The lighting is natural, with soft shadows indicating an overcast day. The depth of field is shallow, focusing on the pig while the background is blurred to draw attention to the subject.",
+            "duration_seconds": 2.854376325953325
+          },
+          "start_time": 30.17483544579231,
+          "end_time": 33.029211771745636
+        }
+      ]
+    },
+    {
+      "scene_id": 6,
+      "start_time": 33.029211771745636,
+      "end_time": 35.06805200456944,
+      "transition_in": {
+        "type": "Cut",
+        "from_scene_id": -1,
+        "description": "The scene transitions in from a close-up shot of the lion cub's face looking at something off-screen."
+      },
+      "transition_out": {
+        "type": "Cut",
+        "to_scene_id": -1,
+        "description": "The scene transitions out to a wide shot showing the lion cub in its natural habitat, possibly a savanna or grassland."
+      },
+      "scene_metadata": {
+        "duration": 2.04,
+        "description": "The scene shows a lion cub looking out of a window with its eyes wide open, seemingly excited or curious about the world outside.",
+        "key_objects": [],
+        "time_of_day": "Unknown",
+        "environment": "Indoor",
+        "mood": "Energetic",
+        "motion_intensity": 4.360989093780518,
+        "color_palette": [
+          "#603003",
+          "#70d101",
+          "#e4f401",
+          "#b16715",
+          "#aee701"
+        ],
+        "camera_analysis": {
+          "movement": "Pan Left",
+          "shot_type": "MEDIUM",
+          "stability": 0.7819505453109741
+        },
+        "ai_description": "The scene shows a lion cub looking out of a window with its eyes wide open, seemingly excited or curious about the world outside.",
+        "key_subjects": [
+          "Lion cub"
+        ]
+      },
+      "shots": [
+        {
+          "shot": {
+            "shot_id": 1,
+            "shot_type": "MEDIUM",
+            "camera_move": "Pan Left",
+            "framing": {
+              "description": "Subject: Centered, Symmetrical composition, 3 (foreground: sun, midground: trees, background: mountains)",
+              "confidence": 0.85,
+              "details": {
+                "subject_positioning": "Centered",
+                "shot_balance": "Symmetrical",
+                "depth_layers": "3 (foreground: sun, midground: trees, background: mountains)",
+                "leading_lines": "None",
+                "confidence": 0.85,
+                "description": "Subject: Centered, Symmetrical composition, 3 (foreground: sun, midground: trees, background: mountains)"
+              }
+            },
+            "visual_focus": "Lion cub",
+            "notes": "The lighting is bright and colorful, creating a cheerful atmosphere. The depth of field is shallow, drawing attention to the lion cub in the foreground while softly blurring the background to emphasize the subject.",
+            "duration_seconds": 2.0388402328238016
+          },
+          "start_time": 33.029211771745636,
+          "end_time": 35.06805200456944
+        }
+      ]
+    },
+    {
+      "scene_id": 7,
+      "start_time": 35.06805200456944,
+      "end_time": 59.87394150392573,
+      "transition_in": {
+        "type": "Cut",
+        "from_scene_id": -1,
+        "description": "Fade in from black to reveal the scene."
+      },
+      "transition_out": {
+        "type": "Cut",
+        "to_scene_id": -1,
+        "description": "Fade out to black, transitioning to the next scene."
+      },
+      "scene_metadata": {
+        "duration": 24.81,
+        "description": "A lion in a jungle environment, looking at the camera with an intrigued expression.",
+        "key_objects": [],
+        "time_of_day": "Unknown",
+        "environment": "Outdoor",
+        "mood": "Mysterious",
+        "motion_intensity": 5.116029739379883,
+        "color_palette": [
+          "#041609",
+          "#7a3807",
+          "#b27c0c",
+          "#347f25",
+          "#143712"
+        ],
+        "camera_analysis": {
+          "movement": "Push",
+          "shot_type": "Environmental",
+          "stability": 0.7441985130310058
+        },
+        "ai_description": "A lion in a jungle environment, looking at the camera with an intrigued expression.",
+        "key_subjects": [
+          "Lion"
+        ]
+      },
+      "shots": [
+        {
+          "shot": {
+            "shot_id": 1,
+            "shot_type": "Environmental",
+            "camera_move": "Push",
+            "framing": {
+              "description": "Subject: Centered, Symmetrical composition, 3 (foreground: sun, midground: trees, background: mountains)",
+              "confidence": 0.85,
+              "details": {
+                "subject_positioning": "Centered",
+                "shot_balance": "Symmetrical",
+                "depth_layers": "3 (foreground: sun, midground: trees, background: mountains)",
+                "leading_lines": "None",
+                "confidence": 0.85,
+                "description": "Subject: Centered, Symmetrical composition, 3 (foreground: sun, midground: trees, background: mountains)"
+              }
+            },
+            "visual_focus": "Lion",
+            "notes": "The lighting is natural and soft, creating a calm atmosphere. The depth of field is shallow, with the focus on the lion's face while the background is slightly blurred, drawing attention to the subject in the foreground.",
+            "duration_seconds": 24.80588949935629
+          },
+          "start_time": 35.06805200456944,
+          "end_time": 59.87394150392573
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "video_path": "lion.mp4",
+    "duration": 59.87394150392573,
+    "resolution": "1280x720",
+    "fps": 29.428495197438632,
+    "frame_count": 1762
+  }
+}

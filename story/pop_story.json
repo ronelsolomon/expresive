@@ -1,0 +1,1744 @@
+{
+  "scenes": [
+    {
+      "scene_id": 1,
+      "start_time": 0.0,
+      "end_time": 1.2012012012012012,
+      "transition_in": {
+        "type": "Cut",
+        "from_scene_id": -1,
+        "description": "The scene fades in from black."
+      },
+      "transition_out": {
+        "type": "Cut",
+        "to_scene_id": -1,
+        "description": "The scene fades out to black."
+      },
+      "scene_metadata": {
+        "duration": 1.2,
+        "description": "The scene opens with a close-up of the main subject, setting the stage for the narrative to follow.",
+        "key_objects": [],
+        "time_of_day": "Night",
+        "environment": "Indoor",
+        "mood": "Calm",
+        "motion_intensity": 0.0007386986399069428,
+        "color_palette": [
+          "#171112",
+          "#000000",
+          "#0c0a0b",
+          "#181214",
+          "#121112"
+        ],
+        "camera_analysis": {
+          "movement": "Still",
+          "shot_type": "Establishing",
+          "stability": 0.9999630650680047
+        },
+        "ai_description": "The scene opens with a close-up of the main subject, setting the stage for the narrative to follow.",
+        "key_subjects": [
+          "Main subject"
+        ]
+      },
+      "shots": [
+        {
+          "shot": {
+            "shot_id": 1,
+            "shot_type": "Establishing",
+            "camera_move": "Still",
+            "framing": {
+              "description": "Subject: Centered, Symmetrical composition, 3 (foreground: sun, midground: trees, background: mountains)",
+              "confidence": 0.85,
+              "details": {
+                "subject_positioning": "Centered",
+                "shot_balance": "Symmetrical",
+                "depth_layers": "3 (foreground: sun, midground: trees, background: mountains)",
+                "leading_lines": "None",
+                "confidence": 0.85,
+                "description": "Subject: Centered, Symmetrical composition, 3 (foreground: sun, midground: trees, background: mountains)"
+              }
+            },
+            "visual_focus": "Main subject",
+            "notes": "Soft lighting is used to create a calm and inviting atmosphere. The shallow depth of field focuses on the main subject, drawing the viewer's attention.",
+            "duration_seconds": 1.2012012012012012
+          },
+          "start_time": 0.0,
+          "end_time": 1.2012012012012012
+        }
+      ]
+    },
+    {
+      "scene_id": 2,
+      "start_time": 1.2012012012012012,
+      "end_time": 24.724724724724727,
+      "transition_in": {
+        "type": "Fade In",
+        "from_scene_id": -1,
+        "description": "The logo and text appear as a fade in from black."
+      },
+      "transition_out": {
+        "type": "Cut to Black",
+        "to_scene_id": -1,
+        "description": "The scene ends with a cut to black, indicating the end of this introductory sequence."
+      },
+      "scene_metadata": {
+        "duration": 23.52,
+        "description": "Scene opens with a logo for Famous Studios and the name of the production company, suggesting an introduction to the film or show being presented.",
+        "key_objects": [],
+        "time_of_day": "Unknown",
+        "environment": "Indoor",
+        "mood": "Calm",
+        "motion_intensity": 5.402479648590088,
+        "color_palette": [
+          "#1c1210",
+          "#895625",
+          "#b6956b",
+          "#8a1516",
+          "#451f11"
+        ],
+        "camera_analysis": {
+          "movement": "Pan Left",
+          "shot_type": "Establishing",
+          "stability": 0.7298760175704956
+        },
+        "ai_description": "Scene opens with a logo for Famous Studios and the name of the production company, suggesting an introduction to the film or show being presented.",
+        "key_subjects": [
+          "Famous Studios",
+          "Production"
+        ]
+      },
+      "shots": [
+        {
+          "shot": {
+            "shot_id": 1,
+            "shot_type": "Establishing",
+            "camera_move": "Pan Left",
+            "framing": {
+              "description": "Subject: Centered, Symmetrical composition, 3 (foreground: sun, midground: trees, background: mountains)",
+              "confidence": 0.85,
+              "details": {
+                "subject_positioning": "Centered",
+                "shot_balance": "Symmetrical",
+                "depth_layers": "3 (foreground: sun, midground: trees, background: mountains)",
+                "leading_lines": "None",
+                "confidence": 0.85,
+                "description": "Subject: Centered, Symmetrical composition, 3 (foreground: sun, midground: trees, background: mountains)"
+              }
+            },
+            "visual_focus": "Famous Studios, Production",
+            "notes": "The lighting is soft and even, creating a calm atmosphere. The depth of field is shallow, drawing focus to the center subject while softly blurring the background. Color grading appears to be naturalistic with a slight warm tone.",
+            "duration_seconds": 23.523523523523526
+          },
+          "start_time": 1.2012012012012012,
+          "end_time": 24.724724724724727
+        }
+      ]
+    },
+    {
+      "scene_id": 3,
+      "start_time": 24.724724724724727,
+      "end_time": 31.43143143143143,
+      "transition_in": {
+        "type": "Cut",
+        "from_scene_id": -1,
+        "description": "The scene transitions in from a previous scene showing an empty street leading up to the event."
+      },
+      "transition_out": {
+        "type": "Cut",
+        "to_scene_id": -1,
+        "description": "The scene transitions out to another outdoor location where the group of people is seen walking away from the event."
+      },
+      "scene_metadata": {
+        "duration": 6.71,
+        "description": "A group of people gathered around a sign at an outdoor event.",
+        "key_objects": [],
+        "time_of_day": "Day",
+        "environment": "Outdoor",
+        "mood": "Energetic",
+        "motion_intensity": 1.0458568334579468,
+        "color_palette": [
+          "#d5bcb4",
+          "#341510",
+          "#693b17",
+          "#bc5b27",
+          "#be9b77"
+        ],
+        "camera_analysis": {
+          "movement": "Still",
+          "shot_type": "Wide",
+          "stability": 0.9477071583271026
+        },
+        "ai_description": "A group of people gathered around a sign at an outdoor event.",
+        "key_subjects": [
+          "People",
+          "Sign"
+        ]
+      },
+      "shots": [
+        {
+          "shot": {
+            "shot_id": 1,
+            "shot_type": "Wide",
+            "camera_move": "Still",
+            "framing": {
+              "description": "Subject: Centered, Symmetrical composition, 3 (foreground: sun, midground: trees, background: mountains)",
+              "confidence": 0.85,
+              "details": {
+                "subject_positioning": "Centered",
+                "shot_balance": "Symmetrical",
+                "depth_layers": "3 (foreground: sun, midground: trees, background: mountains)",
+                "leading_lines": "None",
+                "confidence": 0.85,
+                "description": "Subject: Centered, Symmetrical composition, 3 (foreground: sun, midground: trees, background: mountains)",
+                "type": "unknown",
+                "composition_techniques": [
+                  "leading_lines"
+                ]
+              }
+            },
+            "visual_focus": "People, Sign",
+            "notes": "The image is well-lit with natural light, and the depth of field is shallow, drawing attention to the center of the image where the sign is located. The color grading gives the scene a warm tone, which adds to the energetic mood of the event.",
+            "duration_seconds": 6.706706706706704
+          },
+          "start_time": 24.724724724724727,
+          "end_time": 31.43143143143143
+        }
+      ]
+    },
+    {
+      "scene_id": 4,
+      "start_time": 31.43143143143143,
+      "end_time": 113.71371371371372,
+      "transition_in": {
+        "type": "Cut",
+        "from_scene_id": -1,
+        "description": "Fade in from a black screen"
+      },
+      "transition_out": {
+        "type": "Cut",
+        "to_scene_id": -1,
+        "description": "Fade out to a black screen"
+      },
+      "scene_metadata": {
+        "duration": 82.28,
+        "description": "A politician speaking to a crowd at a political rally",
+        "key_objects": [],
+        "time_of_day": "Day",
+        "environment": "Outdoor",
+        "mood": "Joyful",
+        "motion_intensity": 4.173440456390381,
+        "color_palette": [
+          "#361611",
+          "#c39b77",
+          "#d7bcb7",
+          "#6e3a16",
+          "#be5c28"
+        ],
+        "camera_analysis": {
+          "movement": "Still",
+          "shot_type": "Establishing",
+          "stability": 0.791327977180481
+        },
+        "ai_description": "A politician speaking to a crowd at a political rally",
+        "key_subjects": [
+          "Politician",
+          "Crowd"
+        ]
+      },
+      "shots": [
+        {
+          "shot": {
+            "shot_id": 1,
+            "shot_type": "Establishing",
+            "camera_move": "Still",
+            "framing": {
+              "description": "Subject: Centered, Symmetrical composition, 3 (foreground: sun, midground: trees, background: mountains)",
+              "confidence": 0.85,
+              "details": {
+                "subject_positioning": "Centered",
+                "shot_balance": "Symmetrical",
+                "depth_layers": "3 (foreground: sun, midground: trees, background: mountains)",
+                "leading_lines": "None",
+                "confidence": 0.85,
+                "description": "Subject: Centered, Symmetrical composition, 3 (foreground: sun, midground: trees, background: mountains)",
+                "type": "unknown",
+                "composition_techniques": [
+                  "leading_lines"
+                ]
+              }
+            },
+            "visual_focus": "Politician, Crowd",
+            "notes": "High key lighting with soft shadows, shallow depth of field on the crowd, natural color grading",
+            "duration_seconds": 82.28228228228228
+          },
+          "start_time": 31.43143143143143,
+          "end_time": 113.71371371371372
+        }
+      ]
+    },
+    {
+      "scene_id": 5,
+      "start_time": 113.71371371371372,
+      "end_time": 116.41641641641642,
+      "transition_in": {
+        "type": "Cut",
+        "from_scene_id": -1,
+        "description": "The scene transitions in from a previous shot showing the interior setting and the characters' costumes."
+      },
+      "transition_out": {
+        "type": "Cut",
+        "to_scene_id": -1,
+        "description": "The scene transitions out to another scene, possibly continuing the narrative or changing focus to a different character or element in the story."
+      },
+      "scene_metadata": {
+        "duration": 2.7,
+        "description": "A scene from a cartoon where two men are interacting with each other, possibly in a comedic or dramatic context.",
+        "key_objects": [],
+        "time_of_day": "Unknown",
+        "environment": "Indoor",
+        "mood": "Energetic",
+        "motion_intensity": 3.0010762214660645,
+        "color_palette": [
+          "#c64620",
+          "#beaa95",
+          "#bf9052",
+          "#3c2212",
+          "#e3c1bd"
+        ],
+        "camera_analysis": {
+          "movement": "Still",
+          "shot_type": "Two-Shot",
+          "stability": 0.8499461889266968
+        },
+        "ai_description": "A scene from a cartoon where two men are interacting with each other, possibly in a comedic or dramatic context.",
+        "key_subjects": [
+          "Two men"
+        ]
+      },
+      "shots": [
+        {
+          "shot": {
+            "shot_id": 1,
+            "shot_type": "Two-Shot",
+            "camera_move": "Still",
+            "framing": {
+              "description": "Subject: Centered, Symmetrical composition, 3 (foreground: sun, midground: trees, background: mountains)",
+              "confidence": 0.85,
+              "details": {
+                "subject_positioning": "Centered",
+                "shot_balance": "Symmetrical",
+                "depth_layers": "3 (foreground: sun, midground: trees, background: mountains)",
+                "leading_lines": "None",
+                "confidence": 0.85,
+                "description": "Subject: Centered, Symmetrical composition, 3 (foreground: sun, midground: trees, background: mountains)"
+              }
+            },
+            "visual_focus": "Two men",
+            "notes": "The lighting is bright and evenly distributed, highlighting the characters' expressions and costumes. The depth of field is shallow, focusing on the two main subjects while slightly blurring the background to emphasize their importance.",
+            "duration_seconds": 2.702702702702709
+          },
+          "start_time": 113.71371371371372,
+          "end_time": 116.41641641641642
+        }
+      ]
+    },
+    {
+      "scene_id": 6,
+      "start_time": 116.41641641641642,
+      "end_time": 166.86686686686687,
+      "transition_in": {
+        "type": "Cut",
+        "from_scene_id": -1,
+        "description": "Sudden cut to this scene from a previous action shot"
+      },
+      "transition_out": {
+        "type": "Cut",
+        "to_scene_id": -1,
+        "description": "Fade to black after the character reaches his destination"
+      },
+      "scene_metadata": {
+        "duration": 50.45,
+        "description": "Cartoon character running with a log in his hand",
+        "key_objects": [],
+        "time_of_day": "Day",
+        "environment": "Outdoor",
+        "mood": "Energetic",
+        "motion_intensity": 5.171159267425537,
+        "color_palette": [
+          "#e59148",
+          "#aa6129",
+          "#f3aa73",
+          "#802b13",
+          "#46210b"
+        ],
+        "camera_analysis": {
+          "movement": "Still",
+          "shot_type": "Establishing",
+          "stability": 0.7414420366287231
+        },
+        "ai_description": "Cartoon character running with a log in his hand",
+        "key_subjects": [
+          "Woody Woodpecker"
+        ]
+      },
+      "shots": [
+        {
+          "shot": {
+            "shot_id": 1,
+            "shot_type": "Establishing",
+            "camera_move": "Still",
+            "framing": {
+              "description": "Subject: Centered, Symmetrical composition, 3 (foreground: sun, midground: trees, background: mountains)",
+              "confidence": 0.85,
+              "details": {
+                "subject_positioning": "Centered",
+                "shot_balance": "Symmetrical",
+                "depth_layers": "3 (foreground: sun, midground: trees, background: mountains)",
+                "leading_lines": "None",
+                "confidence": 0.85,
+                "description": "Subject: Centered, Symmetrical composition, 3 (foreground: sun, midground: trees, background: mountains)"
+              }
+            },
+            "visual_focus": "Woody Woodpecker",
+            "notes": "High contrast lighting, shallow depth of field on the main subject",
+            "duration_seconds": 50.45045045045045
+          },
+          "start_time": 116.41641641641642,
+          "end_time": 166.86686686686687
+        }
+      ]
+    },
+    {
+      "scene_id": 7,
+      "start_time": 166.86686686686687,
+      "end_time": 179.37937937937937,
+      "transition_in": {
+        "type": "Fade In",
+        "from_scene_id": -1,
+        "description": "The scene fades in from black, revealing the farm and barn."
+      },
+      "transition_out": {
+        "type": "Fade Out",
+        "to_scene_id": -1,
+        "description": "The scene fades out to a black screen, indicating the end of this shot."
+      },
+      "scene_metadata": {
+        "duration": 12.51,
+        "description": "The scene is set in a farm with a barn and an open field. The camera captures the view of the barn from the side, showcasing its structure and the surrounding environment.",
+        "key_objects": [],
+        "time_of_day": "Unknown",
+        "environment": "Outdoor",
+        "mood": "Neutral",
+        "motion_intensity": 3.1489269733428955,
+        "color_palette": [
+          "#5e2311",
+          "#d1c0c6",
+          "#de9540",
+          "#d0a98c",
+          "#897e27"
+        ],
+        "camera_analysis": {
+          "movement": "Still",
+          "shot_type": "Establishing",
+          "stability": 0.8425536513328552
+        },
+        "ai_description": "The scene is set in a farm with a barn and an open field. The camera captures the view of the barn from the side, showcasing its structure and the surrounding environment.",
+        "key_subjects": [
+          "Barn",
+          "Farm"
+        ]
+      },
+      "shots": [
+        {
+          "shot": {
+            "shot_id": 1,
+            "shot_type": "Establishing",
+            "camera_move": "Still",
+            "framing": {
+              "description": "Standard framing",
+              "confidence": 0.6,
+              "details": {
+                "subject_positioning": "N/A",
+                "shot_balance": "N/A",
+                "depth_layers": "N/A",
+                "leading_lines": "None",
+                "confidence": 0.6,
+                "description": "Standard framing",
+                "type": "unknown",
+                "composition_techniques": [
+                  "leading_lines"
+                ]
+              }
+            },
+            "visual_focus": "Barn, Farm",
+            "notes": "The lighting is natural and evenly distributed, highlighting the details of the barn and the field. The depth of field is shallow, with the barn in focus and the field blurred in the background, emphasizing the barn as the main subject.",
+            "duration_seconds": 12.512512512512501
+          },
+          "start_time": 166.86686686686687,
+          "end_time": 179.37937937937937
+        }
+      ]
+    },
+    {
+      "scene_id": 8,
+      "start_time": 179.37937937937937,
+      "end_time": 201.80180180180182,
+      "transition_in": {
+        "type": "Cut",
+        "from_scene_id": -1,
+        "description": "The scene transitions in from a previous shot that was focused on the character's face as he reads the sign."
+      },
+      "transition_out": {
+        "type": "Cut",
+        "to_scene_id": -1,
+        "description": "The scene transitions out to another shot of the character walking further down the road."
+      },
+      "scene_metadata": {
+        "duration": 22.42,
+        "description": "A cartoon character is walking away from the camera, leaving behind a sign that says 'Melody Meadows'. The scene is set in a rural area with a dirt road and a fence. The character appears to be in motion.",
+        "key_objects": [],
+        "time_of_day": "Day",
+        "environment": "Outdoor",
+        "mood": "Neutral",
+        "motion_intensity": 4.204188346862793,
+        "color_palette": [
+          "#c1b4b0",
+          "#887431",
+          "#cb8741",
+          "#3f3812",
+          "#e5a278"
+        ],
+        "camera_analysis": {
+          "movement": "Pan Left",
+          "shot_type": "Establishing",
+          "stability": 0.7897905826568603
+        },
+        "ai_description": "A cartoon character is walking away from the camera, leaving behind a sign that says 'Melody Meadows'. The scene is set in a rural area with a dirt road and a fence. The character appears to be in motion.",
+        "key_subjects": [
+          "Cartoon character"
+        ]
+      },
+      "shots": [
+        {
+          "shot": {
+            "shot_id": 1,
+            "shot_type": "Establishing",
+            "camera_move": "Pan Left",
+            "framing": {
+              "description": "Subject: Centered, Symmetrical composition, 3 (foreground: sun, midground: trees, background: mountains)",
+              "confidence": 0.85,
+              "details": {
+                "subject_positioning": "Centered",
+                "shot_balance": "Symmetrical",
+                "depth_layers": "3 (foreground: sun, midground: trees, background: mountains)",
+                "leading_lines": "None",
+                "confidence": 0.85,
+                "description": "Subject: Centered, Symmetrical composition, 3 (foreground: sun, midground: trees, background: mountains)",
+                "type": "unknown",
+                "composition_techniques": [
+                  "leading_lines"
+                ]
+              }
+            },
+            "visual_focus": "Cartoon character",
+            "notes": "The shot uses a wide-angle lens to capture the entire scene, with the subject positioned centrally in the frame. The lighting is natural and even, suggesting an overcast day. The color grading is soft, giving the image a warm tone that complements the rural setting.",
+            "duration_seconds": 22.422422422422443
+          },
+          "start_time": 179.37937937937937,
+          "end_time": 201.80180180180182
+        }
+      ]
+    },
+    {
+      "scene_id": 9,
+      "start_time": 201.80180180180182,
+      "end_time": 206.006006006006,
+      "transition_in": {
+        "type": "Cut",
+        "from_scene_id": -1,
+        "description": "The scene transitions in from a previous shot with a dissolve effect."
+      },
+      "transition_out": {
+        "type": "Cut",
+        "to_scene_id": -1,
+        "description": "The scene transitions out to the next scene with a fade-to-black effect."
+      },
+      "scene_metadata": {
+        "duration": 4.2,
+        "description": "A cartoon scene with two main characters, a man and a woman, interacting with each other in front of a large pile of food.",
+        "key_objects": [],
+        "time_of_day": "Unknown",
+        "environment": "Indoor",
+        "mood": "Neutral",
+        "motion_intensity": 0.900614857673645,
+        "color_palette": [
+          "#9e641a",
+          "#662e08",
+          "#c8c1bf",
+          "#d09234",
+          "#331d0a"
+        ],
+        "camera_analysis": {
+          "movement": "Still",
+          "shot_type": "Establishing",
+          "stability": 0.9549692571163177
+        },
+        "ai_description": "A cartoon scene with two main characters, a man and a woman, interacting with each other in front of a large pile of food.",
+        "key_subjects": [
+          "Cartoon characters"
+        ]
+      },
+      "shots": [
+        {
+          "shot": {
+            "shot_id": 1,
+            "shot_type": "Establishing",
+            "camera_move": "Still",
+            "framing": {
+              "description": "Subject: Centered, Symmetrical composition, 3 (foreground: sun, midground: trees, background: mountains)",
+              "confidence": 0.85,
+              "details": {
+                "subject_positioning": "Centered",
+                "shot_balance": "Symmetrical",
+                "depth_layers": "3 (foreground: sun, midground: trees, background: mountains)",
+                "leading_lines": "None",
+                "confidence": 0.85,
+                "description": "Subject: Centered, Symmetrical composition, 3 (foreground: sun, midground: trees, background: mountains)"
+              }
+            },
+            "visual_focus": "Cartoon characters",
+            "notes": "The lighting is even, with no harsh shadows. The depth of field is shallow, focusing on the characters in the foreground while the background is blurred.",
+            "duration_seconds": 4.2042042042041885
+          },
+          "start_time": 201.80180180180182,
+          "end_time": 206.006006006006
+        }
+      ]
+    },
+    {
+      "scene_id": 10,
+      "start_time": 206.006006006006,
+      "end_time": 208.20820820820822,
+      "transition_in": {
+        "type": "Cut",
+        "from_scene_id": -1,
+        "description": "No transition visible in this frame"
+      },
+      "transition_out": {
+        "type": "Cut",
+        "to_scene_id": -1,
+        "description": "No transition visible in this frame"
+      },
+      "scene_metadata": {
+        "duration": 2.2,
+        "description": "A cartoon character is running towards a barn in a rural setting.",
+        "key_objects": [],
+        "time_of_day": "Day",
+        "environment": "Outdoor",
+        "mood": "Joyful",
+        "motion_intensity": 2.270869493484497,
+        "color_palette": [
+          "#262410",
+          "#b2aa97",
+          "#b6912b",
+          "#c7c5cb",
+          "#81641a"
+        ],
+        "camera_analysis": {
+          "movement": "Pan Right",
+          "shot_type": "Establishing",
+          "stability": 0.8864565253257751
+        },
+        "ai_description": "A cartoon character is running towards a barn in a rural setting.",
+        "key_subjects": [
+          "Cartoon character"
+        ]
+      },
+      "shots": [
+        {
+          "shot": {
+            "shot_id": 1,
+            "shot_type": "Establishing",
+            "camera_move": "Pan Right",
+            "framing": {
+              "description": "Subject: Centered, Symmetrical composition, 3 (foreground: sun, midground: trees, background: mountains)",
+              "confidence": 0.85,
+              "details": {
+                "subject_positioning": "Centered",
+                "shot_balance": "Symmetrical",
+                "depth_layers": "3 (foreground: sun, midground: trees, background: mountains)",
+                "leading_lines": "None",
+                "confidence": 0.85,
+                "description": "Subject: Centered, Symmetrical composition, 3 (foreground: sun, midground: trees, background: mountains)",
+                "type": "unknown",
+                "composition_techniques": [
+                  "leading_lines"
+                ]
+              }
+            },
+            "visual_focus": "Cartoon character",
+            "notes": "The shot is well-lit with natural light, and the depth of field is shallow, drawing attention to the main subject.",
+            "duration_seconds": 2.2022022022022156
+          },
+          "start_time": 206.006006006006,
+          "end_time": 208.20820820820822
+        }
+      ]
+    },
+    {
+      "scene_id": 11,
+      "start_time": 208.20820820820822,
+      "end_time": 214.11411411411413,
+      "transition_in": {
+        "type": "Cut",
+        "from_scene_id": -1,
+        "description": "The scene transitions from a previous shot with a fade to black."
+      },
+      "transition_out": {
+        "type": "Cut",
+        "to_scene_id": -1,
+        "description": "The scene transitions to the next shot with a fade to black."
+      },
+      "scene_metadata": {
+        "duration": 5.91,
+        "description": "A cartoon scene with three characters in a rural setting, interacting with each other and their environment.",
+        "key_objects": [],
+        "time_of_day": "Day",
+        "environment": "Outdoor",
+        "mood": "Joyful",
+        "motion_intensity": 2.555579662322998,
+        "color_palette": [
+          "#d9af40",
+          "#b55018",
+          "#cdc4c3",
+          "#8c8b1e",
+          "#3d240d"
+        ],
+        "camera_analysis": {
+          "movement": "Still",
+          "shot_type": "Establishing",
+          "stability": 0.8722210168838501
+        },
+        "ai_description": "A cartoon scene with three characters in a rural setting, interacting with each other and their environment.",
+        "key_subjects": [
+          "Cartoon characters"
+        ]
+      },
+      "shots": [
+        {
+          "shot": {
+            "shot_id": 1,
+            "shot_type": "Establishing",
+            "camera_move": "Still",
+            "framing": {
+              "description": "Subject: Centered, Symmetrical composition, 3 (foreground: sun, midground: trees, background: mountains)",
+              "confidence": 0.85,
+              "details": {
+                "subject_positioning": "Centered",
+                "shot_balance": "Symmetrical",
+                "depth_layers": "3 (foreground: sun, midground: trees, background: mountains)",
+                "leading_lines": "None",
+                "confidence": 0.85,
+                "description": "Subject: Centered, Symmetrical composition, 3 (foreground: sun, midground: trees, background: mountains)",
+                "type": "unknown",
+                "composition_techniques": [
+                  "leading_lines"
+                ]
+              }
+            },
+            "visual_focus": "Cartoon characters",
+            "notes": "The image is well-lit, with a shallow depth of field focusing on the central character. The use of bright colors adds to the cheerful mood of the scene.",
+            "duration_seconds": 5.905905905905911
+          },
+          "start_time": 208.20820820820822,
+          "end_time": 214.11411411411413
+        }
+      ]
+    },
+    {
+      "scene_id": 12,
+      "start_time": 214.11411411411413,
+      "end_time": 218.61861861861863,
+      "transition_in": {
+        "type": "Cut",
+        "from_scene_id": -1,
+        "description": "Fade in from black to show the chase scene"
+      },
+      "transition_out": {
+        "type": "Cut",
+        "to_scene_id": -1,
+        "description": "Fade out to black before transitioning to next scene"
+      },
+      "scene_metadata": {
+        "duration": 4.5,
+        "description": "Cartoon scene featuring a roadrunner running along a fence with a coyote in pursuit.",
+        "key_objects": [],
+        "time_of_day": "Day",
+        "environment": "Outdoor",
+        "mood": "Calm",
+        "motion_intensity": 0.7848334908485413,
+        "color_palette": [
+          "#bea26c",
+          "#78671a",
+          "#d6c8d1",
+          "#9e8a1d",
+          "#2f2b17"
+        ],
+        "camera_analysis": {
+          "movement": "Still",
+          "shot_type": "Wide",
+          "stability": 0.9607583254575729
+        },
+        "ai_description": "Cartoon scene featuring a roadrunner running along a fence with a coyote in pursuit.",
+        "key_subjects": [
+          "Roadrunner character"
+        ]
+      },
+      "shots": [
+        {
+          "shot": {
+            "shot_id": 1,
+            "shot_type": "Wide",
+            "camera_move": "Still",
+            "framing": {
+              "description": "Subject: Rule of Thirds ((106.66666666666667, 160.0)), Symmetrical composition, 3 (foreground: sun, midground: trees, background: mountains)",
+              "confidence": 0.85,
+              "details": {
+                "subject_positioning": "Rule of Thirds ((106.66666666666667, 160.0))",
+                "shot_balance": "Symmetrical",
+                "depth_layers": "3 (foreground: sun, midground: trees, background: mountains)",
+                "leading_lines": "None",
+                "confidence": 0.85,
+                "description": "Subject: Rule of Thirds ((106.66666666666667, 160.0)), Symmetrical composition, 3 (foreground: sun, midground: trees, background: mountains)",
+                "type": "unknown",
+                "composition_techniques": [
+                  "leading_lines"
+                ]
+              }
+            },
+            "visual_focus": "Roadrunner character",
+            "notes": "High contrast lighting, shallow depth of field focusing on the roadrunner",
+            "duration_seconds": 4.504504504504496
+          },
+          "start_time": 214.11411411411413,
+          "end_time": 218.61861861861863
+        }
+      ]
+    },
+    {
+      "scene_id": 13,
+      "start_time": 218.61861861861863,
+      "end_time": 226.22622622622623,
+      "transition_in": {
+        "type": "Cut",
+        "from_scene_id": -1,
+        "description": "Fade in from black."
+      },
+      "transition_out": {
+        "type": "Cut",
+        "to_scene_id": -1,
+        "description": "Fade out to black."
+      },
+      "scene_metadata": {
+        "duration": 7.61,
+        "description": "A peaceful rural scene with a fence and a house in the background.",
+        "key_objects": [],
+        "time_of_day": "Day",
+        "environment": "Outdoor",
+        "mood": "Calm",
+        "motion_intensity": 2.3624205589294434,
+        "color_palette": [
+          "#7c6626",
+          "#d7c8d5",
+          "#a28a24",
+          "#2e2915",
+          "#c0a36e"
+        ],
+        "camera_analysis": {
+          "movement": "Still",
+          "shot_type": "Establishing",
+          "stability": 0.8818789720535278
+        },
+        "ai_description": "A peaceful rural scene with a fence and a house in the background.",
+        "key_subjects": [
+          "Fence",
+          "Field",
+          "House"
+        ]
+      },
+      "shots": [
+        {
+          "shot": {
+            "shot_id": 1,
+            "shot_type": "Establishing",
+            "camera_move": "Still",
+            "framing": {
+              "description": "Subject: Centered, Symmetrical composition, 3 (foreground: sun, midground: trees, background: mountains)",
+              "confidence": 0.85,
+              "details": {
+                "subject_positioning": "Centered",
+                "shot_balance": "Symmetrical",
+                "depth_layers": "3 (foreground: sun, midground: trees, background: mountains)",
+                "leading_lines": "None",
+                "confidence": 0.85,
+                "description": "Subject: Centered, Symmetrical composition, 3 (foreground: sun, midground: trees, background: mountains)",
+                "type": "unknown",
+                "composition_techniques": [
+                  "leading_lines"
+                ]
+              }
+            },
+            "visual_focus": "Fence, Field, House",
+            "notes": "The shot is well-composed, with the fence leading the viewer's eye towards the house. The lighting appears natural and soft, contributing to the calm mood of the scene.",
+            "duration_seconds": 7.607607607607605
+          },
+          "start_time": 218.61861861861863,
+          "end_time": 226.22622622622623
+        }
+      ]
+    },
+    {
+      "scene_id": 14,
+      "start_time": 226.22622622622623,
+      "end_time": 263.36336336336336,
+      "transition_in": {
+        "type": "Cut",
+        "from_scene_id": -1,
+        "description": "The scene transitions in with a wide shot showing the farmer and his tractor in the background."
+      },
+      "transition_out": {
+        "type": "Cut",
+        "to_scene_id": -1,
+        "description": "The scene transitions out to a close-up shot of the dog's face as it runs away from the farmer."
+      },
+      "scene_metadata": {
+        "duration": 37.14,
+        "description": "A farmer is chasing a dog with a tractor. The scene is set in a rural area.",
+        "key_objects": [],
+        "time_of_day": "Day",
+        "environment": "Outdoor",
+        "mood": "Neutral",
+        "motion_intensity": 5.071497440338135,
+        "color_palette": [
+          "#482c0d",
+          "#debeb5",
+          "#a07423",
+          "#a73218",
+          "#d9a86b"
+        ],
+        "camera_analysis": {
+          "movement": "Pan Left",
+          "shot_type": "Establishing",
+          "stability": 0.7464251279830932
+        },
+        "ai_description": "A farmer is chasing a dog with a tractor. The scene is set in a rural area.",
+        "key_subjects": [
+          "Farmer, Dog"
+        ]
+      },
+      "shots": [
+        {
+          "shot": {
+            "shot_id": 1,
+            "shot_type": "Establishing",
+            "camera_move": "Pan Left",
+            "framing": {
+              "description": "Standard framing",
+              "confidence": 0.7,
+              "details": {
+                "subject_positioning": "N/A",
+                "shot_balance": "N/A",
+                "depth_layers": "N/A",
+                "leading_lines": "None",
+                "confidence": 0.7,
+                "description": "Standard framing",
+                "type": "unknown",
+                "composition_techniques": [
+                  "leading_lines"
+                ]
+              }
+            },
+            "visual_focus": "Farmer, Dog",
+            "notes": "The lighting is natural and even, the depth of field is shallow, focusing on the farmer and dog in the foreground while blurring the background to emphasize their movement.",
+            "duration_seconds": 37.13713713713713
+          },
+          "start_time": 226.22622622622623,
+          "end_time": 263.36336336336336
+        }
+      ]
+    },
+    {
+      "scene_id": 15,
+      "start_time": 263.36336336336336,
+      "end_time": 268.7687687687688,
+      "transition_in": {
+        "type": "Cut",
+        "from_scene_id": -1,
+        "description": "The scene transitions in from a previous shot by cutting to this wide shot of the burning barn."
+      },
+      "transition_out": {
+        "type": "Cut",
+        "to_scene_id": -1,
+        "description": "The scene transitions out to another shot, possibly showing the aftermath or a reaction from someone witnessing the fire."
+      },
+      "scene_metadata": {
+        "duration": 5.41,
+        "description": "A barn with a fire burning on the roof, creating a dramatic and tense atmosphere.",
+        "key_objects": [],
+        "time_of_day": "Day",
+        "environment": "Outdoor",
+        "mood": "Tense",
+        "motion_intensity": 1.3523584604263306,
+        "color_palette": [
+          "#7f7941",
+          "#c5d0d7",
+          "#922016",
+          "#d0932f",
+          "#1c1909"
+        ],
+        "camera_analysis": {
+          "movement": "Push",
+          "shot_type": "Establishing",
+          "stability": 0.9323820769786835
+        },
+        "ai_description": "A barn with a fire burning on the roof, creating a dramatic and tense atmosphere.",
+        "key_subjects": [
+          "Barn",
+          "Fire"
+        ]
+      },
+      "shots": [
+        {
+          "shot": {
+            "shot_id": 1,
+            "shot_type": "Establishing",
+            "camera_move": "Push",
+            "framing": {
+              "description": "Standard framing",
+              "confidence": 0.6,
+              "details": {
+                "subject_positioning": "N/A",
+                "shot_balance": "N/A",
+                "depth_layers": "N/A",
+                "leading_lines": "None",
+                "confidence": 0.6,
+                "description": "Standard framing",
+                "type": "unknown",
+                "composition_techniques": [
+                  "leading_lines"
+                ]
+              }
+            },
+            "visual_focus": "Barn, Fire",
+            "notes": "The use of a wide-angle lens captures the entirety of the scene, emphasizing the size of the fire. The lighting is natural, highlighting the smoke from the fire and casting shadows on the barn's exterior. The color grading adds to the dramatic effect by enhancing the warm tones of the fire.",
+            "duration_seconds": 5.405405405405418
+          },
+          "start_time": 263.36336336336336,
+          "end_time": 268.7687687687688
+        }
+      ]
+    },
+    {
+      "scene_id": 16,
+      "start_time": 268.7687687687688,
+      "end_time": 281.981981981982,
+      "transition_in": {
+        "type": "Cut",
+        "from_scene_id": -1,
+        "description": "The scene transitions in from a previous shot showing the couple walking towards the car."
+      },
+      "transition_out": {
+        "type": "Cut",
+        "to_scene_id": -1,
+        "description": "The scene transitions out to a wide shot of the couple walking away from the car."
+      },
+      "scene_metadata": {
+        "duration": 13.21,
+        "description": "A man and woman are in a car, smiling and looking to the side.",
+        "key_objects": [],
+        "time_of_day": "Day",
+        "environment": "Outdoor",
+        "mood": "Joyful",
+        "motion_intensity": 1.6596059799194336,
+        "color_palette": [
+          "#785c28",
+          "#cdd6e5",
+          "#2d341e",
+          "#c6b88b",
+          "#9b9332"
+        ],
+        "camera_analysis": {
+          "movement": "Pan Left",
+          "shot_type": "Two-Shot",
+          "stability": 0.9170197010040283
+        },
+        "ai_description": "A man and woman are in a car, smiling and looking to the side.",
+        "key_subjects": [
+          "Couple"
+        ]
+      },
+      "shots": [
+        {
+          "shot": {
+            "shot_id": 1,
+            "shot_type": "Two-Shot",
+            "camera_move": "Pan Left",
+            "framing": {
+              "description": "Subject: Centered, Symmetrical composition, 3 (foreground: sun, midground: trees, background: mountains)",
+              "confidence": 0.85,
+              "details": {
+                "subject_positioning": "Centered",
+                "shot_balance": "Symmetrical",
+                "depth_layers": "3 (foreground: sun, midground: trees, background: mountains)",
+                "leading_lines": "None",
+                "confidence": 0.85,
+                "description": "Subject: Centered, Symmetrical composition, 3 (foreground: sun, midground: trees, background: mountains)",
+                "type": "unknown",
+                "composition_techniques": [
+                  "leading_lines"
+                ]
+              }
+            },
+            "visual_focus": "Couple",
+            "notes": "The lighting is bright and even, with no harsh shadows. The depth of field is shallow, focusing on the couple in the foreground while softly blurring the background. The color grading gives the scene a warm and inviting tone.",
+            "duration_seconds": 13.213213213213237
+          },
+          "start_time": 268.7687687687688,
+          "end_time": 281.981981981982
+        }
+      ]
+    },
+    {
+      "scene_id": 17,
+      "start_time": 281.981981981982,
+      "end_time": 284.0840840840841,
+      "transition_in": {
+        "type": "Cut",
+        "from_scene_id": -1,
+        "description": "The scene transitions in from a close-up shot of the man's hands holding the ladder."
+      },
+      "transition_out": {
+        "type": "Cut",
+        "to_scene_id": -1,
+        "description": "The scene transitions out to a wider shot showing the man in his surroundings with the ladder set up or moved."
+      },
+      "scene_metadata": {
+        "duration": 2.1,
+        "description": "A man is holding a ladder and appears to be in the process of setting it up or moving it. The scene is set outdoors during the day.",
+        "key_objects": [],
+        "time_of_day": "Day",
+        "environment": "Outdoor",
+        "mood": "Neutral",
+        "motion_intensity": 1.3908535242080688,
+        "color_palette": [
+          "#c4ced3",
+          "#c2a65a",
+          "#746e2c",
+          "#cfbca2",
+          "#1c190e"
+        ],
+        "camera_analysis": {
+          "movement": "Push",
+          "shot_type": "Establishing",
+          "stability": 0.9304573237895966
+        },
+        "ai_description": "A man is holding a ladder and appears to be in the process of setting it up or moving it. The scene is set outdoors during the day.",
+        "key_subjects": [
+          "Man",
+          "Ladder"
+        ]
+      },
+      "shots": [
+        {
+          "shot": {
+            "shot_id": 1,
+            "shot_type": "Establishing",
+            "camera_move": "Push",
+            "framing": {
+              "description": "Subject: Centered, Symmetrical composition, 3 (foreground: sun, midground: trees, background: mountains)",
+              "confidence": 0.85,
+              "details": {
+                "subject_positioning": "Centered",
+                "shot_balance": "Symmetrical",
+                "depth_layers": "3 (foreground: sun, midground: trees, background: mountains)",
+                "leading_lines": "None",
+                "confidence": 0.85,
+                "description": "Subject: Centered, Symmetrical composition, 3 (foreground: sun, midground: trees, background: mountains)",
+                "type": "unknown",
+                "composition_techniques": [
+                  "leading_lines"
+                ]
+              }
+            },
+            "visual_focus": "Man, Ladder",
+            "notes": "The lighting is natural and even, with no harsh shadows or dramatic contrasts. The depth of field is shallow, keeping the man in focus while the background is slightly blurred. There is no color grading visible in this frame.",
+            "duration_seconds": 2.1021021021020942
+          },
+          "start_time": 281.981981981982,
+          "end_time": 284.0840840840841
+        }
+      ]
+    },
+    {
+      "scene_id": 18,
+      "start_time": 284.0840840840841,
+      "end_time": 286.6866866866867,
+      "transition_in": {
+        "type": "Cut",
+        "from_scene_id": -1,
+        "description": "The scene transitions in with a wide shot showing the character standing at the base of the ladder."
+      },
+      "transition_out": {
+        "type": "Cut",
+        "to_scene_id": -1,
+        "description": "The scene transitions out to a close-up shot of the character's face or hands as they reach the top of the ladder."
+      },
+      "scene_metadata": {
+        "duration": 2.6,
+        "description": "A cartoon character is holding a ladder, seemingly preparing to climb it.",
+        "key_objects": [],
+        "time_of_day": "Day",
+        "environment": "Outdoor",
+        "mood": "Energetic",
+        "motion_intensity": 1.5148357152938843,
+        "color_palette": [
+          "#cad2dd",
+          "#8f7326",
+          "#282e1a",
+          "#b6c1bb",
+          "#b3a850"
+        ],
+        "camera_analysis": {
+          "movement": "Still",
+          "shot_type": "Establishing",
+          "stability": 0.9242582142353057
+        },
+        "ai_description": "A cartoon character is holding a ladder, seemingly preparing to climb it.",
+        "key_subjects": [
+          "Ladder",
+          "Cartoon character"
+        ]
+      },
+      "shots": [
+        {
+          "shot": {
+            "shot_id": 1,
+            "shot_type": "Establishing",
+            "camera_move": "Still",
+            "framing": {
+              "description": "Subject: Centered, Symmetrical composition, 3 (foreground: sun, midground: trees, background: mountains)",
+              "confidence": 0.85,
+              "details": {
+                "subject_positioning": "Centered",
+                "shot_balance": "Symmetrical",
+                "depth_layers": "3 (foreground: sun, midground: trees, background: mountains)",
+                "leading_lines": "None",
+                "confidence": 0.85,
+                "description": "Subject: Centered, Symmetrical composition, 3 (foreground: sun, midground: trees, background: mountains)"
+              }
+            },
+            "visual_focus": "Ladder, Cartoon character",
+            "notes": "The scene is well-lit with natural light, and the use of a shallow depth of field draws attention to the main subject while keeping the background in focus. The color grading adds a vibrant touch to the scene.",
+            "duration_seconds": 2.6026026026025875
+          },
+          "start_time": 284.0840840840841,
+          "end_time": 286.6866866866867
+        }
+      ]
+    },
+    {
+      "scene_id": 19,
+      "start_time": 286.6866866866867,
+      "end_time": 304.004004004004,
+      "transition_in": {
+        "type": "Cut",
+        "from_scene_id": -1,
+        "description": "Fade in from black to the scene."
+      },
+      "transition_out": {
+        "type": "Cut",
+        "to_scene_id": -1,
+        "description": "Fade out to black before transitioning to the next scene."
+      },
+      "scene_metadata": {
+        "duration": 17.32,
+        "description": "A couple driving a car on a road, with a farm in the background.",
+        "key_objects": [],
+        "time_of_day": "Day",
+        "environment": "Outdoor",
+        "mood": "Joyful",
+        "motion_intensity": 2.5147781372070312,
+        "color_palette": [
+          "#c0ccd0",
+          "#363517",
+          "#8b7d22",
+          "#c3b278",
+          "#427d7e"
+        ],
+        "camera_analysis": {
+          "movement": "Still",
+          "shot_type": "Establishing",
+          "stability": 0.8742610931396484
+        },
+        "ai_description": "A couple driving a car on a road, with a farm in the background.",
+        "key_subjects": [
+          "Couple",
+          "Car"
+        ]
+      },
+      "shots": [
+        {
+          "shot": {
+            "shot_id": 1,
+            "shot_type": "Establishing",
+            "camera_move": "Still",
+            "framing": {
+              "description": "Standard framing",
+              "confidence": 0.7,
+              "details": {
+                "subject_positioning": "N/A",
+                "shot_balance": "N/A",
+                "depth_layers": "N/A",
+                "leading_lines": "None",
+                "confidence": 0.7,
+                "description": "Standard framing",
+                "type": "unknown",
+                "composition_techniques": [
+                  "leading_lines"
+                ]
+              }
+            },
+            "visual_focus": "Couple, Car",
+            "notes": "Soft lighting to create a warm and inviting atmosphere. The use of a shallow depth of field keeps the focus on the couple while softly blurring the background elements.",
+            "duration_seconds": 17.317317317317304
+          },
+          "start_time": 286.6866866866867,
+          "end_time": 304.004004004004
+        }
+      ]
+    },
+    {
+      "scene_id": 20,
+      "start_time": 304.004004004004,
+      "end_time": 329.32932932932937,
+      "transition_in": {
+        "type": "Cut",
+        "from_scene_id": -1,
+        "description": "The scene transitions in from a wide shot of the farm"
+      },
+      "transition_out": {
+        "type": "Cut",
+        "to_scene_id": -1,
+        "description": "The scene transitions out to a close-up of the farmer's face as he drives the tractor"
+      },
+      "scene_metadata": {
+        "duration": 25.33,
+        "description": "A farm scene with a tractor in the foreground and a farmer in the background.",
+        "key_objects": [],
+        "time_of_day": "Day",
+        "environment": "Outdoor",
+        "mood": "Calm",
+        "motion_intensity": 4.68715763092041,
+        "color_palette": [
+          "#7d5716",
+          "#b99341",
+          "#869927",
+          "#c0cccb",
+          "#34290a"
+        ],
+        "camera_analysis": {
+          "movement": "Still",
+          "shot_type": "Establishing",
+          "stability": 0.7656421184539794
+        },
+        "ai_description": "A farm scene with a tractor in the foreground and a farmer in the background.",
+        "key_subjects": [
+          "Farm tractor"
+        ]
+      },
+      "shots": [
+        {
+          "shot": {
+            "shot_id": 1,
+            "shot_type": "Establishing",
+            "camera_move": "Still",
+            "framing": {
+              "description": "Subject: Centered, Symmetrical composition, 3 (foreground: sun, midground: trees, background: mountains)",
+              "confidence": 0.85,
+              "details": {
+                "subject_positioning": "Centered",
+                "shot_balance": "Symmetrical",
+                "depth_layers": "3 (foreground: sun, midground: trees, background: mountains)",
+                "leading_lines": "None",
+                "confidence": 0.85,
+                "description": "Subject: Centered, Symmetrical composition, 3 (foreground: sun, midground: trees, background: mountains)",
+                "type": "unknown",
+                "composition_techniques": [
+                  "leading_lines"
+                ]
+              }
+            },
+            "visual_focus": "Farm tractor",
+            "notes": "The lighting is natural, with soft shadows indicating an overcast day. The depth of field is shallow, focusing on the tractor in the foreground while softly blurring the background to emphasize the subject. The color grading is subtle, enhancing the pastoral colors of the scene.",
+            "duration_seconds": 25.325325325325366
+          },
+          "start_time": 304.004004004004,
+          "end_time": 329.32932932932937
+        }
+      ]
+    },
+    {
+      "scene_id": 21,
+      "start_time": 329.32932932932937,
+      "end_time": 335.83583583583584,
+      "transition_in": {
+        "type": "Cut",
+        "from_scene_id": -1,
+        "description": "The previous scene ended with a fade to black."
+      },
+      "transition_out": {
+        "type": "Cut",
+        "to_scene_id": -1,
+        "description": "The next scene will be a close-up of the character opening the door."
+      },
+      "scene_metadata": {
+        "duration": 6.51,
+        "description": "A group of cartoon characters in a room, with one character opening a door to reveal another scene.",
+        "key_objects": [],
+        "time_of_day": "Unknown",
+        "environment": "Indoor",
+        "mood": "Neutral",
+        "motion_intensity": 1.7990506887435913,
+        "color_palette": [
+          "#ccbcad",
+          "#655529",
+          "#86774d",
+          "#bfaa86",
+          "#272f10"
+        ],
+        "camera_analysis": {
+          "movement": "Still",
+          "shot_type": "Establishing",
+          "stability": 0.9100474655628205
+        },
+        "ai_description": "A group of cartoon characters in a room, with one character opening a door to reveal another scene.",
+        "key_subjects": [
+          "Cartoon characters"
+        ]
+      },
+      "shots": [
+        {
+          "shot": {
+            "shot_id": 1,
+            "shot_type": "Establishing",
+            "camera_move": "Still",
+            "framing": {
+              "description": "Subject: Rule of Thirds ((213.33333333333334, 160.0)), Symmetrical composition, 3 (foreground: sun, midground: trees, background: mountains)",
+              "confidence": 0.85,
+              "details": {
+                "subject_positioning": "Rule of Thirds ((213.33333333333334, 160.0))",
+                "shot_balance": "Symmetrical",
+                "depth_layers": "3 (foreground: sun, midground: trees, background: mountains)",
+                "leading_lines": "None",
+                "confidence": 0.85,
+                "description": "Subject: Rule of Thirds ((213.33333333333334, 160.0)), Symmetrical composition, 3 (foreground: sun, midground: trees, background: mountains)",
+                "type": "unknown",
+                "composition_techniques": [
+                  "leading_lines"
+                ]
+              }
+            },
+            "visual_focus": "Cartoon characters",
+            "notes": "The lighting is even and bright, highlighting the characters. The depth of field is shallow, focusing on the characters in the foreground while slightly blurring those in the background. There is no color grading visible in this image.",
+            "duration_seconds": 6.506506506506469
+          },
+          "start_time": 329.32932932932937,
+          "end_time": 335.83583583583584
+        }
+      ]
+    },
+    {
+      "scene_id": 22,
+      "start_time": 335.83583583583584,
+      "end_time": 350.950950950951,
+      "transition_in": {
+        "type": "Cut",
+        "from_scene_id": -1,
+        "description": "The scene transitions in by cutting to the sign with the message 'Vote for Popeye'."
+      },
+      "transition_out": {
+        "type": "Cut",
+        "to_scene_id": -1,
+        "description": "The scene transitions out by cutting back to a shot of the city street or another part of the campaign."
+      },
+      "scene_metadata": {
+        "duration": 15.12,
+        "description": "A sign is posted on a building, reading 'Vote for Popeye'. The scene is set in an outdoor urban environment during the day.",
+        "key_objects": [],
+        "time_of_day": "Day",
+        "environment": "Outdoor",
+        "mood": "Neutral",
+        "motion_intensity": 2.728306531906128,
+        "color_palette": [
+          "#bec0be",
+          "#78866c",
+          "#516147",
+          "#b0ab97",
+          "#191e15"
+        ],
+        "camera_analysis": {
+          "movement": "Still",
+          "shot_type": "Establishing",
+          "stability": 0.8635846734046936
+        },
+        "ai_description": "A sign is posted on a building, reading 'Vote for Popeye'. The scene is set in an outdoor urban environment during the day.",
+        "key_subjects": [
+          "Popeye"
+        ]
+      },
+      "shots": [
+        {
+          "shot": {
+            "shot_id": 1,
+            "shot_type": "Establishing",
+            "camera_move": "Still",
+            "framing": {
+              "description": "Subject: Centered, Symmetrical composition, 3 (foreground: sun, midground: trees, background: mountains)",
+              "confidence": 0.85,
+              "details": {
+                "subject_positioning": "Centered",
+                "shot_balance": "Symmetrical",
+                "depth_layers": "3 (foreground: sun, midground: trees, background: mountains)",
+                "leading_lines": "None",
+                "confidence": 0.85,
+                "description": "Subject: Centered, Symmetrical composition, 3 (foreground: sun, midground: trees, background: mountains)"
+              }
+            },
+            "visual_focus": "Popeye",
+            "notes": "The shot is composed with the sign as the focal point, using a central framing and symmetrical balance. There are two depth layers, with the sign in the foreground and the building in the background. The lighting is natural, suggesting it's daytime.",
+            "duration_seconds": 15.115115115115145
+          },
+          "start_time": 335.83583583583584,
+          "end_time": 350.950950950951
+        }
+      ]
+    },
+    {
+      "scene_id": 23,
+      "start_time": 350.950950950951,
+      "end_time": 363.5635635635636,
+      "transition_in": {
+        "type": "Cut",
+        "from_scene_id": -1,
+        "description": "Fade in from black"
+      },
+      "transition_out": {
+        "type": "Cut",
+        "to_scene_id": -1,
+        "description": "Fade out to black"
+      },
+      "scene_metadata": {
+        "duration": 12.61,
+        "description": "Two cartoon characters sitting on a bench together",
+        "key_objects": [],
+        "time_of_day": "Unknown",
+        "environment": "Indoor",
+        "mood": "Joyful",
+        "motion_intensity": 2.6769750118255615,
+        "color_palette": [
+          "#b2bbc0",
+          "#222520",
+          "#a88d6b",
+          "#6b2725",
+          "#c7cce1"
+        ],
+        "camera_analysis": {
+          "movement": "Still",
+          "shot_type": "Two-Shot",
+          "stability": 0.8661512494087219
+        },
+        "ai_description": "Two cartoon characters sitting on a bench together",
+        "key_subjects": [
+          "Winnie the Pooh, Piglet"
+        ]
+      },
+      "shots": [
+        {
+          "shot": {
+            "shot_id": 1,
+            "shot_type": "Two-Shot",
+            "camera_move": "Still",
+            "framing": {
+              "description": "Standard framing",
+              "confidence": 0.6,
+              "details": {
+                "subject_positioning": "N/A",
+                "shot_balance": "N/A",
+                "depth_layers": "N/A",
+                "leading_lines": "None",
+                "confidence": 0.6,
+                "description": "Standard framing",
+                "type": "unknown",
+                "composition_techniques": [
+                  "leading_lines"
+                ]
+              }
+            },
+            "visual_focus": "Winnie the Pooh, Piglet",
+            "notes": "Soft lighting and shallow depth of field focusing on the characters",
+            "duration_seconds": 12.612612612612622
+          },
+          "start_time": 350.950950950951,
+          "end_time": 363.5635635635636
+        }
+      ]
+    },
+    {
+      "scene_id": 24,
+      "start_time": 363.5635635635636,
+      "end_time": 369.0690690690691,
+      "transition_in": {
+        "type": "Cut",
+        "from_scene_id": -1,
+        "description": "The title card is shown after a cut from the previous scene"
+      },
+      "transition_out": {
+        "type": "Cut",
+        "to_scene_id": -1,
+        "description": "The next shot will likely be a wide shot to provide more context and information about the location and setting of the story"
+      },
+      "scene_metadata": {
+        "duration": 5.51,
+        "description": "A title card for a movie or show, with a mountain in the background and a dramatic sky above. The title is prominently displayed in the center of the frame.",
+        "key_objects": [],
+        "time_of_day": "Dusk",
+        "environment": "Outdoor",
+        "mood": "Mysterious",
+        "motion_intensity": 0.7726691365242004,
+        "color_palette": [
+          "#a7876e",
+          "#20252a",
+          "#a02419",
+          "#c9bfc2",
+          "#57553e"
+        ],
+        "camera_analysis": {
+          "movement": "Still",
+          "shot_type": "Establishing",
+          "stability": 0.96136654317379
+        },
+        "ai_description": "A title card for a movie or show, with a mountain in the background and a dramatic sky above. The title is prominently displayed in the center of the frame.",
+        "key_subjects": [
+          "Title"
+        ]
+      },
+      "shots": [
+        {
+          "shot": {
+            "shot_id": 1,
+            "shot_type": "Establishing",
+            "camera_move": "Still",
+            "framing": {
+              "description": "Subject: Centered, Symmetrical composition, 3 (foreground: sun, midground: trees, background: mountains)",
+              "confidence": 0.85,
+              "details": {
+                "subject_positioning": "Centered",
+                "shot_balance": "Symmetrical",
+                "depth_layers": "3 (foreground: sun, midground: trees, background: mountains)",
+                "leading_lines": "None",
+                "confidence": 0.85,
+                "description": "Subject: Centered, Symmetrical composition, 3 (foreground: sun, midground: trees, background: mountains)",
+                "type": "unknown",
+                "composition_techniques": [
+                  "leading_lines"
+                ]
+              }
+            },
+            "visual_focus": "Title",
+            "notes": "The lighting is dim with a warm tone, highlighting the title and creating a sense of mystery. The depth of field is shallow, drawing focus to the title while keeping the background slightly blurred. Color grading emphasizes the reds in the sky, adding to the dramatic effect.",
+            "duration_seconds": 5.505505505505482
+          },
+          "start_time": 363.5635635635636,
+          "end_time": 369.0690690690691
+        }
+      ]
+    },
+    {
+      "scene_id": 25,
+      "start_time": 369.0690690690691,
+      "end_time": 370.30363697030367,
+      "transition_in": {
+        "type": "Cut",
+        "from_scene_id": -1,
+        "description": "The scene transitions in from a previous shot with a fade to black."
+      },
+      "transition_out": {
+        "type": "Cut",
+        "to_scene_id": -1,
+        "description": "The scene transitions out to the next shot with a fade to black."
+      },
+      "scene_metadata": {
+        "duration": 1.23,
+        "description": "This is a scene from a video that shows a person standing in front of a dark background. The lighting appears to be artificial, with the subject being illuminated by a soft light source.",
+        "key_objects": [],
+        "time_of_day": "Night",
+        "environment": "Indoor",
+        "mood": "Calm",
+        "motion_intensity": 0.018244842067360878,
+        "color_palette": [
+          "#0f1716",
+          "#000000",
+          "#0f1613",
+          "#101818",
+          "#0b0e0f"
+        ],
+        "camera_analysis": {
+          "movement": "Still",
+          "shot_type": "Establishing",
+          "stability": 0.999087757896632
+        },
+        "ai_description": "This is a scene from a video that shows a person standing in front of a dark background. The lighting appears to be artificial, with the subject being illuminated by a soft light source.",
+        "key_subjects": [
+          "list",
+          "of",
+          "main",
+          "subjects",
+          "or",
+          "objects"
+        ]
+      },
+      "shots": [
+        {
+          "shot": {
+            "shot_id": 1,
+            "shot_type": "Establishing",
+            "camera_move": "Still",
+            "framing": {
+              "description": "Subject: Centered, Symmetrical composition, 3 (foreground: sun, midground: trees, background: mountains)",
+              "confidence": 0.85,
+              "details": {
+                "subject_positioning": "Centered",
+                "shot_balance": "Symmetrical",
+                "depth_layers": "3 (foreground: sun, midground: trees, background: mountains)",
+                "leading_lines": "None",
+                "confidence": 0.85,
+                "description": "Subject: Centered, Symmetrical composition, 3 (foreground: sun, midground: trees, background: mountains)"
+              }
+            },
+            "visual_focus": "list, of, main",
+            "notes": "The shot is well-composed, with the main subject centered and symmetrically framed. The depth layers are clearly defined, creating a sense of space. The lighting is soft and evenly distributed, highlighting the subject without creating harsh shadows or overexposing the background.",
+            "duration_seconds": 1.234567901234584
+          },
+          "start_time": 369.0690690690691,
+          "end_time": 370.30363697030367
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "video_path": "pop.mp4",
+    "duration": 370.30363697030367,
+    "resolution": "320x240",
+    "fps": 29.97,
+    "frame_count": 11098
+  }
+}
